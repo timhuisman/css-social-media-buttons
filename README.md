@@ -65,3 +65,10 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `vimeo`
 - `youtube` (black, red and white logo on a white background)
 - `youtube-alt` (white logo on a red background)
+
+## Changelog ##
+
+**v.1.0.1**
+
+- Optimized sprites: removed 1px and 2px (Retina) empty space between icons and compressed the files to decrease filesize by almost 50%.
+- Changed order of alternative icons in sprite: first the normal icon and then the alternative icon instead of vice versa.
