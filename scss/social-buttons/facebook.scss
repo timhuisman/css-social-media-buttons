@@ -1,0 +1,21 @@
+//
+// VARIABLES
+// ------------------------------------------------------------------------------------
+
+$color-facebook: #4a6ea9;
+
+//
+// FACEBOOK BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.facebook {
+  background-color: $color-facebook;
+
+  &:after {
+    background-position: 0 0;
+    border-color: darken( $color-facebook, $diff-darker );
+    @include box-shadow( inset 0px 1px 2px 0px lighten($color-facebook, $diff-lighter) );
+  }
+  &:hover { background-color: lighten( $color-facebook, $diff-lighter-hover ); }
+  &:active { background-color: darken( $color-facebook, $diff-darker ); }
+}

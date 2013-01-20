@@ -1,0 +1,21 @@
+//
+// VARIABLES
+// ------------------------------------------------------------------------------------
+
+$color-mail: $color-default;
+
+//
+// MAIL BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.mail {
+  background-color: $color-mail;
+
+  &:after {
+    background-position: -224px 0;
+    border-color: darken( $color-mail, $diff-darker );
+    @include box-shadow( inset 0px 1px 2px 0px lighten( $color-mail, $diff-lighter ) );
+  }
+  &:hover { background-color: lighten( $color-mail, $diff-lighter-hover ); }
+  &:active { background-color: darken( $color-mail, $diff-darker ); }
+}

@@ -1,0 +1,23 @@
+//
+// VARIABLES
+// ------------------------------------------------------------------------------------
+
+$color-github: #eee;
+
+//
+// GITHUB (ALTERNATIVE) BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.github, .github-alt {  
+  background-color: $color-github; 
+  
+  &:after {
+    border-color: darken( $color-github, $diff-darker );
+    @include box-shadow( inset 0px 1px 2px 0px lighten( $color-github, $diff-lighter ) );
+  }
+  &:hover { background-color: lighten( $color-github, $diff-lighter-hover ); }
+  &:active { background-color: darken( $color-github, $diff-darker ); }
+}
+
+.github:after { background-position: -84px 0; }
+.github-alt:after { background-position: -112px 0; }

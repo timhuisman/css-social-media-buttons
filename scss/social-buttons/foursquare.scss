@@ -1,0 +1,21 @@
+//
+// VARIABLES
+// ------------------------------------------------------------------------------------
+
+$color-foursquare: #0086bf;
+
+//
+// FOURSQUARE BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.foursquare {    
+  background-color: $color-foursquare;
+  
+  &:after {
+    background-position: -56px 0;
+    border-color: darken( $color-foursquare, $diff-darker );
+    @include box-shadow( inset 0px 1px 2px 0px lighten( $color-foursquare, $diff-lighter ) );
+  }
+  &:hover { background-color: lighten( $color-foursquare, $diff-lighter-hover ); }
+  &:active { background-color: darken( $color-foursquare, $diff-darker ); }
+}

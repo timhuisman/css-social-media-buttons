@@ -1,0 +1,38 @@
+//
+// VARIABLES
+// ------------------------------------------------------------------------------------
+
+$color-youtube: #eee;
+$color-youtube-alt: #fc3f1a;
+
+//
+// YOUTUBE BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.youtube { 
+  background-color: $color-youtube;
+  
+  &:after {
+    background-position: -420px 0;
+    border-color: darken( $color-youtube, $diff-darker );
+    @include box-shadow( inset 0px 1px 2px 0px lighten( $color-youtube, $diff-lighter ) );
+  }
+  &:hover { background-color: lighten( $color-youtube, $diff-lighter-hover ); }
+  &:active { background-color: darken( $color-youtube, $diff-darker ); }
+}
+
+//
+// YOUTUBE (ALTERNATIVE) BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.youtube-alt { 
+  background-color: $color-youtube-alt;
+  
+  &:after {
+    background-position: -448px 0;
+    border-color: darken( $color-youtube-alt, $diff-darker );
+    @include box-shadow( inset 0px 1px 2px 0px lighten( $color-youtube-alt, $diff-lighter ) );
+  }
+  &:hover { background-color: lighten( $color-youtube-alt, $diff-lighter-hover ); }
+  &:active { background-color: darken( $color-youtube-alt, $diff-darker ); }
+}

@@ -1,0 +1,21 @@
+//
+// VARIABLES
+// ------------------------------------------------------------------------------------
+
+$color-gplus: #e46044;
+
+//
+// Google+ BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.gplus {   
+  background-color: $color-gplus;
+  
+  &:after {
+    background-position: -140px 0;
+    border-color: darken( $color-gplus, $diff-darker );
+    @include box-shadow( inset 0px 1px 2px 0px lighten( $color-gplus, $diff-lighter ) );
+  }
+  &:hover { background-color: lighten( $color-gplus, $diff-lighter-hover ); }
+  &:active { background-color: darken( $color-gplus, $diff-darker ); }
+}
