@@ -25,7 +25,7 @@ The buttons have been tested and approved in the following browsers:
 
 Simply put the CSS file in your project CSS folder and link to it in your `<head>` or copy/paste the content of the `social-buttons.css` into your own CSS file:
 
-Not using all the buttons? You can make your own CSS file that suits your needs with LESS. Open `social-buttons.less` and comment out the `@imports` you don't need at the bottom of the file. Compile it and add the CSS to your project.
+Not using all the buttons? You can make your own CSS file that suits your needs with LESS/SASS. Open `social-buttons.(less/scss)` and comment out the `@imports` you don't need at the bottom of the file. Compile it and add the CSS to your project.
 
 
 
@@ -67,6 +67,10 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `youtube-alt` (white logo on a red background)
 
 ## Changelog ##
+
+**v.1.1.0**
+
+- Added a SASS version (using the .scss notation) of the files
 
 **v.1.0.1**
 
