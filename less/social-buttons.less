@@ -49,6 +49,7 @@
   background: -ms-linear-gradient(top,  rgba( 255,255,255,0.25 ) 0%, rgba( 255,255,255,0 ) 100% );
   background: linear-gradient(to bottom,  rgba( 255,255,255,0.25 ) 0%, rgba( 255,255,255,0 ) 100% );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40ffffff', endColorstr='#00ffffff', GradientType=0 );
+  cursor: pointer;
   .inline-block();
   position: relative;
   margin: 2px;
@@ -91,7 +92,7 @@
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .social-btn:after {
     background: url('@{image-path}/sprite-rsmb-x2.png') no-repeat;
-    background-size: 28px;
+    background-size: 56px;
   }
 }
 
@@ -114,3 +115,5 @@
 @import "social-buttons/twitter.less";
 @import "social-buttons/vimeo.less";
 @import "social-buttons/youtube.less";
+
+@import "social-buttons/icheckmovies.less";
