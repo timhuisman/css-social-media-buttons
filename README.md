@@ -73,6 +73,11 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 ## Changelog ##
 
+**v.1.2.1**
+
+- Alphabetical order restored / Remove Trailing Whitespace
+- Optimizes images: Saved 2,6 KB of 11,1KB
+
 **v.1.2.0**
 
 - Added two new buttons: Skype (thanks [@AMeijerNL](https://github.com/AMeijerNL)) and iCheckMovies.
