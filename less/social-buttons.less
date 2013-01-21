@@ -54,7 +54,7 @@
   position: relative;
   margin: 2px;
   z-index: 400;
-  
+
   &:before, &:after {
     content: "";
     display: block;
@@ -67,7 +67,7 @@
     top: -2px;
     left: -2px;
     z-index: 200;
-    
+
     &:hover, &:focus { background-color: lighten( @color-default, @diff-lighter-hover ); }
     &:active { background-color: darken( @color-default, @diff-darker ); }
   }
@@ -80,7 +80,7 @@
     top: 0 - ( @btn-size + 4 );
     z-index: 600;
   }
-  
+
   &.rounded, &.rounded:after { .border-radius( @radius-rounded ); }
   &.rounded:before { .border-radius( @radius-rounded + 2 ); }
 }
