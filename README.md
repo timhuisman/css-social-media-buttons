@@ -57,12 +57,13 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `github` (the letter 'g')
 - `github-alt` (the octocat)
 - `gplus`
+- `icheckmovies` **!new**
 - `lastfm`
 - `linkedin`
 - `mail`
 - `path`
 - `rss`
-- `skype`
+- `skype` **!new**
 - `tumblr`
 - `twitter` (the letter 't')
 - `twitter-alt` (the bird)
@@ -71,6 +72,13 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `youtube-alt` (white logo on a red background)
 
 ## Changelog ##
+
+**v.1.2.0**
+
+- Added two new buttons: Skype (thanks [@AMeijerNL](https://github.com/AMeijerNL)) and iCheckMovies.
+- Converted sprite from horizontally to vertically orientated (thanks [@AMeijerNL](https://github.com/AMeijerNL)), for smaller file size and load time.
+- Added pointer cursor to button, so that non-anchor elements have the same visual button behaviour as anchor elements.
+- Added source files for both normal and Retina sprites in `.ai`-format (Vectors!)
 
 **v.1.1.0**
 
