@@ -3,7 +3,7 @@ Round Social Media Buttons
 
 A set of Retina-proof round (or rounded) social media buttons, that can be added with just one anchor element. The buttons are 32px in diameter and are (for the most part) made with just CSS.
 
-![](http://worksoftime.nl/files/rsmb.png)
+![](https://raw.github.com/timhuisman/round-social-media-buttons/master/screenshot-1.png)
 
 **Browser compatibility**
 
@@ -31,19 +31,22 @@ Not using all the buttons? You can make your own CSS file that suits your needs 
 
 ## How to use ##
 
-Add an anchor element with the class `social-btn` and without any content:
+Add a HTML element with the class `social-btn` and without any content:
 
 	<a href="#" class="social-btn"></a>
+	<span class="social-btn"></span>
 
 Add a class of a (social) network, like for example `github` (see 'Lists of available classes' below for all the possibilities):
 
 	<a href="#" class="social-btn github"></a>
+	<span class="social-btn github"></span>
 
 And that's it!
 
 Don't want fully rounded buttons? Add the class `rounded` for a button with just slightly rounded corners:
 
 	<a href="#" class="social-btn github rounded"></a>
+	<span class="social-btn github rounded"></span>
 
 
 **Lists of available classes**
@@ -59,6 +62,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `mail`
 - `path`
 - `rss`
+- `skype`
 - `tumblr`
 - `twitter` (the letter 't')
 - `twitter-alt` (the bird)
