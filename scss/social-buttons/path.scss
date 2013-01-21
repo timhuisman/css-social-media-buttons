@@ -12,7 +12,7 @@ $color-path: #e3432c;
   background-color: $color-path;
 
   &:after {
-    background-position: -252px 0;
+    background-position: 0 -252px;
     border-color: darken( $color-path, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-path, $diff-lighter ) );
   }
