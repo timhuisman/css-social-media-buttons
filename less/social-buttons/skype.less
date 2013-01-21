@@ -1,0 +1,21 @@
+//
+// VARIABLES
+// ------------------------------------------------------------------------------------
+
+@color-skype: #08a7e3;
+
+//
+// YOUTUBE BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.youtube { 
+  background-color: @color-skype;
+  
+  &:after {
+    background-position: 0 -476px;
+    border-color: darken( @color-skype, @diff-darker );
+    .box-shadow( inset 0px 1px 2px 0px lighten( @color-skype, @diff-lighter ) );
+  }
+  &:hover { background-color: lighten( @color-skype, @diff-lighter-hover ); }
+  &:active { background-color: darken( @color-skype, @diff-darker ); }
+}
