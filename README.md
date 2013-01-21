@@ -59,6 +59,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `mail`
 - `path`
 - `rss`
+- `skype`
 - `tumblr`
 - `twitter` (the letter 't')
 - `twitter-alt` (the bird)
