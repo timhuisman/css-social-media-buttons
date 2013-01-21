@@ -1,7 +1,7 @@
 Round Social Media Buttons
 ==========================
 
-A set of Retina-proof round (or rounded) social media buttons, that can be added with just one anchor element. The buttons are 32px in diameter and are (for the most part) made with just CSS.
+A set of Retina-proof round (or rounded) social media buttons, that can be added with just one HTML element. The buttons are 32px in diameter and are (for the most part) made with just CSS.
 
 ![](https://raw.github.com/timhuisman/round-social-media-buttons/master/screenshot-1.png)
 
@@ -31,7 +31,7 @@ Not using all the buttons? You can make your own CSS file that suits your needs 
 
 ## How to use ##
 
-Add a HTML element with the class `social-btn` and without any content:
+Add an HTML element with the class `social-btn` and without any content:
 
 	<a href="#" class="social-btn"></a>
 	<span class="social-btn"></span>
@@ -78,7 +78,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - Added two new buttons: Skype (thanks [@AMeijerNL](https://github.com/AMeijerNL)) and iCheckMovies.
 - Converted sprite from horizontally to vertically orientated (thanks [@AMeijerNL](https://github.com/AMeijerNL)), for smaller file size and load time.
 - Added pointer cursor to button, so that non-anchor elements have the same visual button behaviour as anchor elements.
-- Added source files for both normal and Retina sprites in `.ai`-format (Vectors!)
+- Added source files for both normal and Retina sprites as Adobe Illustrator files (Vectors!)
 
 **v.1.1.0**
 
