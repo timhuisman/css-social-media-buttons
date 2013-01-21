@@ -12,7 +12,7 @@ $color-vimeo: #5bc8ff;
   background-color: $color-vimeo;
   
   &:after {
-    background-position: 0 -392px;
+    background-position: 0 -420px;
     border-color: darken( $color-vimeo, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-vimeo, $diff-lighter ) );
   }
