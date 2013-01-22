@@ -156,6 +156,21 @@
 .gplus:active {
   background-color: #d63f1f;
 }
+.icheckmovies {
+  background-color: #363636;
+}
+.icheckmovies:after {
+  background-position: 0 -476px;
+  border-color: #1c1c1c;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #767676;
+  box-shadow: inset 0px 1px 2px 0px #767676;
+}
+.icheckmovies:hover {
+  background-color: #505050;
+}
+.icheckmovies:active {
+  background-color: #1c1c1c;
+}
 .lastfm {
   background-color: #e02703;
 }
@@ -231,26 +246,35 @@
 .rss:active {
   background-color: #cc5400;
 }
-.skype {
+.skype,
+.skype-alt {
   background-color: #08a7e3;
 }
-.skype:after {
-  background-position: 0 -308px;
+.skype:after,
+.skype-alt:after {
   border-color: #0683b2;
   -webkit-box-shadow: inset 0px 1px 2px 0px #71d4fa;
   box-shadow: inset 0px 1px 2px 0px #71d4fa;
 }
-.skype:hover {
+.skype:hover,
+.skype-alt:hover {
   background-color: #27bef7;
 }
-.skype:active {
+.skype:active,
+.skype-alt:active {
   background-color: #0683b2;
+}
+.skype:after {
+  background-position: -28px 0;
+}
+.skype-alt:after {
+  background-position: -28px -28px;
 }
 .tumblr {
   background-color: #3c5a76;
 }
 .tumblr:after {
-  background-position: 0 -336px;
+  background-position: 0 -308px;
   border-color: #2b4054;
   -webkit-box-shadow: inset 0px 1px 2px 0px #779aba;
   box-shadow: inset 0px 1px 2px 0px #779aba;
@@ -280,16 +304,16 @@
   background-color: #0087ba;
 }
 .twitter:after {
-  background-position: 0 -364px;
+  background-position: 0 -336px;
 }
 .twitter-alt:after {
-  background-position: 0 -392px;
+  background-position: 0 -364px;
 }
 .vimeo {
   background-color: #5bc8ff;
 }
 .vimeo:after {
-  background-position: 0 -420px;
+  background-position: 0 -392px;
   border-color: #28b7ff;
   -webkit-box-shadow: inset 0px 1px 2px 0px #dbf3ff;
   box-shadow: inset 0px 1px 2px 0px #dbf3ff;
@@ -304,7 +328,7 @@
   background-color: #eeeeee;
 }
 .youtube:after {
-  background-position: 0 -448px;
+  background-position: 0 -420px;
   border-color: #d5d5d5;
   -webkit-box-shadow: inset 0px 1px 2px 0px #ffffff;
   box-shadow: inset 0px 1px 2px 0px #ffffff;
@@ -319,7 +343,7 @@
   background-color: #fc3f1a;
 }
 .youtube-alt:after {
-  background-position: 0 -476px;
+  background-position: 0 -448px;
   border-color: #e02703;
   -webkit-box-shadow: inset 0px 1px 2px 0px #fea998;
   box-shadow: inset 0px 1px 2px 0px #fea998;
@@ -329,19 +353,4 @@
 }
 .youtube-alt:active {
   background-color: #e02703;
-}
-.icheckmovies {
-  background-color: #363636;
-}
-.icheckmovies:after {
-  background-position: -28px 0px;
-  border-color: #1c1c1c;
-  -webkit-box-shadow: inset 0px 1px 2px 0px #767676;
-  box-shadow: inset 0px 1px 2px 0px #767676;
-}
-.icheckmovies:hover {
-  background-color: #505050;
-}
-.icheckmovies:active {
-  background-color: #1c1c1c;
 }
