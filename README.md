@@ -54,19 +54,20 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `facebook`
 - `flickr`
 - `foursquare`
-- `github` (the letter 'g')
-- `github-alt` (the octocat)
+- `github` (Octocat)
+- `github-alt` (letter 'g')
 - `gplus`
-- `icheckmovies` **!new**
+- `icheckmovies` **!new** since v1.2.0
 - `lastfm`
 - `linkedin`
 - `mail`
 - `path`
 - `rss`
-- `skype` **!new**
+- `skype` (desktop icon) **!new** since v1.2.1
+- `skype-alt` (letter 'S') **!new** since v1.2.0
 - `tumblr`
-- `twitter` (the letter 't')
-- `twitter-alt` (the bird)
+- `twitter` (Twitter bird)
+- `twitter-alt` (letter 't')
 - `vimeo`
 - `youtube` (black, red and white logo on a white background)
 - `youtube-alt` (white logo on a red background)
@@ -75,12 +76,21 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 **v.1.2.1**
 
-- Alphabetical order restored / Remove Trailing Whitespace
-- Optimizes images: Saved 2,6 KB of 11,1KB
+- Alphabetical order restored / Remove Trailing Whitespace (thanks [@cafferata](https://github.com/cafferata))
+- Optimizes images: Saved 2,6 KB of 11,1KB (thanks [@cafferata](https://github.com/cafferata))
+- Added an alternative icon for `skype`: the Skype desktop icon.
+- Repositioned both Skype icons to the right column in the sprites.
+- Switched Skype icons: the desktop icon is now the primary icon.
+- Switched Github icons: the Octocat is now the primary icon.
+- Switched Twitter icons: the Twitter bird is now the primary icon.
+- Changed color of _"White"_ (actually `#F1F2F2`) icons to `#fff`;
+- Improved YouTube icons: the word 'Tube' has been made fully transparent.
+- Added button classes to the preview page and image.
+- Changed width of preview page and image to hold eight buttons per row.
 
 **v.1.2.0**
 
-- Added two new buttons: Skype (thanks [@AMeijerNL](https://github.com/AMeijerNL)) and iCheckMovies.
+- Added two new buttons: `.skype` (thanks [@AMeijerNL](https://github.com/AMeijerNL)) and `.icheckmovies`.
 - Converted sprite from horizontally to vertically orientated (thanks [@AMeijerNL](https://github.com/AMeijerNL)), for smaller file size and load time.
 - Added pointer cursor to button, so that non-anchor elements have the same visual button behaviour as anchor elements.
 - Added source files for both normal and Retina sprites as Adobe Illustrator files (Vectors!)
