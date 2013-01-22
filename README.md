@@ -57,14 +57,14 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `github` (Octocat)
 - `github-alt` (letter 'g')
 - `gplus`
-- `icheckmovies` **!new** since v1.2.0
+- `icheckmovies` **!new**
 - `lastfm`
 - `linkedin`
 - `mail`
 - `path`
 - `rss`
-- `skype` (desktop icon) **!new** since v1.2.1
-- `skype-alt` (letter 'S') **!new** since v1.2.0
+- `skype` (desktop icon) **!new**
+- `skype-alt` (letter 'S') **!new**
 - `tumblr`
 - `twitter` (Twitter bird)
 - `twitter-alt` (letter 't')
@@ -78,7 +78,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 - Alphabetical order restored / Remove Trailing Whitespace (thanks [@cafferata](https://github.com/cafferata))
 - Optimizes images: Saved 2,6 KB of 11,1KB (thanks [@cafferata](https://github.com/cafferata))
-- Added an alternative icon for `skype`: the Skype desktop icon.
+- Added an alternative icon for `.skype`: the Skype desktop icon.
 - Repositioned both Skype icons to the right column in the sprites.
 - Switched Skype icons: the desktop icon is now the primary icon.
 - Switched Github icons: the Octocat is now the primary icon.
