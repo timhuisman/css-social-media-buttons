@@ -8,11 +8,11 @@ $color-icheckmovies: #363636;
 // ICHECKMOVIES BUTTON STYLE
 // ------------------------------------------------------------------------------------
 
-.icheckmovies {   
+.icheckmovies {
   background-color: $color-icheckmovies;
-  
+
   &:after {
-    background-position: -28px 0;
+    background-position: 0 -476px;
     border-color: darken( $color-icheckmovies, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-icheckmovies, $diff-lighter ) );
   }

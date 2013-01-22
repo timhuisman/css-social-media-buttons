@@ -54,7 +54,7 @@ $diff-darker: 10%; // Used for: background color of icon in active state
   position: relative;
   margin: 2px;
   z-index: 400;
-  
+
   &:before, &:after {
     content: "";
     display: block;
@@ -80,7 +80,7 @@ $diff-darker: 10%; // Used for: background color of icon in active state
     top: 0 - ( $btn-size + 4 );
     z-index: 600;
   }
-  
+
   &.rounded, &.rounded:after { @include border-radius( $radius-rounded ); }
   &.rounded:before { @include border-radius( $radius-rounded + 2 ); }
 }

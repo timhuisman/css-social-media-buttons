@@ -8,14 +8,16 @@ $color-skype: #08a7e3;
 // SKYPE BUTTON STYLE
 // ------------------------------------------------------------------------------------
 
-.skype {
+.skype, .skype-alt {
   background-color: $color-skype;
 
   &:after {
-    background-position: 0 -308px;
     border-color: darken( $color-skype, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-skype, $diff-lighter ) );
   }
   &:hover { background-color: lighten( $color-skype, $diff-lighter-hover ); }
   &:active { background-color: darken( $color-skype, $diff-darker ); }
 }
+
+.skype:after { background-position: -28px 0; }
+.skype-alt:after { background-position: -28px -28px; }

@@ -8,9 +8,9 @@ $color-github: #eee;
 // GITHUB (ALTERNATIVE) BUTTON STYLE
 // ------------------------------------------------------------------------------------
 
-.github, .github-alt {  
-  background-color: $color-github; 
-  
+.github, .github-alt {
+  background-color: $color-github;
+
   &:after {
     border-color: darken( $color-github, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-github, $diff-lighter ) );

@@ -8,9 +8,9 @@ $color-foursquare: #0086bf;
 // FOURSQUARE BUTTON STYLE
 // ------------------------------------------------------------------------------------
 
-.foursquare {    
+.foursquare {
   background-color: $color-foursquare;
-  
+
   &:after {
     background-position: 0 -56px;
     border-color: darken( $color-foursquare, $diff-darker );

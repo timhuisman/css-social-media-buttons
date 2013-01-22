@@ -8,9 +8,9 @@ $color-gplus: #e46044;
 // Google+ BUTTON STYLE
 // ------------------------------------------------------------------------------------
 
-.gplus {   
+.gplus {
   background-color: $color-gplus;
-  
+
   &:after {
     background-position: 0 -140px;
     border-color: darken( $color-gplus, $diff-darker );
