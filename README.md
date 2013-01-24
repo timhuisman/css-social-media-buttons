@@ -25,7 +25,7 @@ The buttons have been tested and approved in the following browsers:
 
 Simply put the CSS file in your project CSS folder and link to it in your `<head>` or copy/paste the content of the `social-buttons.css` into your own CSS file:
 
-Not using all the buttons? You can make your own CSS file that suits your needs with LESS/SASS. Open `social-buttons.(less/scss)` and comment out the `@imports` you don't need at the bottom of the file. Compile it and add the CSS to your project.
+Not using all the buttons? You can make your own CSS file that suits your needs with LESS/SASS. Open `social-buttons.less` or `social-buttons.scss` and comment out the `@imports` you don't need at the bottom of the file. Compile it and add the CSS to your project.
 
 
 
@@ -53,7 +53,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 - `facebook`
 - `flickr`
-- `foursquare`
+- `foursquare` **!updated**
 - `github` (Octocat)
 - `github-alt` (letter 'g')
 - `gplus`
@@ -63,24 +63,28 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `mail`
 - `path`
 - `rss`
-- `skype` (desktop icon) **!new**
+- `skype` (favicon) **!new**
 - `skype-alt` (letter 'S') **!new**
 - `tumblr`
 - `twitter` (Twitter bird)
 - `twitter-alt` (letter 't')
 - `vimeo`
-- `youtube` (black, red and white logo on a white background)
-- `youtube-alt` (white logo on a red background)
+- `youtube` (logo on white background)
+- `youtube-alt` (white logo on red background)
 
 ## Changelog ##
+
+**v.1.2.2**
+
+- Updated `.foursquare` button: changed background-color and replaced the icon with its official (fav)icon: the green ball with white trail.
 
 **v.1.2.1**
 
 - Alphabetical order restored / Remove Trailing Whitespace (thanks [@cafferata](https://github.com/cafferata))
 - Optimizes images: Saved 2,6 KB of 11,1KB (thanks [@cafferata](https://github.com/cafferata))
-- Added an alternative icon for `.skype`: the Skype desktop icon.
+- Added an alternative icon for `.skype`: the Skype favicon.
 - Repositioned both Skype icons to the right column in the sprites.
-- Switched Skype icons: the desktop icon is now the primary icon.
+- Switched Skype icons: the favicon version is now the primary icon.
 - Switched Github icons: the Octocat is now the primary icon.
 - Switched Twitter icons: the Twitter bird is now the primary icon.
 - Changed color of _"White"_ (actually `#F1F2F2`) icons to `#fff`;
@@ -93,7 +97,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - Added two new buttons: `.skype` (thanks [@AMeijerNL](https://github.com/AMeijerNL)) and `.icheckmovies`.
 - Converted sprite from horizontally to vertically orientated (thanks [@AMeijerNL](https://github.com/AMeijerNL)), for smaller file size and load time.
 - Added pointer cursor to button, so that non-anchor elements have the same visual button behaviour as anchor elements.
-- Added source files for both normal and Retina sprites as Adobe Illustrator files (Vectors!)
+- Added source files for both normal and Retina sprites as Adobe Illustrator files.
 
 **v.1.1.0**
 
