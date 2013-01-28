@@ -74,6 +74,11 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 ## Changelog ##
 
+**v.1.2.3**
+
+- Added `content: ''` on `.social-btn` to remove any content added to the button: resolves bug causing the button to break ([Issue #8](https://github.com/timhuisman/round-social-media-buttons/issues/10))
+- Added `social-buttons.min.less` and `social-buttons.min.scss` for easier compiling of style into a minified and unminified version.
+
 **v.1.2.2**
 
 - Updated `.foursquare` button: changed background-color and replaced the icon with its official (fav)icon: the green ball with white trail.
