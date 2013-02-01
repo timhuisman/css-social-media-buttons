@@ -67,9 +67,11 @@
   -webkit-border-radius: 18px;
   border-radius: 18px;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2) {
   .social-btn:after {
     background: url('../img/sprite-rsmb-x2.png') no-repeat;
+    -webkit-background-size: 56px;
+    -moz-background-size: 56px;
     background-size: 56px;
   }
 }

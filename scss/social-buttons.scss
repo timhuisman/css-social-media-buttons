@@ -90,9 +90,14 @@ $diff-darker: 10%; // Used for: background color of icon in active state
 .social-btn, .social-btn:before, .social-btn:after { @include border-radius( $radius-round ); }
 
 // Use larger sprite (2 x 28pixels) for Retina display
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2) {
   .social-btn:after {
     background: url('#{$image-path}/sprite-rsmb-x2.png') no-repeat;
+    -webkit-background-size: 56px;
+    -moz-background-size: 56px;
     background-size: 56px;
   }
 }
