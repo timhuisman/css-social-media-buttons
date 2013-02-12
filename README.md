@@ -74,6 +74,12 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 ## Changelog ##
 
+**v.1.2.5**
+
+- Changed background-position for `youtube-alt` icon in SCSS file to match LESS file
+- Removed inline-block mixin: is only needed for lower than IE8 browsers.
+- Removed double background-size attribute in LESS file.
+
 **v.1.2.4**
 
 - Added browser prefix versions of the Retina media query & background-size, so that all browser use the Retina sprite if possible. 
