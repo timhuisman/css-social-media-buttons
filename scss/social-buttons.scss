@@ -12,12 +12,6 @@
   border-radius: $radius;
 }
 
-@mixin inline-block {
-  display:inline-block;
-  zoom:1;
-  *display:inline;
-}
-
 //
 // VARIABLES
 // ------------------------------------------------------------------------------------
@@ -51,7 +45,7 @@ $diff-darker: 10%; // Used for: background color of icon in active state
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40ffffff', endColorstr='#00ffffff', GradientType=0 );
   content: '';
   cursor: pointer;
-  @include inline-block();
+  display: inline-block;
   position: relative;
   margin: 2px;
   z-index: 400;
