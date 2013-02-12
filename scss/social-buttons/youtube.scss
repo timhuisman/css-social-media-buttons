@@ -29,7 +29,7 @@ $color-youtube-alt: #fc3f1a;
   background-color: $color-youtube-alt;
 
   &:after {
-    background-position: 0 -488px;
+    background-position: 0 -448px;
     border-color: darken( $color-youtube-alt, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-youtube-alt, $diff-lighter ) );
   }
