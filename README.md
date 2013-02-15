@@ -52,27 +52,35 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 **Lists of available classes**
 
 - `facebook`
+- `facebook-alt` (favicon) **!new**
 - `flickr`
-- `foursquare` **!updated**
+- `foursquare`
+- `foursquare-alt` (favicon of FQ blog) **!new**
 - `github` (Octocat)
 - `github-alt` (letter 'g')
+- `github-alt2` (favicon) **!new**
 - `gplus`
-- `icheckmovies` **!new**
+- `icheckmovies`
 - `lastfm`
 - `linkedin`
 - `mail`
 - `path`
 - `rss`
-- `skype` (favicon) **!new**
-- `skype-alt` (letter 'S') **!new**
+- `skype` (favicon)
+- `skype-alt` (letter 'S')
 - `tumblr`
 - `twitter` (Twitter bird)
 - `twitter-alt` (letter 't')
 - `vimeo`
 - `youtube` (logo on white background)
 - `youtube-alt` (white logo on red background)
+- `youtube-alt2` (favicon) **!new**
 
 ## Changelog ##
+
+**v.1.3.0**
+
+- Added four alternative buttons: `.facebook-alt` (the favicon), `.foursquare-alt` (the FQ blog favicon), `.github-alt2` (the favicon) and `.youtube-alt2` (the favicon).
 
 **v.1.2.5**
 
@@ -97,7 +105,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 - Alphabetical order restored / Remove Trailing Whitespace (thanks [@cafferata](https://github.com/cafferata))
 - Optimizes images: Saved 2,6 KB of 11,1KB (thanks [@cafferata](https://github.com/cafferata))
-- Added an alternative icon for `.skype`: the Skype favicon.
+- Added an alternative button: `.skype-alt` (the favicon).
 - Repositioned both Skype icons to the right column in the sprites.
 - Switched Skype icons: the favicon version is now the primary icon.
 - Switched Github icons: the Octocat is now the primary icon.
