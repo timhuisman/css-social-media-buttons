@@ -55,7 +55,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `facebook-alt` (favicon) **!new**
 - `flickr`
 - `foursquare`
-- `foursquare-alt` (favicon of FQ blog) **!new**
+- `foursquare-alt` (favicon of Foursquare blog) **!new**
 - `github` (Octocat)
 - `github-alt` (letter 'g')
 - `github-alt2` (favicon) **!new**
@@ -80,7 +80,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 **v.1.3.0**
 
-- Added four alternative buttons: `.facebook-alt` (the favicon), `.foursquare-alt` (the FQ blog favicon), `.github-alt2` (the favicon) and `.youtube-alt2` (the favicon).
+- Added four alternative buttons: `.facebook-alt` (the favicon), `.foursquare-alt` (the Foursquare blog favicon), `.github-alt2` (the favicon) and `.youtube-alt2` (the favicon).
 
 **v.1.2.5**
 
