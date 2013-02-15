@@ -85,17 +85,20 @@
   .flickr:active {
     background-color: #d2d2d2; }
 
-.foursquare {
+.foursquare, .foursquare-alt {
   background-color: #0086bf; }
-  .foursquare:after {
+  .foursquare:after, .foursquare-alt:after {
     background-position: 0 -56px;
     border-color: #00628c;
     -webkit-box-shadow: inset 0px 1px 2px 0px #40c6ff;
     box-shadow: inset 0px 1px 2px 0px #40c6ff; }
-  .foursquare:hover {
+  .foursquare:hover, .foursquare-alt:hover {
     background-color: #00aaf2; }
-  .foursquare:active {
+  .foursquare:active, .foursquare-alt:active {
     background-color: #00628c; }
+
+.foursquare-alt:after {
+  background-position: -28px -140px; }
 
 .github, .github-alt, .github-alt2 {
   background-color: #eeeeee; }
