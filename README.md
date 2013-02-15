@@ -7,7 +7,7 @@ A set of Retina-proof round (or rounded) social media buttons, that can be added
 
 **Browser compatibility**
 
-The buttons have been tested and approved in the following browsers:
+The buttons have been tested in the following browsers:
 
 - Opera	12
 - Chrome 24
@@ -17,7 +17,7 @@ The buttons have been tested and approved in the following browsers:
 - Chrome for iPhone 23
 - Safari for iPhone iOS 6
 
-*The buttons rely on features of CSS3 and are therefor not shown properly in Internet Explorer 8: meaning no rounded corners, gradients and shadows. Lower versions than IE8 are not supported.
+*The buttons rely heavily on CSS3 and are therefor not shown properly in Internet Explorer 8: meaning no rounded corners and shadows. Lower versions of Internet Explorer than IE8 aren't supported at all.
 
 
 
@@ -51,10 +51,10 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 **Lists of available classes**
 
-- `facebook` | `facebook-alt` (favicon) **!new**
+- `facebook` | `facebook-alt` **!new**
 - `flickr`
-- `foursquare` | `foursquare-alt` (favicon of Foursquare blog) **!new**
-- `github` | `github-alt` (letter 'g') | `github-alt2` (favicon) **!new**
+- `foursquare` | `foursquare-alt` **!new**
+- `github` | `github-alt` | `github-alt2` **!new**
 - `gplus`
 - `icheckmovies`
 - `lastfm`
@@ -62,21 +62,21 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `mail`
 - `path`
 - `rss`
-- `skype` | `skype-alt` (letter 'S')
+- `skype` | `skype-alt`
 - `tumblr`
-- `twitter` | `twitter-alt` (letter 't')
+- `twitter` | `twitter-alt`
 - `vimeo`
-- `youtube` | `youtube-alt` (logo on red background) | `youtube-alt2` (favicon) **!new**
+- `youtube` | `youtube-alt` | `youtube-alt2` **!new**
 
 ## Changelog ##
 
 **v.1.3.0**
 
-- Added four alternative buttons: `.facebook-alt` (the favicon), `.foursquare-alt` (the Foursquare blog favicon), `.github-alt2` (the favicon) and `.youtube-alt2` (the favicon).
+- Added four alternative buttons: `facebook-alt`, `foursquare-alt`, `github-alt2` and `youtube-alt2`.
 
 **v.1.2.5**
 
-- Changed background-position for `youtube-alt` icon in SCSS file to match LESS file
+- Fixed background-position for `youtube-alt` icon in SCSS file
 - Removed inline-block mixin: is only needed for lower than IE8 browsers.
 - Removed double background-size attribute in LESS file.
 
@@ -86,30 +86,28 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 **v.1.2.3**
 
-- Added `content: ''` on `.social-btn` to remove any content added to the button: resolves bug causing the button to break ([Issue #10](https://github.com/timhuisman/round-social-media-buttons/issues/10))
+- Added `content: ''` on `social-btn` to remove any content added to the button: resolves bug causing the button to break ([Issue #10](https://github.com/timhuisman/round-social-media-buttons/issues/10))
 - Added `social-buttons.min.less` and `social-buttons.min.scss` for easier compiling of style into a minified and unminified version.
 
 **v.1.2.2**
 
-- Updated `.foursquare` button: changed background-color and replaced the icon with its official (fav)icon: the green ball with white trail.
+- Updated `foursquare` button: changed background-color and replaced the icon with its official (fav)icon: the green ball with white trail.
 
 **v.1.2.1**
 
 - Alphabetical order restored / Remove Trailing Whitespace (thanks [@cafferata](https://github.com/cafferata))
-- Optimizes images: Saved 2,6 KB of 11,1KB (thanks [@cafferata](https://github.com/cafferata))
-- Added an alternative button: `.skype-alt` (the favicon).
+- Optimized images: Saved 2,6 KB of 11,1KB (thanks [@cafferata](https://github.com/cafferata))
+- Added an alternative button: `skype-alt`.
 - Repositioned both Skype icons to the right column in the sprites.
 - Switched Skype icons: the favicon version is now the primary icon.
 - Switched Github icons: the Octocat is now the primary icon.
 - Switched Twitter icons: the Twitter bird is now the primary icon.
 - Changed color of _"White"_ (actually `#F1F2F2`) icons to `#fff`;
 - Improved YouTube icons: the word 'Tube' has been made fully transparent.
-- Added button classes to the preview page and image.
-- Changed width of preview page and image to hold eight buttons per row.
 
 **v.1.2.0**
 
-- Added two new buttons: `.skype` (thanks [@AMeijerNL](https://github.com/AMeijerNL)) and `.icheckmovies`.
+- Added two new buttons: `skype` (thanks [@AMeijerNL](https://github.com/AMeijerNL)) and `icheckmovies`.
 - Converted sprite from horizontally to vertically orientated (thanks [@AMeijerNL](https://github.com/AMeijerNL)), for smaller file size and load time.
 - Added pointer cursor to button, so that non-anchor elements have the same visual button behaviour as anchor elements.
 - Added source files for both normal and Retina sprites as Adobe Illustrator files.
