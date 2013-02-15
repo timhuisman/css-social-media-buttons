@@ -8,7 +8,7 @@ $color-github: #eee;
 // GITHUB (ALTERNATIVE) BUTTON STYLE
 // ------------------------------------------------------------------------------------
 
-.github, .github-alt {
+.github, .github-alt, .github-alt2 {
   background-color: $color-github;
 
   &:after {
@@ -21,3 +21,4 @@ $color-github: #eee;
 
 .github:after { background-position: 0 -84px; }
 .github-alt:after { background-position: 0 -112px; }
+.github-alt2:after { background-position: -28px -56px; }
