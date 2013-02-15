@@ -6,276 +6,366 @@
   background: -o-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
   background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40ffffff', endColorstr='#00ffffff', GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40ffffff', endColorstr='#00ffffff', GradientType=0);
   content: '';
   cursor: pointer;
   display: inline-block;
   position: relative;
   margin: 2px;
-  z-index: 400; }
-  .social-btn:before, .social-btn:after {
-    content: "";
-    display: block;
-    position: relative; }
-  .social-btn:before {
-    border: solid 2px white;
-    -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
-    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
-    top: -2px;
-    left: -2px;
-    z-index: 200; }
-    .social-btn:before:hover, .social-btn:before:focus {
-      background-color: white; }
-    .social-btn:before:active {
-      background-color: #c5d1d7; }
-  .social-btn:after {
-    background: url("../img/sprite-rsmb.png") no-repeat;
-    border: solid 2px #c5d1d7;
-    -webkit-box-shadow: inset 0px 1px 2px 0px white;
-    box-shadow: inset 0px 1px 2px 0px white;
-    width: 28px;
-    height: 28px;
-    top: -36px;
-    z-index: 600; }
-  .social-btn.rounded, .social-btn.rounded:after {
-    -webkit-border-radius: 8px;
-    border-radius: 8px; }
-  .social-btn.rounded:before {
-    -webkit-border-radius: 10px;
-    border-radius: 10px; }
-
-.social-btn, .social-btn:before {
+  z-index: 400;
+}
+.social-btn:before,
+.social-btn:after {
+  content: "";
+  display: block;
+  position: relative;
+}
+.social-btn:before {
+  border: solid 2px #fff;
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+  top: -2px;
+  left: -2px;
+  z-index: 200;
+}
+.social-btn:before:hover,
+.social-btn:before:focus {
+  background-color: #ffffff;
+}
+.social-btn:before:active {
+  background-color: #c5d1d7;
+}
+.social-btn:after {
+  background: url('../img/sprite-rsmb.png') no-repeat;
+  border: solid 2px #c5d1d7;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #ffffff;
+  box-shadow: inset 0px 1px 2px 0px #ffffff;
+  width: 28px;
+  height: 28px;
+  top: -36px;
+  z-index: 600;
+}
+.social-btn.rounded,
+.social-btn.rounded:after {
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+.social-btn.rounded:before {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.social-btn,
+.social-btn:before {
   width: 32px;
-  height: 32px; }
-
-.social-btn, .social-btn:before, .social-btn:after {
+  height: 32px;
+}
+.social-btn,
+.social-btn:before,
+.social-btn:after {
   -webkit-border-radius: 18px;
-  border-radius: 18px; }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2) {
+  border-radius: 18px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2) {
   .social-btn:after {
-    background: url("../img/sprite-rsmb-x2.png") no-repeat;
+    background: url('../img/sprite-rsmb-x2.png') no-repeat;
     -webkit-background-size: 56px;
     -moz-background-size: 56px;
-    background-size: 56px; } }
-.facebook {
-  background-color: #4a6ea9; }
-  .facebook:after {
-    background-position: 0 0;
-    border-color: #3a5786;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #9eb3d5;
-    box-shadow: inset 0px 1px 2px 0px #9eb3d5; }
-  .facebook:hover {
-    background-color: #6989bd; }
-  .facebook:active {
-    background-color: #3a5786; }
-
+    background-size: 56px;
+  }
+}
+.facebook,
+.facebook-alt {
+  background-color: #4a6ea9;
+}
+.facebook:after,
+.facebook-alt:after {
+  background-position: 0 0;
+  border-color: #3a5786;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #9eb3d5;
+  box-shadow: inset 0px 1px 2px 0px #9eb3d5;
+}
+.facebook:hover,
+.facebook-alt:hover {
+  background-color: #6989bd;
+}
+.facebook:active,
+.facebook-alt:active {
+  background-color: #3a5786;
+}
+.facebook-alt:after {
+  background-position: -28px -84px;
+}
 .flickr {
-  background-color: #ebebeb; }
-  .flickr:after {
-    background-position: 0 -28px;
-    border-color: #d2d2d2;
-    -webkit-box-shadow: inset 0px 1px 2px 0px white;
-    box-shadow: inset 0px 1px 2px 0px white; }
-  .flickr:hover {
-    background-color: white; }
-  .flickr:active {
-    background-color: #d2d2d2; }
-
+  background-color: #ebebeb;
+}
+.flickr:after {
+  background-position: 0 -28px;
+  border-color: #d2d2d2;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #ffffff;
+  box-shadow: inset 0px 1px 2px 0px #ffffff;
+}
+.flickr:hover {
+  background-color: #ffffff;
+}
+.flickr:active {
+  background-color: #d2d2d2;
+}
 .foursquare {
-  background-color: #0086bf; }
-  .foursquare:after {
-    background-position: 0 -56px;
-    border-color: #00628c;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #40c6ff;
-    box-shadow: inset 0px 1px 2px 0px #40c6ff; }
-  .foursquare:hover {
-    background-color: #00aaf2; }
-  .foursquare:active {
-    background-color: #00628c; }
-
-.github, .github-alt, .github-alt2 {
-  background-color: #eeeeee; }
-  .github:after, .github-alt:after, .github-alt2:after {
-    border-color: #d4d4d4;
-    -webkit-box-shadow: inset 0px 1px 2px 0px white;
-    box-shadow: inset 0px 1px 2px 0px white; }
-  .github:hover, .github-alt:hover, .github-alt2:hover {
-    background-color: white; }
-  .github:active, .github-alt:active, .github-alt2:active {
-    background-color: #d4d4d4; }
-
-.github:after {
-  background-position: 0 -84px; }
-
-.github-alt:after {
-  background-position: 0 -112px; }
-
+  background-color: #0086bf;
+}
+.foursquare:after {
+  background-position: 0 -56px;
+  border-color: #00628c;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #40c6ff;
+  box-shadow: inset 0px 1px 2px 0px #40c6ff;
+}
+.foursquare:hover {
+  background-color: #00aaf2;
+}
+.foursquare:active {
+  background-color: #00628c;
+}
+.github,
+.github-alt,
+.github-alt2 {
+  background-color: #eeeeee;
+}
+.github:after,
+.github-alt:after,
 .github-alt2:after {
-  background-position: -28px -56px; }
-
+  border-color: #d5d5d5;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #ffffff;
+  box-shadow: inset 0px 1px 2px 0px #ffffff;
+}
+.github:hover,
+.github-alt:hover,
+.github-alt2:hover {
+  background-color: #ffffff;
+}
+.github:active,
+.github-alt:active,
+.github-alt2:active {
+  background-color: #d5d5d5;
+}
+.github:after {
+  background-position: 0 -84px;
+}
+.github-alt:after {
+  background-position: 0 -112px;
+}
+.github-alt2:after {
+  background-position: -28px -56px;
+}
 .gplus {
-  background-color: #e46044; }
-  .gplus:after {
-    background-position: 0 -140px;
-    border-color: #d63f1f;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #f4bfb3;
-    box-shadow: inset 0px 1px 2px 0px #f4bfb3; }
-  .gplus:hover {
-    background-color: #ea8671; }
-  .gplus:active {
-    background-color: #d63f1f; }
-
+  background-color: #e46044;
+}
+.gplus:after {
+  background-position: 0 -140px;
+  border-color: #d63f1f;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #f4bfb3;
+  box-shadow: inset 0px 1px 2px 0px #f4bfb3;
+}
+.gplus:hover {
+  background-color: #ea8671;
+}
+.gplus:active {
+  background-color: #d63f1f;
+}
 .icheckmovies {
-  background-color: #363636; }
-  .icheckmovies:after {
-    background-position: 0 -476px;
-    border-color: #1c1c1c;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #767676;
-    box-shadow: inset 0px 1px 2px 0px #767676; }
-  .icheckmovies:hover {
-    background-color: #505050; }
-  .icheckmovies:active {
-    background-color: #1c1c1c; }
-
+  background-color: #363636;
+}
+.icheckmovies:after {
+  background-position: 0 -476px;
+  border-color: #1c1c1c;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #767676;
+  box-shadow: inset 0px 1px 2px 0px #767676;
+}
+.icheckmovies:hover {
+  background-color: #505050;
+}
+.icheckmovies:active {
+  background-color: #1c1c1c;
+}
 .lastfm {
-  background-color: #e02703; }
-  .lastfm:after {
-    background-position: 0 -168px;
-    border-color: #ae1e02;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #fd7e66;
-    box-shadow: inset 0px 1px 2px 0px #fd7e66; }
-  .lastfm:hover {
-    background-color: #fc3f1a; }
-  .lastfm:active {
-    background-color: #ae1e02; }
-
+  background-color: #e02703;
+}
+.lastfm:after {
+  background-position: 0 -168px;
+  border-color: #ae1e02;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #fd7e66;
+  box-shadow: inset 0px 1px 2px 0px #fd7e66;
+}
+.lastfm:hover {
+  background-color: #fc3f1a;
+}
+.lastfm:active {
+  background-color: #ae1e02;
+}
 .linkedin {
-  background-color: #0097bd; }
-  .linkedin:after {
-    background-position: 0 -196px;
-    border-color: #006e8a;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #3ed8ff;
-    box-shadow: inset 0px 1px 2px 0px #3ed8ff; }
-  .linkedin:hover {
-    background-color: #00c0f0; }
-  .linkedin:active {
-    background-color: #006e8a; }
-
+  background-color: #0097bd;
+}
+.linkedin:after {
+  background-position: 0 -196px;
+  border-color: #006e8a;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #3ed8ff;
+  box-shadow: inset 0px 1px 2px 0px #3ed8ff;
+}
+.linkedin:hover {
+  background-color: #00c0f0;
+}
+.linkedin:active {
+  background-color: #006e8a;
+}
 .mail {
-  background-color: #e3e9ec; }
-  .mail:after {
-    background-position: 0 -224px;
-    border-color: #c5d1d7;
-    -webkit-box-shadow: inset 0px 1px 2px 0px white;
-    box-shadow: inset 0px 1px 2px 0px white; }
-  .mail:hover {
-    background-color: white; }
-  .mail:active {
-    background-color: #c5d1d7; }
-
+  background-color: #e3e9ec;
+}
+.mail:after {
+  background-position: 0 -224px;
+  border-color: #c5d1d7;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #ffffff;
+  box-shadow: inset 0px 1px 2px 0px #ffffff;
+}
+.mail:hover {
+  background-color: #ffffff;
+}
+.mail:active {
+  background-color: #c5d1d7;
+}
 .path {
-  background-color: #e3432c; }
-  .path:after {
-    background-position: 0 -252px;
-    border-color: #c22f1a;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #f2a79d;
-    box-shadow: inset 0px 1px 2px 0px #f2a79d; }
-  .path:hover {
-    background-color: #e96b59; }
-  .path:active {
-    background-color: #c22f1a; }
-
+  background-color: #e3432c;
+}
+.path:after {
+  background-position: 0 -252px;
+  border-color: #c22f1a;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #f2a79d;
+  box-shadow: inset 0px 1px 2px 0px #f2a79d;
+}
+.path:hover {
+  background-color: #e96b59;
+}
+.path:active {
+  background-color: #c22f1a;
+}
 .rss {
-  background-color: #ff6900; }
-  .rss:after {
-    background-position: 0 -280px;
-    border-color: #cc5400;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #ffb480;
-    box-shadow: inset 0px 1px 2px 0px #ffb480; }
-  .rss:hover {
-    background-color: #ff8733; }
-  .rss:active {
-    background-color: #cc5400; }
-
-.skype, .skype-alt {
-  background-color: #08a7e3; }
-  .skype:after, .skype-alt:after {
-    border-color: #0683b2;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #71d4fa;
-    box-shadow: inset 0px 1px 2px 0px #71d4fa; }
-  .skype:hover, .skype-alt:hover {
-    background-color: #27bef7; }
-  .skype:active, .skype-alt:active {
-    background-color: #0683b2; }
-
-.skype:after {
-  background-position: -28px 0; }
-
+  background-color: #ff6900;
+}
+.rss:after {
+  background-position: 0 -280px;
+  border-color: #cc5400;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #ffb480;
+  box-shadow: inset 0px 1px 2px 0px #ffb480;
+}
+.rss:hover {
+  background-color: #ff8733;
+}
+.rss:active {
+  background-color: #cc5400;
+}
+.skype,
+.skype-alt {
+  background-color: #08a7e3;
+}
+.skype:after,
 .skype-alt:after {
-  background-position: -28px -28px; }
-
+  border-color: #0683b2;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #71d4fa;
+  box-shadow: inset 0px 1px 2px 0px #71d4fa;
+}
+.skype:hover,
+.skype-alt:hover {
+  background-color: #27bef7;
+}
+.skype:active,
+.skype-alt:active {
+  background-color: #0683b2;
+}
+.skype:after {
+  background-position: -28px 0;
+}
+.skype-alt:after {
+  background-position: -28px -28px;
+}
 .tumblr {
-  background-color: #3c5a76; }
-  .tumblr:after {
-    background-position: 0 -308px;
-    border-color: #2b4054;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #779aba;
-    box-shadow: inset 0px 1px 2px 0px #779aba; }
-  .tumblr:hover {
-    background-color: #4d7498; }
-  .tumblr:active {
-    background-color: #2b4054; }
-
-.twitter, .twitter-alt {
-  background-color: #00aced; }
-  .twitter:after, .twitter-alt:after {
-    border-color: #0087ba;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #6ed7ff;
-    box-shadow: inset 0px 1px 2px 0px #6ed7ff; }
-  .twitter:hover, .twitter-alt:hover {
-    background-color: #21c2ff; }
-  .twitter:active, .twitter-alt:active {
-    background-color: #0087ba; }
-
-.twitter:after {
-  background-position: 0 -336px; }
-
+  background-color: #3c5a76;
+}
+.tumblr:after {
+  background-position: 0 -308px;
+  border-color: #2b4054;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #779aba;
+  box-shadow: inset 0px 1px 2px 0px #779aba;
+}
+.tumblr:hover {
+  background-color: #4d7498;
+}
+.tumblr:active {
+  background-color: #2b4054;
+}
+.twitter,
+.twitter-alt {
+  background-color: #00aced;
+}
+.twitter:after,
 .twitter-alt:after {
-  background-position: 0 -364px; }
-
+  border-color: #0087ba;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #6ed7ff;
+  box-shadow: inset 0px 1px 2px 0px #6ed7ff;
+}
+.twitter:hover,
+.twitter-alt:hover {
+  background-color: #21c2ff;
+}
+.twitter:active,
+.twitter-alt:active {
+  background-color: #0087ba;
+}
+.twitter:after {
+  background-position: 0 -336px;
+}
+.twitter-alt:after {
+  background-position: 0 -364px;
+}
 .vimeo {
-  background-color: #5bc8ff; }
-  .vimeo:after {
-    background-position: 0 -392px;
-    border-color: #28b7ff;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #dbf3ff;
-    box-shadow: inset 0px 1px 2px 0px #dbf3ff; }
-  .vimeo:hover {
-    background-color: #8ed9ff; }
-  .vimeo:active {
-    background-color: #28b7ff; }
-
+  background-color: #5bc8ff;
+}
+.vimeo:after {
+  background-position: 0 -392px;
+  border-color: #28b7ff;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #dbf3ff;
+  box-shadow: inset 0px 1px 2px 0px #dbf3ff;
+}
+.vimeo:hover {
+  background-color: #8ed9ff;
+}
+.vimeo:active {
+  background-color: #28b7ff;
+}
 .youtube {
-  background-color: #eeeeee; }
-  .youtube:after {
-    background-position: 0 -420px;
-    border-color: #d4d4d4;
-    -webkit-box-shadow: inset 0px 1px 2px 0px white;
-    box-shadow: inset 0px 1px 2px 0px white; }
-  .youtube:hover {
-    background-color: white; }
-  .youtube:active {
-    background-color: #d4d4d4; }
-
+  background-color: #eeeeee;
+}
+.youtube:after {
+  background-position: 0 -420px;
+  border-color: #d5d5d5;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #ffffff;
+  box-shadow: inset 0px 1px 2px 0px #ffffff;
+}
+.youtube:hover {
+  background-color: #ffffff;
+}
+.youtube:active {
+  background-color: #d5d5d5;
+}
 .youtube-alt {
-  background-color: #fc3f1a; }
-  .youtube-alt:after {
-    background-position: 0 -448px;
-    border-color: #e02703;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #fea998;
-    box-shadow: inset 0px 1px 2px 0px #fea998; }
-  .youtube-alt:hover {
-    background-color: #fd694c; }
-  .youtube-alt:active {
-    background-color: #e02703; }
+  background-color: #fc3f1a;
+}
+.youtube-alt:after {
+  background-position: 0 -448px;
+  border-color: #e02703;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #fea998;
+  box-shadow: inset 0px 1px 2px 0px #fea998;
+}
+.youtube-alt:hover {
+  background-color: #fd694c;
+}
+.youtube-alt:active {
+  background-color: #e02703;
+}
