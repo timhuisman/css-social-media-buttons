@@ -51,14 +51,10 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 **Lists of available classes**
 
-- `facebook`
-- `facebook-alt` (favicon) **!new**
+- `facebook` | `facebook-alt` (favicon) **!new**
 - `flickr`
-- `foursquare`
-- `foursquare-alt` (favicon of Foursquare blog) **!new**
-- `github` (Octocat)
-- `github-alt` (letter 'g')
-- `github-alt2` (favicon) **!new**
+- `foursquare` | `foursquare-alt` (favicon of Foursquare blog) **!new**
+- `github` | `github-alt` (letter 'g') | `github-alt2` (favicon) **!new**
 - `gplus`
 - `icheckmovies`
 - `lastfm`
@@ -66,15 +62,11 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `mail`
 - `path`
 - `rss`
-- `skype` (favicon)
-- `skype-alt` (letter 'S')
+- `skype` | `skype-alt` (letter 'S')
 - `tumblr`
-- `twitter` (Twitter bird)
-- `twitter-alt` (letter 't')
+- `twitter` | `twitter-alt` (letter 't')
 - `vimeo`
-- `youtube` (logo on white background)
-- `youtube-alt` (white logo on red background)
-- `youtube-alt2` (favicon) **!new**
+- `youtube` | `youtube-alt` (logo on red background) | `youtube-alt2` (favicon) **!new**
 
 ## Changelog ##
 
