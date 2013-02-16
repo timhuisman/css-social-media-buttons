@@ -43,6 +43,23 @@ Add a class of a (social) network, like for example `github` (see 'Lists of avai
 
 And that's it!
 
+
+**Alternative buttons**
+
+Some buttons have an alternative version, that use another icon (`github`) and/or different color button (`youtube`).
+Want to use one of these alternative buttons instead? Add `alt` or in case of more than one alternative `alt#` (# is number) as class:
+
+  <a href="#" class="social-btn github alt2"></a>
+  <span class="social-btn github alt2"></span>
+
+If the alternative version also has a different color button (like `youtube`) it is slightly different: this type uses the old (pre 1.3.1) notation with button name and 'alt' as one class:
+
+  <a href="#" class="social-btn youtube-alt"></a>
+  <span class="social-btn youtube-alt"></span>
+
+
+**Rounded buttons**
+
 Don't want fully rounded buttons? Add the class `rounded` for a button with just slightly rounded corners:
 
 	<a href="#" class="social-btn github rounded"></a>
@@ -51,10 +68,10 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 **Lists of available classes**
 
-- `facebook` | `facebook-alt` **!new**
+- `facebook` [`alt` **!new**]
 - `flickr`
-- `foursquare` | `foursquare-alt` **!new**
-- `github` | `github-alt` | `github-alt2` **!new**
+- `foursquare` [`alt` **!new**]
+- `github` [`alt` | `alt2` **!new**]
 - `gplus`
 - `icheckmovies`
 - `lastfm`
@@ -62,17 +79,24 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `mail`
 - `path`
 - `rss`
-- `skype` | `skype-alt`
+- `skype` [`alt`]
 - `tumblr`
-- `twitter` | `twitter-alt`
+- `twitter` [`alt`]
 - `vimeo`
-- `youtube` | `youtube-alt` | `youtube-alt2` **!new**
+- `youtube` [`alt` **!new**] | `youtube-alt`
+
+
 
 ## Changelog ##
 
+**v.1.3.1**
+
+- [**!important] Changed the way how alternative buttons are used: instead of `github-alt` it is now `github alt` (read more under the **Alternative buttons** section). | This has resulted in a decrease in code with 13 lines and 564 charachters, and filesize with 0.564 bytes of the compiled CSS file.
+- [**!important] Switched Github icons: the favicon version is now the primary icon, the Octocat has become `github alt2`.
+
 **v.1.3.0**
 
-- Added four alternative buttons: `facebook-alt`, `foursquare-alt`, `github-alt2` and `youtube-alt2`.
+- [**!important] Added four alternative buttons: `facebook-alt`, `foursquare-alt`, `github-alt2` and `youtube-alt2`.
 
 **v.1.2.5**
 
@@ -91,7 +115,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 **v.1.2.2**
 
-- Updated `foursquare` button: changed background-color and replaced the icon with its official (fav)icon: the green ball with white trail.
+- [**!important] Updated `foursquare` button: changed background-color and replaced the icon with its official (fav)icon: the green ball with white trail.
 
 **v.1.2.1**
 
@@ -99,15 +123,15 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - Optimized images: Saved 2,6 KB of 11,1KB (thanks [@cafferata](https://github.com/cafferata))
 - Added an alternative button: `skype-alt`.
 - Repositioned both Skype icons to the right column in the sprites.
-- Switched Skype icons: the favicon version is now the primary icon.
-- Switched Github icons: the Octocat is now the primary icon.
-- Switched Twitter icons: the Twitter bird is now the primary icon.
+- [**!important] Switched Skype icons: the favicon version is now the primary icon.
+- [**!important] Switched Github icons: the Octocat is now the primary icon.
+- [**!important] Switched Twitter icons: the Twitter bird is now the primary icon.
 - Changed color of _"White"_ (actually `#F1F2F2`) icons to `#fff`;
 - Improved YouTube icons: the word 'Tube' has been made fully transparent.
 
 **v.1.2.0**
 
-- Added two new buttons: `skype` (thanks [@AMeijerNL](https://github.com/AMeijerNL)) and `icheckmovies`.
+- [**!important] Added two new buttons: `skype` (thanks [@AMeijerNL](https://github.com/AMeijerNL)) and `icheckmovies`.
 - Converted sprite from horizontally to vertically orientated (thanks [@AMeijerNL](https://github.com/AMeijerNL)), for smaller file size and load time.
 - Added pointer cursor to button, so that non-anchor elements have the same visual button behaviour as anchor elements.
 - Added source files for both normal and Retina sprites as Adobe Illustrator files.
