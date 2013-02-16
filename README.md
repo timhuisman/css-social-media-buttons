@@ -49,13 +49,13 @@ And that's it!
 Some buttons have an alternative version, that use another icon (`github`) and/or different color button (`youtube`).
 Want to use one of these alternative buttons instead? Add `alt` or in case of more than one alternative `alt#` (# is number) as class:
 
-  <a href="#" class="social-btn github alt2"></a>
-  <span class="social-btn github alt2"></span>
+    <a href="#" class="social-btn github alt2"></a>
+    <span class="social-btn github alt2"></span>
 
 If the alternative version also has a different color button (like `youtube`) it is slightly different: this type uses the old (pre 1.3.1) notation with button name and 'alt' as one class:
 
-  <a href="#" class="social-btn youtube-alt"></a>
-  <span class="social-btn youtube-alt"></span>
+    <a href="#" class="social-btn youtube-alt"></a>
+    <span class="social-btn youtube-alt"></span>
 
 
 **Rounded buttons**
