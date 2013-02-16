@@ -8,7 +8,7 @@
 // FOURSQUARE BUTTON STYLE
 // ------------------------------------------------------------------------------------
 
-.foursquare, .foursquare-alt {
+.foursquare {
   background-color: @color-foursquare;
 
   &:after {
@@ -18,6 +18,6 @@
   }
   &:hover { background-color: lighten( @color-foursquare, @diff-lighter-hover ); }
   &:active { background-color: darken( @color-foursquare, @diff-darker ); }
-}
 
-.foursquare-alt:after { background-position: -28px -140px; }
+  &.alt:after { background-position: -28px -140px; }
+}

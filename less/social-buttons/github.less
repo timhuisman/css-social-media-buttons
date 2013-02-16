@@ -8,17 +8,17 @@
 // GITHUB (ALTERNATIVE) BUTTON STYLE
 // ------------------------------------------------------------------------------------
 
-.github, .github-alt, .github-alt2 {
+.github {
   background-color: @color-github;
 
   &:after {
+    background-position: -28px -56px;
     border-color: darken( @color-github, @diff-darker );
     .box-shadow( inset 0px 1px 2px 0px lighten( @color-github, @diff-lighter ) );
   }
   &:hover { background-color: lighten( @color-github, @diff-lighter-hover ); }
   &:active { background-color: darken( @color-github, @diff-darker ); }
-}
 
-.github:after { background-position: 0 -84px; }
-.github-alt:after { background-position: 0 -112px; }
-.github-alt2:after { background-position: -28px -56px; }
+  &.alt:after { background-position: 0 -112px; }
+  &.alt2:after { background-position: 0 -84px; }
+}

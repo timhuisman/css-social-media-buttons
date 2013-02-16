@@ -8,16 +8,16 @@
 // TWITTER (& ALTERNATIVE) BUTTON STYLE
 // ------------------------------------------------------------------------------------
 
-.twitter, .twitter-alt {
+.twitter {
   background-color: @color-twitter;
 
   &:after {
+    background-position: 0 -336px;
     border-color: darken( @color-twitter, @diff-darker );
     .box-shadow( inset 0px 1px 2px 0px lighten( @color-twitter, @diff-lighter ) );
   }
   &:hover { background-color: lighten( @color-twitter, @diff-lighter-hover ); }
   &:active { background-color: darken( @color-twitter, @diff-darker ); }
-}
 
-.twitter:after { background-position: 0 -336px; }
-.twitter-alt:after { background-position: 0 -364px; }
+  &.alt:after { background-position: 0 -364px; }
+}

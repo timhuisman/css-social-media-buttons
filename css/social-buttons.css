@@ -58,20 +58,19 @@
     -webkit-background-size: 56px;
     -moz-background-size: 56px;
     background-size: 56px; } }
-.facebook, .facebook-alt {
+.facebook {
   background-color: #4a6ea9; }
-  .facebook:after, .facebook-alt:after {
+  .facebook:after {
     background-position: 0 0;
     border-color: #3a5786;
     -webkit-box-shadow: inset 0px 1px 2px 0px #9eb3d5;
     box-shadow: inset 0px 1px 2px 0px #9eb3d5; }
-  .facebook:hover, .facebook-alt:hover {
+  .facebook:hover {
     background-color: #6989bd; }
-  .facebook:active, .facebook-alt:active {
+  .facebook:active {
     background-color: #3a5786; }
-
-.facebook-alt:after {
-  background-position: -28px -84px; }
+  .facebook.alt:after {
+    background-position: -28px -84px; }
 
 .flickr {
   background-color: #ebebeb; }
@@ -85,40 +84,35 @@
   .flickr:active {
     background-color: #d2d2d2; }
 
-.foursquare, .foursquare-alt {
+.foursquare {
   background-color: #0086bf; }
-  .foursquare:after, .foursquare-alt:after {
+  .foursquare:after {
     background-position: 0 -56px;
     border-color: #00628c;
     -webkit-box-shadow: inset 0px 1px 2px 0px #40c6ff;
     box-shadow: inset 0px 1px 2px 0px #40c6ff; }
-  .foursquare:hover, .foursquare-alt:hover {
+  .foursquare:hover {
     background-color: #00aaf2; }
-  .foursquare:active, .foursquare-alt:active {
+  .foursquare:active {
     background-color: #00628c; }
+  .foursquare.alt:after {
+    background-position: -28px -140px; }
 
-.foursquare-alt:after {
-  background-position: -28px -140px; }
-
-.github, .github-alt, .github-alt2 {
+.github {
   background-color: #eeeeee; }
-  .github:after, .github-alt:after, .github-alt2:after {
+  .github:after {
+    background-position: -28px -56px;
     border-color: #d4d4d4;
     -webkit-box-shadow: inset 0px 1px 2px 0px white;
     box-shadow: inset 0px 1px 2px 0px white; }
-  .github:hover, .github-alt:hover, .github-alt2:hover {
+  .github:hover {
     background-color: white; }
-  .github:active, .github-alt:active, .github-alt2:active {
+  .github:active {
     background-color: #d4d4d4; }
-
-.github:after {
-  background-position: 0 -84px; }
-
-.github-alt:after {
-  background-position: 0 -112px; }
-
-.github-alt2:after {
-  background-position: -28px -56px; }
+  .github.alt:after {
+    background-position: 0 -112px; }
+  .github.alt2:after {
+    background-position: 0 -84px; }
 
 .gplus {
   background-color: #e46044; }
@@ -204,22 +198,19 @@
   .rss:active {
     background-color: #cc5400; }
 
-.skype, .skype-alt {
+.skype {
   background-color: #08a7e3; }
-  .skype:after, .skype-alt:after {
+  .skype:after {
+    background-position: -28px 0;
     border-color: #0683b2;
     -webkit-box-shadow: inset 0px 1px 2px 0px #71d4fa;
     box-shadow: inset 0px 1px 2px 0px #71d4fa; }
-  .skype:hover, .skype-alt:hover {
+  .skype:hover {
     background-color: #27bef7; }
-  .skype:active, .skype-alt:active {
+  .skype:active {
     background-color: #0683b2; }
-
-.skype:after {
-  background-position: -28px 0; }
-
-.skype-alt:after {
-  background-position: -28px -28px; }
+  .skype.alt:after {
+    background-position: -28px -28px; }
 
 .tumblr {
   background-color: #3c5a76; }
@@ -233,22 +224,19 @@
   .tumblr:active {
     background-color: #2b4054; }
 
-.twitter, .twitter-alt {
+.twitter {
   background-color: #00aced; }
-  .twitter:after, .twitter-alt:after {
+  .twitter:after {
+    background-position: 0 -336px;
     border-color: #0087ba;
     -webkit-box-shadow: inset 0px 1px 2px 0px #6ed7ff;
     box-shadow: inset 0px 1px 2px 0px #6ed7ff; }
-  .twitter:hover, .twitter-alt:hover {
+  .twitter:hover {
     background-color: #21c2ff; }
-  .twitter:active, .twitter-alt:active {
+  .twitter:active {
     background-color: #0087ba; }
-
-.twitter:after {
-  background-position: 0 -336px; }
-
-.twitter-alt:after {
-  background-position: 0 -364px; }
+  .twitter.alt:after {
+    background-position: 0 -364px; }
 
 .vimeo {
   background-color: #5bc8ff; }
@@ -262,20 +250,19 @@
   .vimeo:active {
     background-color: #28b7ff; }
 
-.youtube, .youtube-alt2 {
+.youtube {
   background-color: #eeeeee; }
-  .youtube:after, .youtube-alt2:after {
+  .youtube:after {
     background-position: 0 -420px;
     border-color: #d4d4d4;
     -webkit-box-shadow: inset 0px 1px 2px 0px white;
     box-shadow: inset 0px 1px 2px 0px white; }
-  .youtube:hover, .youtube-alt2:hover {
+  .youtube:hover {
     background-color: white; }
-  .youtube:active, .youtube-alt2:active {
+  .youtube:active {
     background-color: #d4d4d4; }
-
-.youtube-alt2:after {
-  background-position: -28px -112px; }
+  .youtube.alt:after {
+    background-position: -28px -112px; }
 
 .youtube-alt {
   background-color: #fc3f1a; }

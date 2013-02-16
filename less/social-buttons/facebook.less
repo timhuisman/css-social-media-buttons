@@ -8,7 +8,7 @@
 // FACEBOOK BUTTON STYLE
 // ------------------------------------------------------------------------------------
 
-.facebook, .facebook-alt {
+.facebook {
   background-color: @color-facebook;
 
   &:after {
@@ -18,6 +18,6 @@
   }
   &:hover { background-color: lighten( @color-facebook, @diff-lighter-hover ); }
   &:active { background-color: darken( @color-facebook, @diff-darker ); }
-}
 
-.facebook-alt:after { background-position: -28px -84px; }
+  &.alt:after { background-position: -28px -84px; }
+}
