@@ -89,7 +89,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 ## Changelog ##
 
-**[!]** = Watch out: can cause issues when updating from older version
+**[!]** = Can cause issues when updating from older version
 
 **v.1.3.1**
 
