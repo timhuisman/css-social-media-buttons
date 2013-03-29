@@ -95,7 +95,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 **v.1.4.0**
 
-- Added a new button: `isuu`
+- Added a new button: `issuu`
 
 **v.1.3.1**
 
