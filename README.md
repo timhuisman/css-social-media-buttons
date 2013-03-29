@@ -47,12 +47,13 @@ And that's it!
 **Alternative buttons**
 
 Some buttons have an alternative version, that use another icon (`github`) and/or different color button (`youtube`).
-Want to use one of these alternative buttons instead? Add `alt` or in case of more than one alternative `alt#` (# is number) as class:
+
+If the alternative version only has a different icon add `alt` or `alt#` (# is a number) as extra class:
 
     <a href="#" class="social-btn github alt2"></a>
     <span class="social-btn github alt2"></span>
 
-If the alternative version also has a different color button (like `youtube`) it is slightly different: this type uses the old (pre 1.3.1) notation with button name and 'alt' as one class:
+For alternative version with a different color button (like `youtube`) the old (pre 1.3.1) classes are still used:
 
     <a href="#" class="social-btn youtube-alt"></a>
     <span class="social-btn youtube-alt"></span>
@@ -68,12 +69,13 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 **Lists of available classes**
 
-- `facebook` [`alt` **!new**]
+- `facebook` [`alt`]
 - `flickr`
-- `foursquare` [`alt` **!new**]
-- `github` [`alt` | `alt2` **!new**]
+- `foursquare` [`alt`]
+- `github` [`alt` | `alt2`]
 - `gplus`
 - `icheckmovies`
+- `issue` **!new**
 - `lastfm`
 - `linkedin`
 - `mail`
@@ -83,13 +85,17 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `tumblr`
 - `twitter` [`alt`]
 - `vimeo`
-- `youtube` [`alt` **!new**] | `youtube-alt`
+- `youtube` [`alt`] | `youtube-alt`
 
 
 
 ## Changelog ##
 
-**[!]** = Watch out: can cause issues when updating from older version
+**[!]** = Can cause issues when updating from older version
+
+**v.1.4.0**
+
+- Added a new button: `isuu`
 
 **v.1.3.1**
 
@@ -129,7 +135,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - **[!]** Switched Skype icons: the favicon version is now the primary icon.
 - **[!]** Switched Github icons: the Octocat is now the primary icon.
 - **[!]** Switched Twitter icons: the Twitter bird is now the primary icon.
-- Changed color of _"White"_ (actually `#F1F2F2`) icons to `#fff`;
+- Changed color of _"White"_ (actually `#F1F2F2`) icons to `#fff`.
 - Improved YouTube icons: the word 'Tube' has been made fully transparent.
 
 **v.1.2.0**

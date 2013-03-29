@@ -1,0 +1,21 @@
+//
+// VARIABLES
+// ------------------------------------------------------------------------------------
+
+@color-issuu: #ebebeb;
+
+//
+// ISSUU BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.issuu {
+  background-color: @color-issuu;
+
+  &:after {
+    background-position: -28px -168px;
+    border-color: darken( @color-issuu, @diff-darker );
+    .box-shadow( inset 0px 1px 2px 0px lighten( @color-issuu, @diff-lighter ) );
+  }
+  &:hover { background-color: lighten( @color-issuu, @diff-lighter-hover ); }
+  &:active { background-color: darken( @color-issuu, @diff-darker ); }
+}
