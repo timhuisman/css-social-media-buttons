@@ -58,6 +58,30 @@
     -webkit-background-size: 56px;
     -moz-background-size: 56px;
     background-size: 56px; } }
+.drupal {
+  background-color: #ebebeb; }
+  .drupal:after {
+    background-position: -28px -252px;
+    border-color: #d2d2d2;
+    -webkit-box-shadow: inset 0px 1px 2px 0px white;
+    box-shadow: inset 0px 1px 2px 0px white; }
+  .drupal:hover {
+    background-color: white; }
+  .drupal:active {
+    background-color: #d2d2d2; }
+
+.drupal-alt {
+  background-color: #0077c0; }
+  .drupal-alt:after {
+    background-position: -28px -280px;
+    border-color: #00578d;
+    -webkit-box-shadow: inset 0px 1px 2px 0px #41b7ff;
+    box-shadow: inset 0px 1px 2px 0px #41b7ff; }
+  .drupal-alt:hover {
+    background-color: #0097f3; }
+  .drupal-alt:active {
+    background-color: #00578d; }
+
 .facebook {
   background-color: #4a6ea9; }
   .facebook:after {
@@ -186,6 +210,18 @@
   .mail:active {
     background-color: #c5d1d7; }
 
+.myspace {
+  background-color: #313246; }
+  .myspace:after {
+    background-position: -28px -308px;
+    border-color: #1c1d28;
+    -webkit-box-shadow: inset 0px 1px 2px 0px #656891;
+    box-shadow: inset 0px 1px 2px 0px #656891; }
+  .myspace:hover {
+    background-color: #464764; }
+  .myspace:active {
+    background-color: #1c1d28; }
+
 .path {
   background-color: #e3432c; }
   .path:after {
@@ -261,6 +297,30 @@
     background-color: #8ed9ff; }
   .vimeo:active {
     background-color: #28b7ff; }
+
+.wordpress {
+  background-color: #ebebeb; }
+  .wordpress:after {
+    background-position: -28px -196px;
+    border-color: #d2d2d2;
+    -webkit-box-shadow: inset 0px 1px 2px 0px white;
+    box-shadow: inset 0px 1px 2px 0px white; }
+  .wordpress:hover {
+    background-color: white; }
+  .wordpress:active {
+    background-color: #d2d2d2; }
+
+.wordpress-alt {
+  background-color: #454342; }
+  .wordpress-alt:after {
+    background-position: -28px -224px;
+    border-color: #2b2a29;
+    -webkit-box-shadow: inset 0px 1px 2px 0px #868281;
+    box-shadow: inset 0px 1px 2px 0px #868281; }
+  .wordpress-alt:hover {
+    background-color: #5f5c5b; }
+  .wordpress-alt:active {
+    background-color: #2b2a29; }
 
 .youtube {
   background-color: #eeeeee; }

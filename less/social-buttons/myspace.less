@@ -1,0 +1,21 @@
+//
+// VARIABLES
+// ------------------------------------------------------------------------------------
+
+@color-myspace: #313246;
+
+//
+// MYSPACE BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.myspace {
+  background-color: @color-myspace;
+
+  &:after {
+    background-position: -28px -308px;
+    border-color: darken( @color-myspace, @diff-darker );
+    .box-shadow( inset 0px 1px 2px 0px lighten( @color-myspace, @diff-lighter ) );
+  }
+  &:hover { background-color: lighten( @color-myspace, @diff-lighter-hover ); }
+  &:active { background-color: darken( @color-myspace, @diff-darker ); }
+}

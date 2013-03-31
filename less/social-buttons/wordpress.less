@@ -1,0 +1,38 @@
+//
+// VARIABLES
+// ------------------------------------------------------------------------------------
+
+@color-wordpress: #ebebeb;
+@color-wordpress-alt: #454342;
+
+//
+// WORDPRESS BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.wordpress {
+  background-color: @color-wordpress;
+
+  &:after {
+    background-position: -28px -196px;
+    border-color: darken( @color-wordpress, @diff-darker );
+    .box-shadow( inset 0px 1px 2px 0px lighten( @color-wordpress, @diff-lighter ) );
+  }
+  &:hover { background-color: lighten( @color-wordpress, @diff-lighter-hover ); }
+  &:active { background-color: darken( @color-wordpress, @diff-darker ); }
+}
+
+//
+// WORDPRESS (ALTERNATIVE) BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.wordpress-alt {
+  background-color: @color-wordpress-alt;
+
+  &:after {
+    background-position: -28px -224px;
+    border-color: darken( @color-wordpress-alt, @diff-darker );
+    .box-shadow( inset 0px 1px 2px 0px lighten( @color-wordpress-alt, @diff-lighter ) );
+  }
+  &:hover { background-color: lighten( @color-wordpress-alt, @diff-lighter-hover ); }
+  &:active { background-color: darken( @color-wordpress-alt, @diff-darker ); }
+}

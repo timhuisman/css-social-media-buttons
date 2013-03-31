@@ -69,6 +69,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 **Lists of available classes**
 
+- `drupal` | `drupal-alt` **!new**
 - `facebook` [`alt`]
 - `flickr`
 - `foursquare` [`alt`]
@@ -79,12 +80,14 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `lastfm`
 - `linkedin`
 - `mail`
+- `myspace` **!new**
 - `path`
 - `rss`
 - `skype` [`alt`]
 - `tumblr`
 - `twitter` [`alt`]
 - `vimeo`
+- `wordpress` | `wordpress-alt` **!new**
 - `youtube` [`alt`] | `youtube-alt`
 
 
@@ -95,7 +98,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 **v.1.4.0**
 
-- Added a new button: `issuu`
+- Added six new buttons: `drupal` (official blue icon on white background), `drupal-alt` (white icon on blue background), `issuu`, `myspace`, `wordpress` (grey icon on white background) and `wordpress-alt` (white icon on grey background).
 
 **v.1.3.1**
 

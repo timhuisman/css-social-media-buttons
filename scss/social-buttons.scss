@@ -100,6 +100,7 @@ only screen and (min-device-pixel-ratio: 2) {
 // To keep the CSS file small it is recommended to comment out/remove the files below that won't be used //
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
 
+@import "social-buttons/drupal";
 @import "social-buttons/facebook";
 @import "social-buttons/flickr";
 @import "social-buttons/foursquare";
@@ -110,10 +111,12 @@ only screen and (min-device-pixel-ratio: 2) {
 @import "social-buttons/lastfm";
 @import "social-buttons/linkedin";
 @import "social-buttons/mail";
+@import "social-buttons/myspace";
 @import "social-buttons/path";
 @import "social-buttons/rss";
 @import "social-buttons/skype";
 @import "social-buttons/tumblr";
 @import "social-buttons/twitter";
 @import "social-buttons/vimeo";
+@import "social-buttons/wordpress";
 @import "social-buttons/youtube";
