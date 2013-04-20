@@ -96,6 +96,11 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 **[!]** = Can cause issues when updating from older version
 
+**v.1.4.1**
+
+- Improved positioning of Drupal icons
+- Changed the pixel ratio from which the Retina sprite is used: from 2.0 to 1.5.
+
 **v.1.4.0**
 
 - Added six new buttons: `drupal` (official blue icon on white background), `drupal-alt` (white icon on blue background), `issuu`, `myspace`, `wordpress` (grey icon on white background) and `wordpress-alt` (white icon on grey background).
@@ -103,7 +108,6 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 **v.1.3.1**
 
 - **[!]** Changed the way how alternative buttons are used: instead of `github-alt` you'll have to use `github alt` (read more under the *Alternative buttons* section).
-- This has resulted in a decrease in code with 13 lines and 564 charachters, and filesize with 0.564 bytes of the compiled CSS file.
 - **[!]** Switched Github icons: the favicon version is now the primary icon, the Octocat has become `github alt2`.
 
 **v.1.3.0**
