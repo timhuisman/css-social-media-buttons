@@ -53,6 +53,7 @@ $diff-darker: 10%; // Used for: background color of icon in active state
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40ffffff', endColorstr='#00ffffff', GradientType=0 );
   content: '';
   cursor: pointer;
+  @include transition( background-color 0.25s ease );
   display: inline-block;
   position: relative;
   margin: 2px;
@@ -66,7 +67,6 @@ $diff-darker: 10%; // Used for: background color of icon in active state
     display: block;
     position: relative;
   }
-
   &:before {
     border: solid 2px #fff;
     @include box-shadow( 0px 0px 4px 1px rgba( 0, 0, 0, 0.25 ) );

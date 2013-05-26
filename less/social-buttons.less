@@ -12,12 +12,12 @@
   border-radius: @radius;
 }
 
-.transition ( $arguments ) {
-  -webkit-transition: $arguments;
-  -moz-transition: $arguments;
-  -ms-transition: $arguments;
-  -o-transition: $arguments;
-  transition: $arguments;
+.transition ( @arguments ) {
+  -webkit-transition: @arguments;
+  -moz-transition: @arguments;
+  -ms-transition: @arguments;
+  -o-transition: @arguments;
+  transition: @arguments;
 }
 
 //
@@ -53,6 +53,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40ffffff', endColorstr='#00ffffff', GradientType=0 );
   content: '';
   cursor: pointer;
+  .transition( background-color 0.25s ease );
   display: inline-block;
   position: relative;
   margin: 2px;
@@ -66,7 +67,6 @@
     display: block;
     position: relative;
   }
-
   &:before {
     border: solid 2px #fff;
     .box-shadow( 0px 0px 4px 1px rgba( 0, 0, 0, 0.25 ) );
