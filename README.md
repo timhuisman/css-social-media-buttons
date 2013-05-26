@@ -69,25 +69,27 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 **Lists of available classes**
 
-- `drupal` | `drupal-alt` **!new**
+- `drupal` | `drupal-alt`
 - `facebook` [`alt`]
 - `flickr`
 - `foursquare` [`alt`]
 - `github` [`alt` | `alt2`]
 - `gplus`
 - `icheckmovies`
-- `issuu` **!new**
+- `instragram` [`alt`] **!new**
+- `issuu`
 - `lastfm`
 - `linkedin`
 - `mail`
-- `myspace` **!new**
+- `myspace`
 - `path`
+- `pinterest` | `pinterest-alt` **!new**
 - `rss`
 - `skype` [`alt`]
 - `tumblr`
 - `twitter` [`alt`]
 - `vimeo`
-- `wordpress` | `wordpress-alt` **!new**
+- `wordpress` | `wordpress-alt`
 - `youtube` [`alt`] | `youtube-alt`
 
 
@@ -95,6 +97,12 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 ## Changelog ##
 
 **[!]** = Can cause issues when updating from older version
+
+**v.1.5.0**
+
+- Added four new buttons: `pinterest` (on red background), `pinterest-alt` (on dark background), `instagram` and `instagram alt` (simplified icon made by [MarinaD](http://marinad.deviantart.com/art/FREE-Instagram-Vector-Icon-Logo-363269183)).
+- Implemented a CSS transition on hover, changing the background color smoothly.
+- Added `:focus` to all buttons (only had `:hover`) and set `:hover, :focus & .active` correctly for default button style (it was changing `:before` and not the background of the base element).
 
 **v.1.4.1**
 
