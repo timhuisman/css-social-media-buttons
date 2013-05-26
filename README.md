@@ -76,7 +76,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `github` [`alt` | `alt2`]
 - `gplus`
 - `icheckmovies`
-- `instragram` [`alt`] **!new**
+- `instagram` [`alt`] **!new**
 - `issuu`
 - `lastfm`
 - `linkedin`
