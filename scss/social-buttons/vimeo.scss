@@ -16,6 +16,6 @@ $color-vimeo: #5bc8ff;
     border-color: darken( $color-vimeo, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-vimeo, $diff-lighter ) );
   }
-  &:hover { background-color: lighten( $color-vimeo, $diff-lighter-hover ); }
+  &:hover, &:focus { background-color: lighten( $color-vimeo, $diff-lighter-hover ); }
   &:active { background-color: darken( $color-vimeo, $diff-darker ); }
 }

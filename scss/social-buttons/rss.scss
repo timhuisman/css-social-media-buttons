@@ -16,6 +16,6 @@ $color-rss: #ff6900;
     border-color: darken( $color-rss, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-rss, $diff-lighter ) );
   }
-  &:hover { background-color: lighten( $color-rss, $diff-lighter-hover ); }
+  &:hover, &:focus { background-color: lighten( $color-rss, $diff-lighter-hover ); }
   &:active { background-color: darken( $color-rss, $diff-darker ); }
 }

@@ -16,6 +16,6 @@ $color-lastfm: #e02703;
     border-color: darken( $color-lastfm, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-lastfm, $diff-lighter ) );
   }
-  &:hover { background-color: lighten( $color-lastfm, $diff-lighter-hover ); }
+  &:hover, &:focus { background-color: lighten( $color-lastfm, $diff-lighter-hover ); }
   &:active { background-color: darken( $color-lastfm, $diff-darker ); }
 }

@@ -17,7 +17,7 @@ $color-pinterest-alt: #333;
     border-color: darken( $color-pinterest, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-pinterest, $diff-lighter ) );
   }
-  &:hover { background-color: lighten( $color-pinterest, $diff-lighter-hover ); }
+  &:hover, &:focus { background-color: lighten( $color-pinterest, $diff-lighter-hover ); }
   &:active { background-color: darken( $color-pinterest, $diff-darker ); }
 }
 
@@ -33,6 +33,6 @@ $color-pinterest-alt: #333;
     border-color: darken( $color-pinterest-alt, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-pinterest-alt, $diff-lighter ) );
   }
-  &:hover { background-color: lighten( $color-pinterest-alt, $diff-lighter-hover ); }
+  &:hover, &:focus { background-color: lighten( $color-pinterest-alt, $diff-lighter-hover ); }
   &:active { background-color: darken( $color-pinterest-alt, $diff-darker ); }
 }

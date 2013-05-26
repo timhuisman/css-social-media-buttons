@@ -16,7 +16,7 @@
     border-color: darken( @color-skype, @diff-darker );
     .box-shadow( inset 0px 1px 2px 0px lighten( @color-skype, @diff-lighter ) );
   }
-  &:hover { background-color: lighten( @color-skype, @diff-lighter-hover ); }
+  &:hover, &:focus { background-color: lighten( @color-skype, @diff-lighter-hover ); }
   &:active { background-color: darken( @color-skype, @diff-darker ); }
 
   &.alt:after { background-position: -28px -28px; }

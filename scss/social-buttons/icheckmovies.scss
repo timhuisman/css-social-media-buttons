@@ -16,6 +16,6 @@ $color-icheckmovies: #363636;
     border-color: darken( $color-icheckmovies, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-icheckmovies, $diff-lighter ) );
   }
-  &:hover { background-color: lighten( $color-icheckmovies, $diff-lighter-hover ); }
+  &:hover, &:focus { background-color: lighten( $color-icheckmovies, $diff-lighter-hover ); }
   &:active { background-color: darken( $color-icheckmovies, $diff-darker ); }
 }

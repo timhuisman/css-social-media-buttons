@@ -16,7 +16,7 @@ $color-twitter: #00aced;
     border-color: darken( $color-twitter, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-twitter, $diff-lighter ) );
   }
-  &:hover { background-color: lighten( $color-twitter, $diff-lighter-hover ); }
+  &:hover, &:focus { background-color: lighten( $color-twitter, $diff-lighter-hover ); }
   &:active { background-color: darken( $color-twitter, $diff-darker ); }
 
   &.alt:after { background-position: 0 -364px; }

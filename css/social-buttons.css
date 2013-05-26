@@ -1,4 +1,4 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000345}}
 .social-btn {
   background-color: #e3e9ec;
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
@@ -14,12 +14,18 @@
   position: relative;
   margin: 2px;
   z-index: 400; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000361}}
+  .social-btn:hover, .social-btn:focus {
+    background-color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000362}}
+  .social-btn:active {
+    background-color: #c5d1d7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000364}}
   .social-btn:before, .social-btn:after {
     content: "";
     display: block;
     position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000370}}
   .social-btn:before {
     border: solid 2px white;
     -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
@@ -27,13 +33,7 @@
     top: -2px;
     left: -2px;
     z-index: 200; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000366}}
-    .social-btn:before:hover, .social-btn:before:focus {
-      background-color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000367}}
-    .social-btn:before:active {
-      background-color: #c5d1d7; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000377}}
   .social-btn:after {
     background: url("../img/sprite-rsmb.png") no-repeat;
     border: solid 2px #c5d1d7;
@@ -43,27 +43,27 @@
     height: 28px;
     top: -36px;
     z-index: 600; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000387}}
   .social-btn.rounded, .social-btn.rounded:after {
     -webkit-border-radius: 8px;
     border-radius: 8px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000388}}
   .social-btn.rounded:before {
     -webkit-border-radius: 10px;
     border-radius: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000391}}
 .social-btn, .social-btn:before {
   width: 32px;
   height: 32px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000392}}
 .social-btn, .social-btn:before, .social-btn:after {
   -webkit-border-radius: 18px;
   border-radius: 18px; }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000399}}
   .social-btn:after {
     background: url("../img/sprite-rsmb-x2.png") no-repeat;
     -webkit-background-size: 56px;
@@ -79,7 +79,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px white;
     box-shadow: inset 0px 1px 2px 0px white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/drupal\.scss}line{font-family:\0000320}}
-  .drupal:hover {
+  .drupal:hover, .drupal:focus {
     background-color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/drupal\.scss}line{font-family:\0000321}}
   .drupal:active {
@@ -95,7 +95,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #41b7ff;
     box-shadow: inset 0px 1px 2px 0px #41b7ff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/drupal\.scss}line{font-family:\0000336}}
-  .drupal-alt:hover {
+  .drupal-alt:hover, .drupal-alt:focus {
     background-color: #0097f3; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/drupal\.scss}line{font-family:\0000337}}
   .drupal-alt:active {
@@ -111,7 +111,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #9eb3d5;
     box-shadow: inset 0px 1px 2px 0px #9eb3d5; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/facebook\.scss}line{font-family:\0000319}}
-  .facebook:hover {
+  .facebook:hover, .facebook:focus {
     background-color: #6989bd; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/facebook\.scss}line{font-family:\0000320}}
   .facebook:active {
@@ -130,7 +130,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px white;
     box-shadow: inset 0px 1px 2px 0px white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/flickr\.scss}line{font-family:\0000319}}
-  .flickr:hover {
+  .flickr:hover, .flickr:focus {
     background-color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/flickr\.scss}line{font-family:\0000320}}
   .flickr:active {
@@ -146,7 +146,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #40c6ff;
     box-shadow: inset 0px 1px 2px 0px #40c6ff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/foursquare\.scss}line{font-family:\0000319}}
-  .foursquare:hover {
+  .foursquare:hover, .foursquare:focus {
     background-color: #00aaf2; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/foursquare\.scss}line{font-family:\0000320}}
   .foursquare:active {
@@ -165,7 +165,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px white;
     box-shadow: inset 0px 1px 2px 0px white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000319}}
-  .github:hover {
+  .github:hover, .github:focus {
     background-color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000320}}
   .github:active {
@@ -187,7 +187,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #f4bfb3;
     box-shadow: inset 0px 1px 2px 0px #f4bfb3; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/gplus\.scss}line{font-family:\0000319}}
-  .gplus:hover {
+  .gplus:hover, .gplus:focus {
     background-color: #ea8671; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/gplus\.scss}line{font-family:\0000320}}
   .gplus:active {
@@ -203,7 +203,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #767676;
     box-shadow: inset 0px 1px 2px 0px #767676; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/icheckmovies\.scss}line{font-family:\0000319}}
-  .icheckmovies:hover {
+  .icheckmovies:hover, .icheckmovies:focus {
     background-color: #505050; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/icheckmovies\.scss}line{font-family:\0000320}}
   .icheckmovies:active {
@@ -219,7 +219,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px white;
     box-shadow: inset 0px 1px 2px 0px white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/issuu\.scss}line{font-family:\0000319}}
-  .issuu:hover {
+  .issuu:hover, .issuu:focus {
     background-color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/issuu\.scss}line{font-family:\0000320}}
   .issuu:active {
@@ -235,7 +235,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #fd7e66;
     box-shadow: inset 0px 1px 2px 0px #fd7e66; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/lastfm\.scss}line{font-family:\0000319}}
-  .lastfm:hover {
+  .lastfm:hover, .lastfm:focus {
     background-color: #fc3f1a; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/lastfm\.scss}line{font-family:\0000320}}
   .lastfm:active {
@@ -251,7 +251,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #3ed8ff;
     box-shadow: inset 0px 1px 2px 0px #3ed8ff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/linkedin\.scss}line{font-family:\0000319}}
-  .linkedin:hover {
+  .linkedin:hover, .linkedin:focus {
     background-color: #00c0f0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/linkedin\.scss}line{font-family:\0000320}}
   .linkedin:active {
@@ -267,7 +267,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px white;
     box-shadow: inset 0px 1px 2px 0px white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/mail\.scss}line{font-family:\0000319}}
-  .mail:hover {
+  .mail:hover, .mail:focus {
     background-color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/mail\.scss}line{font-family:\0000320}}
   .mail:active {
@@ -283,7 +283,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #656891;
     box-shadow: inset 0px 1px 2px 0px #656891; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/myspace\.scss}line{font-family:\0000319}}
-  .myspace:hover {
+  .myspace:hover, .myspace:focus {
     background-color: #464764; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/myspace\.scss}line{font-family:\0000320}}
   .myspace:active {
@@ -299,7 +299,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #f2a79d;
     box-shadow: inset 0px 1px 2px 0px #f2a79d; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/path\.scss}line{font-family:\0000319}}
-  .path:hover {
+  .path:hover, .path:focus {
     background-color: #e96b59; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/path\.scss}line{font-family:\0000320}}
   .path:active {
@@ -315,7 +315,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #f06e6f;
     box-shadow: inset 0px 1px 2px 0px #f06e6f; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/pinterest\.scss}line{font-family:\0000320}}
-  .pinterest:hover {
+  .pinterest:hover, .pinterest:focus {
     background-color: #e9282b; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/pinterest\.scss}line{font-family:\0000321}}
   .pinterest:active {
@@ -331,7 +331,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #737373;
     box-shadow: inset 0px 1px 2px 0px #737373; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/pinterest\.scss}line{font-family:\0000336}}
-  .pinterest-alt:hover {
+  .pinterest-alt:hover, .pinterest-alt:focus {
     background-color: #4d4d4d; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/pinterest\.scss}line{font-family:\0000337}}
   .pinterest-alt:active {
@@ -347,7 +347,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #ffb480;
     box-shadow: inset 0px 1px 2px 0px #ffb480; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/rss\.scss}line{font-family:\0000319}}
-  .rss:hover {
+  .rss:hover, .rss:focus {
     background-color: #ff8733; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/rss\.scss}line{font-family:\0000320}}
   .rss:active {
@@ -363,7 +363,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #71d4fa;
     box-shadow: inset 0px 1px 2px 0px #71d4fa; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/skype\.scss}line{font-family:\0000319}}
-  .skype:hover {
+  .skype:hover, .skype:focus {
     background-color: #27bef7; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/skype\.scss}line{font-family:\0000320}}
   .skype:active {
@@ -382,7 +382,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #779aba;
     box-shadow: inset 0px 1px 2px 0px #779aba; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/tumblr\.scss}line{font-family:\0000319}}
-  .tumblr:hover {
+  .tumblr:hover, .tumblr:focus {
     background-color: #4d7498; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/tumblr\.scss}line{font-family:\0000320}}
   .tumblr:active {
@@ -398,7 +398,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #6ed7ff;
     box-shadow: inset 0px 1px 2px 0px #6ed7ff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/twitter\.scss}line{font-family:\0000319}}
-  .twitter:hover {
+  .twitter:hover, .twitter:focus {
     background-color: #21c2ff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/twitter\.scss}line{font-family:\0000320}}
   .twitter:active {
@@ -417,7 +417,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #dbf3ff;
     box-shadow: inset 0px 1px 2px 0px #dbf3ff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/vimeo\.scss}line{font-family:\0000319}}
-  .vimeo:hover {
+  .vimeo:hover, .vimeo:focus {
     background-color: #8ed9ff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/vimeo\.scss}line{font-family:\0000320}}
   .vimeo:active {
@@ -433,7 +433,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px white;
     box-shadow: inset 0px 1px 2px 0px white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/wordpress\.scss}line{font-family:\0000320}}
-  .wordpress:hover {
+  .wordpress:hover, .wordpress:focus {
     background-color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/wordpress\.scss}line{font-family:\0000321}}
   .wordpress:active {
@@ -449,7 +449,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #868281;
     box-shadow: inset 0px 1px 2px 0px #868281; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/wordpress\.scss}line{font-family:\0000336}}
-  .wordpress-alt:hover {
+  .wordpress-alt:hover, .wordpress-alt:focus {
     background-color: #5f5c5b; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/wordpress\.scss}line{font-family:\0000337}}
   .wordpress-alt:active {
@@ -465,7 +465,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px white;
     box-shadow: inset 0px 1px 2px 0px white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/youtube\.scss}line{font-family:\0000320}}
-  .youtube:hover {
+  .youtube:hover, .youtube:focus {
     background-color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/youtube\.scss}line{font-family:\0000321}}
   .youtube:active {
@@ -484,7 +484,7 @@
     -webkit-box-shadow: inset 0px 1px 2px 0px #fea998;
     box-shadow: inset 0px 1px 2px 0px #fea998; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/youtube\.scss}line{font-family:\0000338}}
-  .youtube-alt:hover {
+  .youtube-alt:hover, .youtube-alt:focus {
     background-color: #fd694c; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/youtube\.scss}line{font-family:\0000339}}
   .youtube-alt:active {

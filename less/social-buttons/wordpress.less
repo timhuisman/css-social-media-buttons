@@ -17,7 +17,7 @@
     border-color: darken( @color-wordpress, @diff-darker );
     .box-shadow( inset 0px 1px 2px 0px lighten( @color-wordpress, @diff-lighter ) );
   }
-  &:hover { background-color: lighten( @color-wordpress, @diff-lighter-hover ); }
+  &:hover, &:focus { background-color: lighten( @color-wordpress, @diff-lighter-hover ); }
   &:active { background-color: darken( @color-wordpress, @diff-darker ); }
 }
 
@@ -33,6 +33,6 @@
     border-color: darken( @color-wordpress-alt, @diff-darker );
     .box-shadow( inset 0px 1px 2px 0px lighten( @color-wordpress-alt, @diff-lighter ) );
   }
-  &:hover { background-color: lighten( @color-wordpress-alt, @diff-lighter-hover ); }
+  &:hover, &:focus { background-color: lighten( @color-wordpress-alt, @diff-lighter-hover ); }
   &:active { background-color: darken( @color-wordpress-alt, @diff-darker ); }
 }

@@ -12,6 +12,14 @@
   border-radius: @radius;
 }
 
+.transition ( $arguments ) {
+  -webkit-transition: $arguments;
+  -moz-transition: $arguments;
+  -ms-transition: $arguments;
+  -o-transition: $arguments;
+  transition: $arguments;
+}
+
 //
 // VARIABLES
 // ------------------------------------------------------------------------------------
@@ -50,6 +58,9 @@
   margin: 2px;
   z-index: 400;
 
+  &:hover, &:focus { background-color: lighten( @color-default, @diff-lighter-hover ); }
+  &:active { background-color: darken( @color-default, @diff-darker ); }
+
   &:before, &:after {
     content: "";
     display: block;
@@ -62,9 +73,6 @@
     top: -2px;
     left: -2px;
     z-index: 200;
-
-    &:hover, &:focus { background-color: lighten( @color-default, @diff-lighter-hover ); }
-    &:active { background-color: darken( @color-default, @diff-darker ); }
   }
   &:after {
     background: url('@{image-path}/sprite-rsmb.png') no-repeat;

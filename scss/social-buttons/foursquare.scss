@@ -16,7 +16,7 @@ $color-foursquare: #0086bf;
     border-color: darken( $color-foursquare, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-foursquare, $diff-lighter ) );
   }
-  &:hover { background-color: lighten( $color-foursquare, $diff-lighter-hover ); }
+  &:hover, &:focus { background-color: lighten( $color-foursquare, $diff-lighter-hover ); }
   &:active { background-color: darken( $color-foursquare, $diff-darker ); }
 
   &.alt:after { background-position: -28px -140px; }

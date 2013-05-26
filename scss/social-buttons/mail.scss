@@ -16,6 +16,6 @@ $color-mail: $color-default;
     border-color: darken( $color-mail, $diff-darker );
     @include box-shadow( inset 0px 1px 2px 0px lighten( $color-mail, $diff-lighter ) );
   }
-  &:hover { background-color: lighten( $color-mail, $diff-lighter-hover ); }
+  &:hover, &:focus { background-color: lighten( $color-mail, $diff-lighter-hover ); }
   &:active { background-color: darken( $color-mail, $diff-darker ); }
 }
