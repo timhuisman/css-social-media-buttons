@@ -1,0 +1,38 @@
+//
+// VARIABLES
+// ------------------------------------------------------------------------------------
+
+$color-pinterest: #c91517;
+$color-pinterest-alt: #333;
+
+//
+// PINTEREST BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.pinterest {
+  background-color: $color-pinterest;
+
+  &:after {
+    background-position: -28px -336px;
+    border-color: darken( $color-pinterest, $diff-darker );
+    @include box-shadow( inset 0px 1px 2px 0px lighten( $color-pinterest, $diff-lighter ) );
+  }
+  &:hover { background-color: lighten( $color-pinterest, $diff-lighter-hover ); }
+  &:active { background-color: darken( $color-pinterest, $diff-darker ); }
+}
+
+//
+// PINTEREST (ALTERNATIVE) BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.pinterest-alt {
+  background-color: $color-pinterest-alt;
+
+  &:after {
+    background-position: -28px -336px;
+    border-color: darken( $color-pinterest-alt, $diff-darker );
+    @include box-shadow( inset 0px 1px 2px 0px lighten( $color-pinterest-alt, $diff-lighter ) );
+  }
+  &:hover { background-color: lighten( $color-pinterest-alt, $diff-lighter-hover ); }
+  &:active { background-color: darken( $color-pinterest-alt, $diff-darker ); }
+}
