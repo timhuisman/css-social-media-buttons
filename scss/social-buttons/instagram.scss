@@ -1,0 +1,23 @@
+//
+// VARIABLES
+// ------------------------------------------------------------------------------------
+
+$color-instagram: #517fa4;
+
+//
+// INSTAGRAM BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.instagram {
+  background-color: $color-instagram;
+
+  &:after {
+    background-position: -28px -364px;
+    border-color: darken( $color-instagram, $diff-darker );
+    @include box-shadow( inset 0px 1px 2px 0px lighten( $color-instagram, $diff-lighter ) );
+  }
+  &:hover, &:focus { background-color: lighten( $color-instagram, $diff-lighter-hover ); }
+  &:active { background-color: darken( $color-instagram, $diff-darker ); }
+
+  &.alt:after { background-position: -28px -392px; }
+}
