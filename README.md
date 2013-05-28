@@ -76,7 +76,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `github` [`alt` | `alt2`]
 - `gplus`
 - `icheckmovies`
-- `instragram` [`alt`] **!new**
+- `instagram` [`alt`] | `instagram-alt` **!new**
 - `issuu`
 - `lastfm`
 - `linkedin`
@@ -97,6 +97,11 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 ## Changelog ##
 
 **[!]** = Can cause issues when updating from older version
+
+**v.1.5.1**
+
+- Added a second alternative button for Instagram: `instagram-alt` (larger icon and brown border).
+- **[!]** Switched `instagram-alt` and `instragram alt` in the sprite image.
 
 **v.1.5.0**
 
