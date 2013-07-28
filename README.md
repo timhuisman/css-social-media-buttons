@@ -92,7 +92,17 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `wordpress` | `wordpress-alt`
 - `youtube` [`alt`] | `youtube-alt`
 
+## To-Do List ##
 
+This list shows some of the features/bugs I'm planning to work on for feature releases. Missing something? Leave a comment in [Issue #7: More buttons?](https://github.com/timhuisman/round-social-media-buttons/issues/7) or fork and add it yourself (please let me know if you do).
+
+- Add `bitbucket` button.
+- Add `yelp` button.
+- Add browser buttons: `chrome`, `firefox`, `ie`, `opera` and `safari`,
+- Add two alternative `mail` buttons: one with an envelop icon and one with the '@'.
+- Switch `instagram` and `instagram-alt`, making the latter the primary button
+- Fix `icheckmovies` button: icon isn't centered correctly.
+- Add three new button styles: `no-border` (without the two outer borders) and `flat` (without gradients and inner-shadows) and `square` (without rounded corners).
 
 ## Changelog ##
 
