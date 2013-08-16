@@ -216,38 +216,38 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000312}}
 .instagram {
-  background-color: #517fa4; }
+  background-color: #a17c69; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000315}}
   .instagram:after {
-    background-position: -28px -364px;
-    border-color: #406582;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #a3bdd2;
-    box-shadow: inset 0px 1px 2px 0px #a3bdd2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000320}}
-  .instagram:hover, .instagram:focus {
-    background-color: #7098b8; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000321}}
-  .instagram:active {
-    background-color: #406582; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000323}}
-  .instagram.alt:after {
-    background-position: -28px -420px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000330}}
-.instagram-alt {
-  background-color: #a17c69; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000333}}
-  .instagram-alt:after {
     background-position: -28px -392px;
     border-color: #846453;
     -webkit-box-shadow: inset 0px 1px 2px 0px #d2c0b7;
     box-shadow: inset 0px 1px 2px 0px #d2c0b7; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000338}}
-  .instagram-alt:hover, .instagram-alt:focus {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000320}}
+  .instagram:hover, .instagram:focus {
     background-color: #b59788; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000339}}
-  .instagram-alt:active {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000321}}
+  .instagram:active {
     background-color: #846453; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000329}}
+.instagram-alt {
+  background-color: #517fa4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000332}}
+  .instagram-alt:after {
+    background-position: -28px -364px;
+    border-color: #406582;
+    -webkit-box-shadow: inset 0px 1px 2px 0px #a3bdd2;
+    box-shadow: inset 0px 1px 2px 0px #a3bdd2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000337}}
+  .instagram-alt:hover, .instagram-alt:focus {
+    background-color: #7098b8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000338}}
+  .instagram-alt:active {
+    background-color: #406582; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000340}}
+  .instagram-alt.alt:after {
+    background-position: -28px -420px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/issuu\.scss}line{font-family:\0000311}}
 .issuu {

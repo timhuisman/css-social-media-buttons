@@ -76,7 +76,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `github` [`alt` | `alt2`]
 - `gplus`
 - `icheckmovies`
-- `instagram` [`alt`] | `instagram-alt` **!new**
+- `instagram` | `instagram-alt` [`alt`] **!new**
 - `issuu`
 - `lastfm`
 - `linkedin`
@@ -100,13 +100,18 @@ This list shows some of the features/bugs I'm planning to work on for feature re
 - Add `yelp` button.
 - Add browser buttons: `chrome`, `firefox`, `ie`, `opera` and `safari`,
 - Add two alternative `mail` buttons: one with an envelop icon and one with the '@'.
-- Switch `instagram` and `instagram-alt`, making the latter the primary button
+- ~~Switch `instagram` and `instagram-alt`, making the latter the primary button~~
 - Fix `icheckmovies` button: icon isn't centered correctly.
 - Add three new button styles: `no-border` (without the two outer borders) and `flat` (without gradients and inner-shadows) and `square` (without rounded corners).
 
 ## Changelog ##
 
 **[!]** = Can cause issues when updating from older version
+
+**v.1.5.2**
+
+- **[!]** `instagram` and `instagram-alt` have been switched, making the full icon version the primary button.
+- **[!]** `instagram alt` has been changed to `instagram-alt alt`.
 
 **v.1.5.1**
 
