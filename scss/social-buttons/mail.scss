@@ -2,7 +2,7 @@
 // VARIABLES
 // ------------------------------------------------------------------------------------
 
-$color-mail: $color-default;
+$color-mail: #ebebeb;
 
 //
 // MAIL BUTTON STYLE
@@ -18,4 +18,7 @@ $color-mail: $color-default;
   }
   &:hover, &:focus { background-color: lighten( $color-mail, $diff-lighter-hover ); }
   &:active { background-color: darken( $color-mail, $diff-darker ); }
+
+  &.alt:after { background-position: -28px -448px; }
+  &.alt2:after { background-position: -28px -476px; }
 }

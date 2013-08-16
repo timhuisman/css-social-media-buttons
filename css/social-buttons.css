@@ -299,11 +299,11 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/mail\.scss}line{font-family:\0000311}}
 .mail {
-  background-color: #e3e9ec; }
+  background-color: #ebebeb; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/mail\.scss}line{font-family:\0000314}}
   .mail:after {
     background-position: 0 -224px;
-    border-color: #c5d1d7;
+    border-color: #d2d2d2;
     -webkit-box-shadow: inset 0px 1px 2px 0px white;
     box-shadow: inset 0px 1px 2px 0px white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/mail\.scss}line{font-family:\0000319}}
@@ -311,7 +311,13 @@
     background-color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/mail\.scss}line{font-family:\0000320}}
   .mail:active {
-    background-color: #c5d1d7; }
+    background-color: #d2d2d2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/mail\.scss}line{font-family:\0000322}}
+  .mail.alt:after {
+    background-position: -28px -448px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/mail\.scss}line{font-family:\0000323}}
+  .mail.alt2:after {
+    background-position: -28px -476px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/myspace\.scss}line{font-family:\0000311}}
 .myspace {

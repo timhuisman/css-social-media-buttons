@@ -76,14 +76,14 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `github` [`alt` | `alt2`]
 - `gplus`
 - `icheckmovies`
-- `instagram` | `instagram-alt` [`alt`] **!new**
+- `instagram` | `instagram-alt` [`alt`]
 - `issuu`
 - `lastfm`
 - `linkedin`
-- `mail`
+- `mail` [`alt` | `alt2`] **!new**
 - `myspace`
 - `path`
-- `pinterest` | `pinterest-alt` **!new**
+- `pinterest` | `pinterest-alt`
 - `rss`
 - `skype` [`alt`]
 - `tumblr`
@@ -99,9 +99,9 @@ This list shows some of the features/bugs I'm planning to work on for feature re
 - Add `bitbucket` button.
 - Add `yelp` button.
 - Add browser buttons: `chrome`, `firefox`, `ie`, `opera` and `safari`,
-- Add two alternative `mail` buttons: one with an envelop icon and one with the '@'.
+- ~~Add two alternative `mail` buttons: one with an envelop icon and one with the '@'.~~
 - ~~Switch `instagram` and `instagram-alt`, making the latter the primary button~~
-- Fix `icheckmovies` button: icon isn't centered correctly.
+- ~~Fix `icheckmovies` button: icon isn't centered correctly.~~
 - Add three new button styles: `no-border` (without the two outer borders) and `flat` (without gradients and inner-shadows) and `square` (without rounded corners).
 
 ## Changelog ##
@@ -110,13 +110,16 @@ This list shows some of the features/bugs I'm planning to work on for feature re
 
 **v.1.5.2**
 
-- **[!]** `instagram` and `instagram-alt` have been switched, making the full icon version the primary button.
-- **[!]** `instagram alt` has been changed to `instagram-alt alt`.
+- Added two alternatives for the e-mail button: `mail alt` (an envelope) and `mail alt2` (a '@').
+- Changed background color of all `mail` buttons from `#e3e9ec` to `#ebebeb`.
+- **[!]** Switched `instagram` and `instagram-alt` buttons, making the full icon version the primary button.
+- **[!]** Renamed `instagram alt` to `instagram-alt alt`.
+- Fixed positioning of `icheckmovies` icon: it wasn't in the middle of the button.
 
 **v.1.5.1**
 
 - Added a second alternative button for Instagram: `instagram-alt` (larger icon and brown border).
-- **[!]** Switched `instagram-alt` and `instragram alt` in the sprite image.
+- **[!]** Switched `instagram-alt` and `instagram alt` in the sprite image.
 
 **v.1.5.0**
 
