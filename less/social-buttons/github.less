@@ -3,6 +3,7 @@
 // ------------------------------------------------------------------------------------
 
 @color-github: #eee;
+@color-github-alt: #333;
 
 //
 // GITHUB (ALTERNATIVE) BUTTON STYLE
@@ -21,4 +22,16 @@
 
   &.alt:after { background-position: 0 -112px; }
   &.alt2:after { background-position: 0 -84px; }
+}
+
+.github-alt {
+  background-color: @color-github-alt;
+
+  &:after {
+    background-position: -56px 0;
+    border-color: darken( @color-github-alt, @diff-darker );
+    .box-shadow( inset 0px 1px 2px 0px lighten( @color-github-alt, @diff-lighter ) );
+  }
+  &:hover, &:focus { background-color: lighten( @color-github-alt, @diff-lighter-hover ); }
+  &:active { background-color: darken( @color-github-alt, @diff-darker ); }
 }

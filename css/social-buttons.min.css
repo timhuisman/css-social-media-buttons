@@ -71,9 +71,9 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\.scss}line{font-family:\0000399}}
   .social-btn:after {
     background: url("../img/sprite-rsmb-x2.png") no-repeat;
-    -webkit-background-size: 56px;
-    -moz-background-size: 56px;
-    background-size: 56px; } }
+    -webkit-background-size: 84px;
+    -moz-background-size: 84px;
+    background-size: 84px; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/drupal\.scss}line{font-family:\0000312}}
 .drupal {
   background-color: #ebebeb; }
@@ -160,27 +160,43 @@
   .foursquare.alt:after {
     background-position: -28px -140px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000312}}
 .github {
   background-color: #eeeeee; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000315}}
   .github:after {
     background-position: -28px -56px;
     border-color: #d4d4d4;
     -webkit-box-shadow: inset 0px 1px 2px 0px white;
     box-shadow: inset 0px 1px 2px 0px white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000320}}
   .github:hover, .github:focus {
     background-color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000321}}
   .github:active {
     background-color: #d4d4d4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000323}}
   .github.alt:after {
     background-position: 0 -112px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000324}}
   .github.alt2:after {
     background-position: 0 -84px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000327}}
+.github-alt {
+  background-color: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000330}}
+  .github-alt:after {
+    background-position: -56px 0;
+    border-color: #1a1a1a;
+    -webkit-box-shadow: inset 0px 1px 2px 0px #737373;
+    box-shadow: inset 0px 1px 2px 0px #737373; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000335}}
+  .github-alt:hover, .github-alt:focus {
+    background-color: #4d4d4d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/github\.scss}line{font-family:\0000336}}
+  .github-alt:active {
+    background-color: #1a1a1a; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/gplus\.scss}line{font-family:\0000311}}
 .gplus {

@@ -98,9 +98,9 @@ only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
   .social-btn:after {
     background: url('#{$image-path}/sprite-rsmb-x2.png') no-repeat;
-    -webkit-background-size: 56px;
-    -moz-background-size: 56px;
-    background-size: 56px;
+    -webkit-background-size: 84px;
+    -moz-background-size: 84px;
+    background-size: 84px;
   }
 }
 
