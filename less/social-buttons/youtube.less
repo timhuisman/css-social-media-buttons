@@ -3,7 +3,7 @@
 // ------------------------------------------------------------------------------------
 
 @color-youtube: #eee;
-@color-youtube-alt: #fc3f1a;
+@color-youtube-alt: #cb2026;
 
 //
 // YOUTUBE BUTTON STYLE
@@ -32,9 +32,11 @@
 
   &:after {
     background-position: 0 -448px;
-    border-color: darken( @color-youtube-alt, @diff-darker );
+    border-color: darken( @color-youtube-alt, 5% );
     .box-shadow( inset 0px 1px 2px 0px lighten( @color-youtube-alt, @diff-lighter ) );
   }
   &:hover, &:focus { background-color: lighten( @color-youtube-alt, @diff-lighter-hover ); }
   &:active { background-color: darken( @color-youtube-alt, @diff-darker ); }
+
+  &.alt:after { background-position: -28px -476px; }
 }

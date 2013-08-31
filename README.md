@@ -101,7 +101,6 @@ This list shows some of the features/bugs I'm planning to work on for feature re
 - [1.x.x] Add `vine` button.
 - [1.x.x] Add browser buttons: `chrome`, `firefox`, `ie`, `opera` and `safari`.
 - [1.x.x] Add alternative `github` button: dark background with white octocat (the current favicon).
-- [1.x.x] Add alternative `youtube` button: like `youtube alt`, but with white icon and red background (current iPhone YouTube icon).
 - [2.x.x] Add a SASS Compass version as to make use of the sprite generate feature: this can result in more efficient sprite images if not using all the buttons.
 - [2.0.0] Add three new button styles: `no-border` (without the two outer borders) and `flat` (without gradients and inner-shadows) and `square` (without rounded corners).
 - [2.0.0] Rewrite default button style to match a `square flat no-border` button, that can be extended to become `round`, `rounded`, `bordered`. This way it will extend the base style instead of reseting and removing the current `round` style.
@@ -110,14 +109,17 @@ This list shows some of the features/bugs I'm planning to work on for feature re
 
 **[!]** = Can cause issues when updating from older version
 
-**v.1.5.3** [WIP]
+**v.1.5.3**
 
-- **[!]** Removed second alternative `mail` button
+- Added alternative YouTube button: `youtube-alt alt`, a white "play" icon on a red background (current iPhone YouTube App icon).
+- Changed color of `youtube` icons from `#ED1C24` to `#CB2026`, making them a darker red.
+- Changed color of `youtube` button backgrounds from `#FC3F1A` to `#CB2026`, making them a darker red.
+- **[!]** Removed second alternative E-mail button: `mail alt2`
 
 **v.1.5.2**
 
-- Added two alternatives for the `mail` button: `mail alt` (an envelope) and `mail alt2` (a '@').
-- Changed background color of all `mail` buttons from `#e3e9ec` to `#ebebeb`.
+- Added two alternatives for the E-mail button: `mail alt` (an envelope) and `mail alt2` (a '@').
+- Changed background color of all `mail` buttons from `#E3E9EC` to `#EBEBEB`.
 - **[!]** Switched `instagram` and `instagram-alt` buttons, making the full icon version the primary button.
 - **[!]** Renamed `instagram alt` to `instagram-alt alt`.
 - Fixed positioning of `icheckmovies` icon: it wasn't in the middle of the button.
@@ -179,7 +181,7 @@ This list shows some of the features/bugs I'm planning to work on for feature re
 - **[!]** Switched Skype icons: the favicon version is now the primary icon.
 - **[!]** Switched Github icons: the Octocat is now the primary icon.
 - **[!]** Switched Twitter icons: the Twitter bird is now the primary icon.
-- Changed color of _"White"_ (actually `#F1F2F2`) icons to `#fff`.
+- Changed color of _"White"_ (actually `#F1F2F2`) icons to `#FFF`.
 - Improved YouTube icons: the word 'Tube' has been made fully transparent.
 
 **v.1.2.0**

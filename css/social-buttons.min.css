@@ -519,16 +519,19 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/youtube\.scss}line{font-family:\0000330}}
 .youtube-alt {
-  background-color: #fc3f1a; }
+  background-color: #cb2026; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/youtube\.scss}line{font-family:\0000333}}
   .youtube-alt:after {
     background-position: 0 -448px;
-    border-color: #e02703;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #fea998;
-    box-shadow: inset 0px 1px 2px 0px #fea998; }
+    border-color: #b51d22;
+    -webkit-box-shadow: inset 0px 1px 2px 0px #eb8083;
+    box-shadow: inset 0px 1px 2px 0px #eb8083; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/youtube\.scss}line{font-family:\0000338}}
   .youtube-alt:hover, .youtube-alt:focus {
-    background-color: #fd694c; }
+    background-color: #e03e43; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/youtube\.scss}line{font-family:\0000339}}
   .youtube-alt:active {
-    background-color: #e02703; }
+    background-color: #9f191e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/youtube\.scss}line{font-family:\0000341}}
+  .youtube-alt.alt:after {
+    background-position: -28px -476px; }
