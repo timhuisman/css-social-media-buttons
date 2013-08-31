@@ -73,14 +73,14 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `facebook` [`alt`]
 - `flickr`
 - `foursquare` [`alt`]
-- `github` [`alt` | `alt2`]
+- `github` [`alt` | `alt2`] | `github-alt` **!new**
 - `gplus`
 - `icheckmovies`
 - `instagram` | `instagram-alt` [`alt`]
 - `issuu`
 - `lastfm`
 - `linkedin`
-- `mail` [`alt`] **!new**
+- `mail` [`alt`]
 - `myspace`
 - `path`
 - `pinterest` | `pinterest-alt`
@@ -90,7 +90,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `twitter` [`alt`]
 - `vimeo`
 - `wordpress` | `wordpress-alt`
-- `youtube` [`alt`] | `youtube-alt`
+- `youtube` [`alt`] | `youtube-alt` [`alt` **!new**]
 
 ## To-Do List ##
 
