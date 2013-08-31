@@ -20,5 +20,4 @@ $color-mail: #ebebeb;
   &:active { background-color: darken( $color-mail, $diff-darker ); }
 
   &.alt:after { background-position: -28px -448px; }
-  &.alt2:after { background-position: -28px -476px; }
 }

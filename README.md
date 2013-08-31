@@ -80,7 +80,7 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `issuu`
 - `lastfm`
 - `linkedin`
-- `mail` [`alt` | `alt2`] **!new**
+- `mail` [`alt`] **!new**
 - `myspace`
 - `path`
 - `pinterest` | `pinterest-alt`
@@ -96,27 +96,27 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 This list shows some of the features/bugs I'm planning to work on for feature releases. Missing something? Leave a comment in [Issue #7: More buttons?](https://github.com/timhuisman/round-social-media-buttons/issues/7) or fork and add it yourself (please let me know if you do).
 
-- [1.x.x] Remove the mouse cursor from the preview image ^_^
 - [1.x.x] Add `bitbucket` button.
 - [1.x.x] Add `yelp` button.
 - [1.x.x] Add `vine` button.
 - [1.x.x] Add browser buttons: `chrome`, `firefox`, `ie`, `opera` and `safari`.
 - [1.x.x] Add alternative `github` button: dark background with white octocat (the current favicon).
 - [1.x.x] Add alternative `youtube` button: like `youtube alt`, but with white icon and red background (current iPhone YouTube icon).
-- [1.x.x] Add a SASS Compass version as to make use of the sprite generate feature: this can result in more efficient sprite images if not using all the buttons.
+- [2.x.x] Add a SASS Compass version as to make use of the sprite generate feature: this can result in more efficient sprite images if not using all the buttons.
 - [2.0.0] Add three new button styles: `no-border` (without the two outer borders) and `flat` (without gradients and inner-shadows) and `square` (without rounded corners).
 - [2.0.0] Rewrite default button style to match a `square flat no-border` button, that can be extended to become `round`, `rounded`, `bordered`. This way it will extend the base style instead of reseting and removing the current `round` style.
-- [1.5.2] ~~Add two alternative `mail` buttons: one with an envelop icon and one with the '@'.~~
-- [1.5.2] ~~Switch `instagram` and `instagram-alt`, making the latter the primary button~~
-- [1.5.2] ~~Fix `icheckmovies` button: icon isn't centered correctly.~~
 
 ## Changelog ##
 
 **[!]** = Can cause issues when updating from older version
 
+**v.1.5.3** [WIP]
+
+- **[!]** Removed second alternative `mail` button
+
 **v.1.5.2**
 
-- Added two alternatives for the e-mail button: `mail alt` (an envelope) and `mail alt2` (a '@').
+- Added two alternatives for the `mail` button: `mail alt` (an envelope) and `mail alt2` (a '@').
 - Changed background color of all `mail` buttons from `#e3e9ec` to `#ebebeb`.
 - **[!]** Switched `instagram` and `instagram-alt` buttons, making the full icon version the primary button.
 - **[!]** Renamed `instagram alt` to `instagram-alt alt`.
