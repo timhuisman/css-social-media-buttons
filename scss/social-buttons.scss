@@ -108,6 +108,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 // To keep the CSS file small it is recommended to comment out/remove the files below that won't be used //
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
 
+@import "social-buttons/bitbucket";
 @import "social-buttons/drupal";
 @import "social-buttons/facebook";
 @import "social-buttons/flickr";

@@ -1,0 +1,38 @@
+//
+// VARIABLES
+// ------------------------------------------------------------------------------------
+
+@color-bitbucket: #eee;
+@color-bitbucket-alt: #1b3664;
+
+//
+// DRUPAL BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.bitbucket {
+  background-color: @color-bitbucket;
+
+  &:after {
+    background-position: -56px -56px;
+    border-color: darken( @color-bitbucket, @diff-darker );
+    .box-shadow( inset 0px 1px 2px 0px lighten( @color-bitbucket, @diff-lighter ) );
+  }
+  &:hover, &:focus { background-color: lighten( @color-bitbucket, @diff-lighter-hover ); }
+  &:active { background-color: darken( @color-bitbucket, @diff-darker ); }
+}
+
+//
+// DRUPAL (ALTERNATIVE) BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.bitbucket-alt {
+  background-color: @color-bitbucket-alt;
+
+  &:after {
+    background-position: -56px -84px;
+    border-color: darken( @color-bitbucket-alt, @diff-darker );
+    .box-shadow( inset 0px 1px 2px 0px lighten( @color-bitbucket-alt, @diff-lighter ) );
+  }
+  &:hover, &:focus { background-color: lighten( @color-bitbucket-alt, @diff-lighter-hover ); }
+  &:active { background-color: darken( @color-bitbucket-alt, @diff-darker ); }
+}
