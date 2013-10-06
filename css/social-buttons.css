@@ -562,6 +562,22 @@
   .wordpress-alt:active {
     background-color: #2b2a29; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/yelp\.scss}line{font-family:\0000311}}
+.yelp {
+  background-color: #bc2a0a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/yelp\.scss}line{font-family:\0000314}}
+  .yelp:after {
+    background-position: -56px -112px;
+    border-color: #8c1f07;
+    -webkit-box-shadow: inset 0px 1px 2px 0px #f66e50;
+    box-shadow: inset 0px 1px 2px 0px #f66e50; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/yelp\.scss}line{font-family:\0000319}}
+  .yelp:hover, .yelp:focus {
+    background-color: #ec350d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/yelp\.scss}line{font-family:\0000320}}
+  .yelp:active {
+    background-color: #8c1f07; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/youtube\.scss}line{font-family:\0000312}}
 .youtube {
   background-color: #eeeeee; }
