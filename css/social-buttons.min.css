@@ -262,6 +262,22 @@
   .icheckmovies:active {
     background-color: #1c1c1c; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/imdb\.scss}line{font-family:\0000311}}
+.imdb {
+  background-color: #f3ce13; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/imdb\.scss}line{font-family:\0000314}}
+  .imdb:after {
+    background-position: -56px -140px;
+    border-color: #c9a90a;
+    -webkit-box-shadow: inset 0px 1px 2px 0px #f9e78c;
+    box-shadow: inset 0px 1px 2px 0px #f9e78c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/imdb\.scss}line{font-family:\0000319}}
+  .imdb:hover, .imdb:focus {
+    background-color: #f5d844; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/imdb\.scss}line{font-family:\0000320}}
+  .imdb:active {
+    background-color: #c9a90a; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/timhuisman\/Sites\/round-social-media-buttons\/scss\/social-buttons\/instagram\.scss}line{font-family:\0000312}}
 .instagram {
   background-color: #a17c69; }
