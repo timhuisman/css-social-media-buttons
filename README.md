@@ -69,18 +69,20 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 
 **Lists of available classes**
 
+- `bitbucket` | `bitbucket-alt` **!new**
 - `drupal` | `drupal-alt`
 - `facebook` [`alt`]
 - `flickr`
 - `foursquare` [`alt`]
-- `github` [`alt` | `alt2`] | `github-alt` **!new**
-- `gplus`
+- `github` [`alt` | `alt2`] | `github-alt`
+- `gplus` **!updated**
 - `icheckmovies`
-- `instagram` | `instagram-alt` [`alt`]
+- `imdb` **!new**
+- `instagram` | `instagram-alt`
 - `issuu`
 - `lastfm`
 - `linkedin`
-- `mail` [`alt`]
+- `mail` [`alt` **!updated**]
 - `myspace`
 - `path`
 - `pinterest` | `pinterest-alt`
@@ -89,16 +91,16 @@ Don't want fully rounded buttons? Add the class `rounded` for a button with just
 - `tumblr`
 - `twitter` [`alt`]
 - `vimeo`
+- `vine` **!new**
 - `wordpress` | `wordpress-alt`
-- `youtube` [`alt`] | `youtube-alt` [`alt` **!new**]
+- `yelp` **!new**
+- `youtube` [`alt`] | `youtube-alt` [`alt`]
 
 ## To-Do List ##
 
 This list shows some of the features/bugs I'm planning to work on for feature releases. Missing something? Leave a comment in [Issue #7: More buttons?](https://github.com/timhuisman/round-social-media-buttons/issues/7) or fork and add it yourself (please let me know if you do).
 
-- [1.x.x] Add `bitbucket` button.
-- [1.x.x] Add `yelp` button.
-- [1.x.x] Add `vine` button.
+- [1.x.x] Add music service buttons: `spotify` and `soundcloud`.
 - [1.x.x] Add browser buttons: `chrome`, `firefox`, `ie`, `opera` and `safari`.
 - [2.x.x] Add a SASS Compass version as to make use of the sprite generate feature: this can result in more efficient sprite images if not using all the buttons.
 - [2.0.0] Add three new button styles: `no-border` (without the two outer borders) and `flat` (without gradients and inner-shadows) and `square` (without rounded corners).
@@ -107,6 +109,14 @@ This list shows some of the features/bugs I'm planning to work on for feature re
 ## Changelog ##
 
 **[!]** = Can cause issues when updating from older version
+
+**v.1.6.0**
+
+- Added five new buttons: `bitbucket` (blue logo on white background), `bitbucket-alt` (white logo on blue background), `imdb`, `vine` and `yelp`.
+- **[!]** Changed icon of `gplus` button: larger icon.
+- **[!]** Changed icon of `mail alt` button: replaced with the Gmail favicon.
+- **[!]** Removed `instagram-alt`: the small Instagram icon on a blue background.
+- **[!]** Renamed `instagram-alt alt` to `instagram-alt`.
 
 **v.1.5.3**
 
