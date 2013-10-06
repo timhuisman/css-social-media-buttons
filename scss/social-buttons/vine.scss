@@ -1,0 +1,21 @@
+//
+// VARIABLES
+// ------------------------------------------------------------------------------------
+
+$color-vine: #00a47a;
+
+//
+// FLICKR BUTTON STYLE
+// ------------------------------------------------------------------------------------
+
+.vine {
+  background-color: $color-vine;
+
+  &:after {
+    background-position: -56px -28px;
+    border-color: darken( $color-vine, $diff-darker );
+    @include box-shadow( inset 0px 1px 2px 0px lighten( $color-vine, $diff-lighter ) );
+  }
+  &:hover, &:focus { background-color: lighten( $color-vine, $diff-lighter-hover ); }
+  &:active { background-color: darken( $color-vine, $diff-darker ); }
+}
