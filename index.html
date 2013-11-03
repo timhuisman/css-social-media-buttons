@@ -1,290 +1,468 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Round Social Media Buttons</title>
+    <title>CSS Social Media Buttons v.2</title>
 
-		<link rel="stylesheet" href="css/social-buttons.css">
-		<style>
-			.container {
-				overflow: hidden;
-				max-width: 850px;
-				margin: 0 auto;
-				padding: 10px;
-			}
-			.btn-container {
-				float: left;
-				width: 106px;
-				height: 80px;
-			}
-			span {
-				font: 400 12px/20px Corbel, Calibri, Helvetica, Verdana, sans-serif;
-				display: block;
-			}
-		</style>
+    <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/csmb.css">
   </head>
 
   <body>
-    <!--[if lt IE 8]>
-        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-    <![endif]-->
+    <!-- Types -->
 
-		<div class="container">
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded bitbucket"></a>
-				<a href="#" class="social-btn bitbucket"></a>
-				<span>.bitbucket</span>
-			</div>
+    <div class="container types cf">
+      <div class="types-container default cf">
+        <div class="button-container">
+          <div class="buttons">
+            <a href="#" class="csmb deviantart">DeviantART</a>
+          </div>
+          <span class="type">.csmb</span>
+        </div>
+        
+        <div class="button-container">
+          <div class="buttons">
+            <span href="#" class="csmb csmb-border deviantart">DeviantART</span>
+          </div>
+          <span class="type">.csmb-border .csmb</span>
+        </div>
+        
+        <div class="button-container">
+          <div class="buttons">
+            <a href="#" class="csmb csmb-rounded deviantart">DeviantART</a>
+          </div>
+          <span class="type">.csmb-rounded .csmb</span>
+        </div>
+        
+        <div class="button-container">
+          <div class="buttons">
+            <a href="#" class="csmb csmb-rounded csmb-border deviantart">DeviantART</a>
+          </div>
+          <span class="type">.csmb-border .csmb-rounded .csmb</span>
+        </div>
+        
+        <div class="button-container">
+          <div class="buttons">
+            <span href="#" class="csmb csmb-round deviantart">DeviantART</span>
+          </div>
+          <span class="type">.csmb-round .csmb</span>
+        </div>
+        
+        <div class="button-container">
+          <div class="buttons">
+            <a href="#" class="csmb csmb-round csmb-border deviantart">DeviantART</a>
+          </div>
+          <span class="type">.csmb-border .csmb-round .csmb</span>
+        </div>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded bitbucket-alt"></a>
-				<a href="#" class="social-btn bitbucket-alt"></a>
-				<span>.bitbucket-alt</span>
-			</div>
+      <div class="types-container flat cf">
+        <div class="button-container">
+          <div class="buttons">
+            <a href="#" class="csmb-flat deviantart">DeviantART</a>
+          </div>
+          <span class="type">.csmb-flat</span>
+        </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded drupal"></a>
-				<a href="#" class="social-btn drupal"></a>
-				<span>.drupal</span>
-			</div>
+        <div class="button-container">
+          <div class="buttons">
+            <span href="#" class="csmb-flat csmb-border deviantart">DeviantART</span>
+          </div>
+          <span class="type">.csmb-flat .csmb-border</span>
+        </div>
+        
+        <div class="button-container">
+          <div class="buttons">
+            <a href="#" class="csmb-flat csmb-rounded deviantart">DeviantART</a>
+          </div>
+          <span class="type">.csmb-flat .csmb-rounded</span>
+        </div>
+        
+        <div class="button-container">
+          <div class="buttons">
+            <a href="#" class="csmb-flat csmb-rounded csmb-border deviantart">DeviantART</a>
+          </div>
+          <span class="type">.csmb-flat .csmb-rounded .csmb-border</span>
+        </div>
+        
+        <div class="button-container">
+          <div class="buttons">
+            <span href="#" class="csmb-flat csmb-round deviantart">DeviantART</span>
+          </div>
+          <span class="type">.csmb-flat .csmb-round</span>
+        </div>
+        
+        <div class="button-container">
+          <div class="buttons">
+            <a href="#" class="csmb-flat csmb-round csmb-border deviantart">DeviantART</a>
+          </div>
+          <span class="type">.csmb-flat .csmb-round .csmb-border</span>
+        </div>
+      </div>
+    </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded drupal-alt"></a>
-				<a href="#" class="social-btn drupal-alt"></a>
-				<span>.drupal-alt</span>
-			</div>
+    <!-- Buttons -->
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded facebook"></a>
-				<a href="#" class="social-btn facebook"></a>
-				<span>.facebook</span>
-			</div>
+    <div class="container buttons cf">
+      <div class="buttons-container cf">
+      	<div class="buttons default">
+      		<a href="#" class="csmb csmb-round csmb-border bitbucket">Bitbucket</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border bitbucket">Bitbucket</a>
+      	</div>
+        <span class="type">.bitbucket</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded facebook alt"></a>
-				<a href="#" class="social-btn facebook alt"></a>
-				<span>.facebook .alt</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border blogger">Blogger</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border blogger">Blogger</a>
+        </div>
+        <span class="type">.blogger</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded flickr"></a>
-				<a href="#" class="social-btn flickr"></a>
-				<span>.flickr</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border delicious">Delicious</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border delicious">Delicious</a>
+        </div>
+        <span class="type">.delicious</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded foursquare"></a>
-				<a href="#" class="social-btn foursquare"></a>
-				<span>.foursquare</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border deviantart">DeviantART</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border deviantart">DeviantART</a>
+        </div>
+        <span class="type">.deviantart</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded foursquare alt"></a>
-				<a href="#" class="social-btn foursquare alt"></a>
-				<span>.foursquare .alt</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border digg">Digg</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border digg">Digg</a>
+        </div>
+        <span class="type">.digg</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded github"></a>
-				<a href="#" class="social-btn github"></a>
-				<span>.github</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border dropbox">Dropbox</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border dropbox">Dropbox</a>
+        </div>
+        <span class="type">.dropbox</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded github alt"></a>
-				<a href="#" class="social-btn github alt"></a>
-				<span>.github .alt</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border drupal">Drupal</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border drupal">Drupal</a>
+        </div>
+        <span class="type">.drupal</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded github alt2"></a>
-				<a href="#" class="social-btn github alt2"></a>
-				<span>.github .alt2</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border facebook">Facebook</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border facebook">Facebook</a>
+        </div>
+        <span class="type">.facebook</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded github-alt"></a>
-				<a href="#" class="social-btn github-alt"></a>
-				<span>.github-alt</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border facebook alt">Facebook</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border facebook alt">Facebook</a>
+        </div>
+        <span class="type">.facebook.alt</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded gplus"></a>
-				<a href="#" class="social-btn gplus"></a>
-				<span>.gplus</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border flickr">Flickr</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border flickr">Flickr</a>
+        </div>
+        <span class="type">.flickr</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded icheckmovies"></a>
-				<a href="#" class="social-btn icheckmovies"></a>
-				<span>.icheckmovies</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border foursquare">Foursquare</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border foursquare">Foursquare</a>
+        </div>
+        <span class="type">.foursquare</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded imdb"></a>
-				<a href="#" class="social-btn imdb"></a>
-				<span>.imdb</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border foursquare alt">Foursquare</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border foursquare alt">Foursquare</a>
+        </div>
+        <span class="type">.foursquare.alt</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded instagram"></a>
-				<a href="#" class="social-btn instagram"></a>
-				<span>.instagram</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border github">GitHub</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border github">GitHub</a>
+        </div>
+        <span class="type">.github</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded instagram-alt"></a>
-				<a href="#" class="social-btn instagram-alt"></a>
-				<span>.instagram-alt</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border github alt">GitHub</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border github alt">GitHub</a>
+        </div>
+        <span class="type">.github.alt</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded issuu"></a>
-				<a href="#" class="social-btn issuu"></a>
-				<span>.issuu</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border github-alt">GitHub</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border github-alt">GitHub</a>
+        </div>
+        <span class="type">.github-alt</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded lastfm"></a>
-				<a href="#" class="social-btn lastfm"></a>
-				<span>.lastfm</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border gplus">Google+</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border gplus">Google+</a>
+        </div>
+        <span class="type">.gplus</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded linkedin"></a>
-				<a href="#" class="social-btn linkedin"></a>
-				<span>.linkedin</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border grooveshark">Grooveshark</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border grooveshark">Grooveshark</a>
+        </div>
+        <span class="type">.grooveshark</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded mail"></a>
-				<a href="#" class="social-btn mail"></a>
-				<span>.mail</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border icheckmovies">iCheckMovies</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border icheckmovies">iCheckMovies</a>
+        </div>
+        <span class="type">.icheckmovies</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded mail alt"></a>
-				<a href="#" class="social-btn mail alt"></a>
-				<span>.mail .alt</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border imdb">IMDB</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border imdb">IMDB</a>
+        </div>
+        <span class="type">.imdb</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded myspace"></a>
-				<a href="#" class="social-btn myspace"></a>
-				<span>.myspace</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border instagram">Instagram</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border instagram">Instagram</a>
+        </div>
+        <span class="type">.instagram</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded path"></a>
-				<a href="#" class="social-btn path"></a>
-				<span>.path</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border instagram-alt">Instagram</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border instagram-alt">Instagram</a>
+        </div>
+        <span class="type">.instagram-alt</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded pinterest"></a>
-				<a href="#" class="social-btn pinterest"></a>
-				<span>.pinterest</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border issuu">Issuu</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border issuu">Issuu</a>
+        </div>
+        <span class="type">.issuu</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded pinterest-alt"></a>
-				<a href="#" class="social-btn pinterest-alt"></a>
-				<span>.pinterest-alt</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border lastfm">Last.fm</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border lastfm">Last.fm</a>
+        </div>
+        <span class="type">.lastfm</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded rss"></a>
-				<a href="#" class="social-btn rss"></a>
-				<span>.rss</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border linkedin">LinkedIn</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border linkedin">LinkedIn</a>
+        </div>
+        <span class="type">.linkedin</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded skype"></a>
-				<a href="#" class="social-btn skype"></a>
-				<span>.skype</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border mail">E-mail</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border mail">E-mail</a>
+        </div>
+        <span class="type">.mail</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded skype alt"></a>
-				<a href="#" class="social-btn skype alt"></a>
-				<span>.skype .alt</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border myspace">MySpace</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border myspace">MySpace</a>
+        </div>
+        <span class="type">.myspace</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded tumblr"></a>
-				<a href="#" class="social-btn tumblr"></a>
-				<span>.tumblr</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border path">Path</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border path">Path</a>
+        </div>
+        <span class="type">.path</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded twitter"></a>
-				<a href="#" class="social-btn twitter"></a>
-				<span>.twitter</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border paypal">PayPal</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border paypal">PayPal</a>
+        </div>
+        <span class="type">.paypal</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded twitter alt"></a>
-				<a href="#" class="social-btn twitter alt"></a>
-				<span>.twitter .alt</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border pinterest">Pinterest</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border pinterest">Pinterest</a>
+        </div>
+        <span class="type">.pinterest</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded vimeo"></a>
-				<a href="#" class="social-btn vimeo"></a>
-				<span>.vimeo</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border reddit">Reddit</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border reddit">Reddit</a>
+        </div>
+        <span class="type">.reddit</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded vine"></a>
-				<a href="#" class="social-btn vine"></a>
-				<span>.vine</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border rss">RSS</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border rss">RSS</a>
+        </div>
+        <span class="type">.rss</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded wordpress"></a>
-				<a href="#" class="social-btn wordpress"></a>
-				<span>.wordpress</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border skype">Skype</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border skype">Skype</a>
+        </div>
+        <span class="type">.skype</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded wordpress-alt"></a>
-				<a href="#" class="social-btn wordpress-alt"></a>
-				<span>.wordpress-alt</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border soundcloud">Soundcloud</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border soundcloud">Soundcloud</a>
+        </div>
+        <span class="type">.soundcloud</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded yelp"></a>
-				<a href="#" class="social-btn yelp"></a>
-				<span>.yelp</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border spotify">Spotify</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border spotify">Spotify</a>
+        </div>
+        <span class="type">.spotify</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded youtube"></a>
-				<a href="#" class="social-btn youtube"></a>
-				<span>.youtube</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border stumbleupon">StumbleUpon</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border stumbleupon">StumbleUpon</a>
+        </div>
+        <span class="type">.stumbleupon</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded youtube-alt"></a>
-				<a href="#" class="social-btn youtube-alt"></a>
-				<span>.youtube-alt</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border tumblr">Tumblr</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border tumblr">Tumblr</a>
+        </div>
+        <span class="type">.tumblr</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded youtube alt"></a>
-				<a href="#" class="social-btn youtube alt"></a>
-				<span>.youtube .alt</span>
-			</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border twitter">Twitter</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border twitter">Twitter</a>
+        </div>
+        <span class="type">.twitter</span>
+      </div>
 
-			<div class="btn-container">
-				<a href="#" class="social-btn rounded youtube-alt alt"></a>
-				<a href="#" class="social-btn youtube-alt alt"></a>
-				<span>.youtube-alt .alt</span>
-			</div>
-		</div>
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border twitter alt">Twitter</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border twitter alt">Twitter</a>
+        </div>
+        <span class="type">.twitter.alt</span>
+      </div>
+
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border vimeo">Vimeo</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border vimeo">Vimeo</a>
+        </div>
+        <span class="type">.vimeo</span>
+      </div>
+
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border vine">Vine</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border vine">Vine</a>
+        </div>
+        <span class="type">.vine</span>
+      </div>
+
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border wordpress">Wordpress</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border wordpress">Wordpress</a>
+        </div>
+        <span class="type">.wordpress</span>
+      </div>
+
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border yelp">Yelp</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border yelp">Yelp</a>
+        </div>
+        <span class="type">.yelp</span>
+      </div>
+
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border youtube">YouTube</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border youtube">YouTube</a>
+        </div>
+        <span class="type">.youtube</span>
+      </div>
+
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border youtube-alt">YouTube</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border youtube-alt">YouTube</a>
+        </div>
+        <span class="type">.youtube-alt</span>
+      </div>
+
+      <div class="buttons-container cf">
+        <div class="buttons default">
+          <a href="#" class="csmb csmb-round csmb-border youtube-alt alt">YouTube</a>
+          <a href="#" class="csmb-flat csmb-round csmb-border youtube-alt alt">YouTube</a>
+        </div>
+        <span class="type">.youtube-alt.alt</span>
+      </div>
+    </div>
   </body>
 </html>

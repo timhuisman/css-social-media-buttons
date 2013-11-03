@@ -1,0 +1,86 @@
+body {
+	font: 400 12px/20px Corbel, Calibri, Helvetica, Verdana, sans-serif;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.csmb, .csmb-flat {
+  float: left;
+}
+
+  .container.buttons .csmb {
+    margin-right: 8px;
+  }
+
+.container {
+  width: 960px;
+  margin: 0 auto 20px;
+  clear: both;
+}
+  
+  .container.buttons {
+    border-top: solid 1px #aaa;
+    padding-top: 20px;
+  }
+
+.types-container {
+  width: 50%;
+  float: left;
+}
+
+  .types-container.default .type, .types-container.default .buttons {
+    float: right;
+  }
+
+  .types-container.default .type {
+    margin-right: 20px;
+  }
+
+  .types-container.flat .type, .types-container.flat .buttons {
+    float: left;
+  }
+
+  .types-container.flat .type {
+    margin-left: 20px;
+  }
+
+  .types-container .button-container {
+    overflow: hidden;
+    padding: 4px;
+  }
+
+  .types-container .type {
+    line-height: 36px;
+  }
+
+  .types-container .buttons {
+    width: 36px;
+    height: 36px;
+  }
+
+.buttons-container {
+  float: left;
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+  .buttons-container .type, .buttons-container .buttons {
+    float: left;
+  }
+
+  .buttons-container .type {
+    line-height: 36px;
+    margin-left: 20px;
+  }
+
+  .buttons-container .buttons {
+    height: 36px;
+  }
