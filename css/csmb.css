@@ -114,6 +114,20 @@ a.blogger:hover, a.blogger:focus, button.blogger:hover, button.blogger:focus {
 a.blogger:active, button.blogger:active {
   background-color: #ce3e03; }
 
+.chrome {
+  background-color: #f8f8f8;
+  background-position: -56px -280px; }
+  .chrome.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 white;
+    box-shadow: inset 0 1px 2px 0 white; }
+  .chrome.csmb-border:after {
+    border: solid 2px #dfdfdf; }
+
+a.chrome:hover, a.chrome:focus, button.chrome:hover, button.chrome:focus {
+  background-color: white; }
+a.chrome:active, button.chrome:active {
+  background-color: #dfdfdf; }
+
 .delicious {
   background-color: #eeeeee;
   background-position: -56px -196px; }
@@ -197,6 +211,20 @@ a.facebook:hover, a.facebook:focus, button.facebook:hover, button.facebook:focus
   background-color: #4c70ba; }
 a.facebook:active, button.facebook:active {
   background-color: #2d4373; }
+
+.firefox {
+  background-color: #cae1f4;
+  background-position: -56px -308px; }
+  .firefox.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 white;
+    box-shadow: inset 0 1px 2px 0 white; }
+  .firefox.csmb-border:after {
+    border: solid 2px #a0c9eb; }
+
+a.firefox:hover, a.firefox:focus, button.firefox:hover, button.firefox:focus {
+  background-color: #f4f9fd; }
+a.firefox:active, button.firefox:active {
+  background-color: #a0c9eb; }
 
 .flickr {
   background-color: #f8f8f8;
@@ -295,6 +323,20 @@ a.icheckmovies:hover, a.icheckmovies:focus, button.icheckmovies:hover, button.ic
   background-color: #525252; }
 a.icheckmovies:active, button.icheckmovies:active {
   background-color: #1f1f1f; }
+
+.ie {
+  background-color: #00bcf2;
+  background-position: -56px -392px; }
+  .ie.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 #72e0ff;
+    box-shadow: inset 0 1px 2px 0 #72e0ff; }
+  .ie.csmb-border:after {
+    border: solid 2px #0094bf; }
+
+a.ie:hover, a.ie:focus, button.ie:hover, button.ie:focus {
+  background-color: #26cfff; }
+a.ie:active, button.ie:active {
+  background-color: #0094bf; }
 
 .imdb {
   background-color: #f3ce13;
@@ -408,6 +450,20 @@ a.myspace:hover, a.myspace:focus, button.myspace:hover, button.myspace:focus {
 a.myspace:active, button.myspace:active {
   background-color: #1c1d28; }
 
+.opera {
+  background-color: #f8f8f8;
+  background-position: -56px -336px; }
+  .opera.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 white;
+    box-shadow: inset 0 1px 2px 0 white; }
+  .opera.csmb-border:after {
+    border: solid 2px #dfdfdf; }
+
+a.opera:hover, a.opera:focus, button.opera:hover, button.opera:focus {
+  background-color: white; }
+a.opera:active, button.opera:active {
+  background-color: #dfdfdf; }
+
 .path {
   background-color: #e41f11;
   background-position: 0 -252px; }
@@ -477,6 +533,20 @@ a.rss:hover, a.rss:focus, button.rss:hover, button.rss:focus {
   background-color: #f29d5e; }
 a.rss:active, button.rss:active {
   background-color: #d86612; }
+
+.safari {
+  background-color: #f8f8f8;
+  background-position: -56px -364px; }
+  .safari.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 white;
+    box-shadow: inset 0 1px 2px 0 white; }
+  .safari.csmb-border:after {
+    border: solid 2px #dfdfdf; }
+
+a.safari:hover, a.safari:focus, button.safari:hover, button.safari:focus {
+  background-color: white; }
+a.safari:active, button.safari:active {
+  background-color: #dfdfdf; }
 
 .skype {
   background-color: #00aff0;
