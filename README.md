@@ -55,19 +55,22 @@ For alternative versions with a different color button (like `youtube`) the old 
 ## Lists of available classes ##
 
 - `bitbucket`
-- `blogger` **!new**
-- `delicious` **!new**
-- `deviantart` **!new**
-- `digg` **!new**
-- `dropbox` **!new**
+- `blogger`
+- `chrome` **!new**
+- `delicious`
+- `deviantart`
+- `digg`
+- `dropbox`
 - `drupal`
 - `facebook` [`alt`]
+- `firefox` **!new**
 - `flickr`
 - `foursquare` [`alt`]
 - `github` [`alt`] | `github-alt`
 - `gplus`
-- `grooveshark` **!new**
+- `grooveshark`
 - `icheckmovies`
+- `ie` **!new**
 - `imdb`
 - `instagram` | `instagram-alt`
 - `issuu`
@@ -75,15 +78,17 @@ For alternative versions with a different color button (like `youtube`) the old 
 - `linkedin`
 - `mail`
 - `myspace`
+- `opera` **!new**
 - `path`
-- `paypal` **!new**
+- `paypal`
 - `pinterest`
-- `reddit` **!new**
+- `reddit`
 - `rss`
+- `safari` **!new**
 - `skype`
-- `soundcloud` **!new**
-- `spotify` **!new**
-- `stumbleupon` **!new**
+- `soundcloud`
+- `spotify`
+- `stumbleupon`
 - `tumblr`
 - `twitter` [`alt`]
 - `vimeo`
@@ -97,14 +102,14 @@ For alternative versions with a different color button (like `youtube`) the old 
 
 The buttons have been tested and show as intended in the following browsers:
 
-- Opera	12
-- Chrome 30
-- Safari 6
-- Firefox 19
+- Opera	12+
+- Chrome 30+
+- Safari 6+
+- Firefox 19+
 - Internet Explorer 10
 - Internet Explorer 9
 - Internet Explorer 8
-- Chrome for iPhone 30
+- Chrome for iPhone 30+
 - Safari for iPhone iOS 7
 
 IE9: The `csmb` buttons don't have a gradient.
@@ -116,11 +121,16 @@ IE8: The `csmb` buttons are the same as `csmb-flat` buttons: they don't have gra
 
 This list shows some of the features/bugs I'm planning to work on for feature releases. Missing something? Leave a comment in [Issue #7: More buttons?](https://github.com/timhuisman/round-social-media-buttons/issues/7) or fork and add it yourself (please let me know if you do).
 
-- [2.x.x] Add browser buttons: `chrome`, `firefox`, `ie`, `opera` and `safari`.
+- [2.1.0] Add OS buttons: `windows`, `apple` (for iOS and OS X) `linux`, `ubuntu`, `android`.
 - [2.x.x] Fix styling for `<button>` elements.
-
+- [?.?.?] Make an alternative SVG/icon font version.
+- [?.?.?] Make a Compass version: to use the automatic sprite generator feature.
 
 ## Changelog v.2 ##
+
+**v.2.1.0**
+
+- Added five new buttons (browsers): `chome`, `safari`, `opera` (all three on white background), `firefox` (on light blue background) and `ie` (on blue background).
 
 **v.2.0.0**
 
