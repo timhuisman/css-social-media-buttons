@@ -12,6 +12,14 @@
   border-radius: $radius;
 }
 
+@mixin transition ( $arguments ) {
+  -webkit-transition: $arguments;
+  -moz-transition: $arguments;
+  -ms-transition: $arguments;
+  -o-transition: $arguments;
+  transition: $arguments;
+}
+
 //
 // Variables
 // ------------------------------------------------------------------------------------
@@ -24,6 +32,7 @@ $btn-size: 28px;
 
 // Percentages by which the base color of the icon will be made lighter/darker
 $diff-large: 25%; // Used for: color of the inner shadow
+$diff-medium: 17.5%; // Used for: border color in hover, focus & active state
 $diff-small: 10%; // Used for: background color in hover, focus & active state
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
@@ -49,11 +58,7 @@ $buttons: true; // <button> elements
   content: '';
   background-image: url('#{$img-path}/sprite-rsmb.png');
   background-repeat: no-repeat;
-  -webkit-transition: background-color 0.25s ease;
-  -moz-transition: background-color 0.25s ease;
-  -ms-transition: background-color 0.25s ease;
-  -o-transition: background-color 0.25s ease;
-  transition: background-color 0.25s ease;
+  @include transition( background-color 0.25s ease );
   text-indent: -9999px;
   font-size: 0;
   line-height: 0;
@@ -158,6 +163,7 @@ $buttons: true; // <button> elements
     }
 
     &:after {
+      @include transition( border-color 0.25s ease );
       top: -2px;
       left: -2px;
     }
@@ -260,6 +266,17 @@ $button-alt-list: append($button-alt-list, ('.youtube-alt.alt', -28px -476px ));
 
           &:active {
             background-color: darken( $color, $diff-small );
+          }
+
+          // Bordered
+          @if $border == true {
+            &.csmb-border {
+              &:hover, &:focus, &:active {
+                &:after {
+                  border: solid 2px darken( $color, $diff-medium );
+                }
+              }
+            }
           }
         }
       }
