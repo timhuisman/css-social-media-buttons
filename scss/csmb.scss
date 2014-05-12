@@ -187,19 +187,19 @@ $buttons: true; // <button> elements
 
 $button-list: append($button-list, ('.bitbucket', #205081, -56px -84px ));
 $button-list: append($button-list, ('.blogger', #FC4F08, -56px -168px ));
-$button-list: append($button-list, ('.chrome', #F8F8F8, -56px -280px ));
+$button-list: append($button-list, ('.chrome', #F4F4F4, -56px -280px ));
 $button-list: append($button-list, ('.delicious', #EEE, -56px -196px ));
 $button-list: append($button-list, ('.deviantart', #4E6252, -28px -28px ));
 $button-list: append($button-list, ('.digg', #383838, -56px -224px ));
 $button-list: append($button-list, ('.dropbox', #3D9AE8, -28px -364px ));
-$button-list: append($button-list, ('.drupal', #F8F8F8, -28px -252px ));
+$button-list: append($button-list, ('.drupal', #F4F4F4, -28px -252px ));
 $button-list: append($button-list, ('.facebook', #3B5998, 0 0 ));
 $button-alt-list: append($button-alt-list, ('.facebook.alt', -28px -84px ));
 $button-list: append($button-list, ('.firefox', #CAE1f4 , -56px -308px ));
-$button-list: append($button-list, ('.flickr', #F8F8F8, 0 -28px ));
+$button-list: append($button-list, ('.flickr', #F4F4F4, 0 -28px ));
 $button-list: append($button-list, ('.foursquare', #25a0ca, 0 -56px ));
 $button-alt-list: append($button-alt-list, ('.foursquare.alt', -28px -140px ));
-$button-list: append($button-list, ('.github', #F8F8F8, 0 -84px ));
+$button-list: append($button-list, ('.github', #F4F4F4, 0 -84px ));
 $button-alt-list: append($button-alt-list, ('.github.alt', 0 -112px ));
 $button-list: append($button-list, ('.github-alt', #383838, -56px 0 ));
 $button-list: append($button-list, ('.gplus', #DD4B39, 0 -140px ));
@@ -209,18 +209,18 @@ $button-list: append($button-list, ('.ie', #00BCF2, -56px -392px ));
 $button-list: append($button-list, ('.imdb', #F3CE13, -56px -140px ));
 $button-list: append($button-list, ('.instagram', #937266, -28px -392px ));
 $button-list: append($button-list, ('.instagram-alt', #3F729B, -28px -420px ));
-$button-list: append($button-list, ('.issuu', #F8F8F8, -28px -168px ));
+$button-list: append($button-list, ('.issuu', #F4F4F4, -28px -168px ));
 $button-list: append($button-list, ('.lastfm', #C3000D, 0 -168px ));
 $button-list: append($button-list, ('.linkedin', #0E76A8, 0 -196px ));
-$button-list: append($button-list, ('.mail', #F8F8F8, 0 -224px ));
+$button-list: append($button-list, ('.mail', #F4F4F4, 0 -224px ));
 $button-list: append($button-list, ('.myspace', #313246, -28px -308px ));
-$button-list: append($button-list, ('.opera', #F8F8F8, -56px -336px ));
+$button-list: append($button-list, ('.opera', #F4F4F4, -56px -336px ));
 $button-list: append($button-list, ('.path', #E41F11, 0 -252px ));
 $button-list: append($button-list, ('.paypal', #1E477A, -28px -280px ));
 $button-list: append($button-list, ('.pinterest', #C8232C, -28px -336px )); // Black BG color: #383838
 $button-list: append($button-list, ('.reddit', #CEE2F8, -56px -252px ));
 $button-list: append($button-list, ('.rss', #EE802F, 0 -280px ));
-$button-list: append($button-list, ('.safari', #F8F8F8, -56px -364px ));
+$button-list: append($button-list, ('.safari', #F4F4F4, -56px -364px ));
 $button-list: append($button-list, ('.skype', #00AFF0, -28px 0 ));
 $button-list: append($button-list, ('.soundcloud', #FF7700, -28px -112px ));
 $button-list: append($button-list, ('.spotify', #81B71A, -28px -196px ));
@@ -232,7 +232,7 @@ $button-list: append($button-list, ('.vimeo', #86C9EF, 0 -392px ));
 $button-list: append($button-list, ('.vine', #00A478, -56px -28px ));
 $button-list: append($button-list, ('.wordpress', #21759B, -28px -224px )); // Grey BG color: #464646
 $button-list: append($button-list, ('.yelp', #C41200, -56px -112px ));
-$button-list: append($button-list, ('.youtube', #F8F8F8, 0 -420px ));
+$button-list: append($button-list, ('.youtube', #F4F4F4, 0 -420px ));
 $button-list: append($button-list, ('.youtube-alt', #C4302B, 0 -448px ));
 $button-alt-list: append($button-alt-list, ('.youtube-alt.alt', -28px -476px ));
 

@@ -115,18 +115,18 @@ a.blogger:active, button.blogger:active {
   background-color: #ce3e03; }
 
 .chrome {
-  background-color: #f8f8f8;
+  background-color: #f4f4f4;
   background-position: -56px -280px; }
   .chrome.csmb {
     -webkit-box-shadow: inset 0 1px 2px 0 white;
     box-shadow: inset 0 1px 2px 0 white; }
   .chrome.csmb-border:after {
-    border: solid 2px #dfdfdf; }
+    border: solid 2px #dbdbdb; }
 
 a.chrome:hover, a.chrome:focus, button.chrome:hover, button.chrome:focus {
   background-color: white; }
 a.chrome:active, button.chrome:active {
-  background-color: #dfdfdf; }
+  background-color: #dbdbdb; }
 
 .delicious {
   background-color: #eeeeee;
@@ -185,18 +185,18 @@ a.dropbox:active, button.dropbox:active {
   background-color: #1a81d8; }
 
 .drupal {
-  background-color: #f8f8f8;
+  background-color: #f4f4f4;
   background-position: -28px -252px; }
   .drupal.csmb {
     -webkit-box-shadow: inset 0 1px 2px 0 white;
     box-shadow: inset 0 1px 2px 0 white; }
   .drupal.csmb-border:after {
-    border: solid 2px #dfdfdf; }
+    border: solid 2px #dbdbdb; }
 
 a.drupal:hover, a.drupal:focus, button.drupal:hover, button.drupal:focus {
   background-color: white; }
 a.drupal:active, button.drupal:active {
-  background-color: #dfdfdf; }
+  background-color: #dbdbdb; }
 
 .facebook {
   background-color: #3b5998;
@@ -227,18 +227,18 @@ a.firefox:active, button.firefox:active {
   background-color: #a0c9eb; }
 
 .flickr {
-  background-color: #f8f8f8;
+  background-color: #f4f4f4;
   background-position: 0 -28px; }
   .flickr.csmb {
     -webkit-box-shadow: inset 0 1px 2px 0 white;
     box-shadow: inset 0 1px 2px 0 white; }
   .flickr.csmb-border:after {
-    border: solid 2px #dfdfdf; }
+    border: solid 2px #dbdbdb; }
 
 a.flickr:hover, a.flickr:focus, button.flickr:hover, button.flickr:focus {
   background-color: white; }
 a.flickr:active, button.flickr:active {
-  background-color: #dfdfdf; }
+  background-color: #dbdbdb; }
 
 .foursquare {
   background-color: #25a0ca;
@@ -255,18 +255,18 @@ a.foursquare:active, button.foursquare:active {
   background-color: #1d7e9f; }
 
 .github {
-  background-color: #f8f8f8;
+  background-color: #f4f4f4;
   background-position: 0 -84px; }
   .github.csmb {
     -webkit-box-shadow: inset 0 1px 2px 0 white;
     box-shadow: inset 0 1px 2px 0 white; }
   .github.csmb-border:after {
-    border: solid 2px #dfdfdf; }
+    border: solid 2px #dbdbdb; }
 
 a.github:hover, a.github:focus, button.github:hover, button.github:focus {
   background-color: white; }
 a.github:active, button.github:active {
-  background-color: #dfdfdf; }
+  background-color: #dbdbdb; }
 
 .github-alt {
   background-color: #383838;
@@ -381,18 +381,18 @@ a.instagram-alt:active, button.instagram-alt:active {
   background-color: #305777; }
 
 .issuu {
-  background-color: #f8f8f8;
+  background-color: #f4f4f4;
   background-position: -28px -168px; }
   .issuu.csmb {
     -webkit-box-shadow: inset 0 1px 2px 0 white;
     box-shadow: inset 0 1px 2px 0 white; }
   .issuu.csmb-border:after {
-    border: solid 2px #dfdfdf; }
+    border: solid 2px #dbdbdb; }
 
 a.issuu:hover, a.issuu:focus, button.issuu:hover, button.issuu:focus {
   background-color: white; }
 a.issuu:active, button.issuu:active {
-  background-color: #dfdfdf; }
+  background-color: #dbdbdb; }
 
 .lastfm {
   background-color: #c3000d;
@@ -423,18 +423,18 @@ a.linkedin:active, button.linkedin:active {
   background-color: #0a5579; }
 
 .mail {
-  background-color: #f8f8f8;
+  background-color: #f4f4f4;
   background-position: 0 -224px; }
   .mail.csmb {
     -webkit-box-shadow: inset 0 1px 2px 0 white;
     box-shadow: inset 0 1px 2px 0 white; }
   .mail.csmb-border:after {
-    border: solid 2px #dfdfdf; }
+    border: solid 2px #dbdbdb; }
 
 a.mail:hover, a.mail:focus, button.mail:hover, button.mail:focus {
   background-color: white; }
 a.mail:active, button.mail:active {
-  background-color: #dfdfdf; }
+  background-color: #dbdbdb; }
 
 .myspace {
   background-color: #313246;
@@ -451,18 +451,18 @@ a.myspace:active, button.myspace:active {
   background-color: #1c1d28; }
 
 .opera {
-  background-color: #f8f8f8;
+  background-color: #f4f4f4;
   background-position: -56px -336px; }
   .opera.csmb {
     -webkit-box-shadow: inset 0 1px 2px 0 white;
     box-shadow: inset 0 1px 2px 0 white; }
   .opera.csmb-border:after {
-    border: solid 2px #dfdfdf; }
+    border: solid 2px #dbdbdb; }
 
 a.opera:hover, a.opera:focus, button.opera:hover, button.opera:focus {
   background-color: white; }
 a.opera:active, button.opera:active {
-  background-color: #dfdfdf; }
+  background-color: #dbdbdb; }
 
 .path {
   background-color: #e41f11;
@@ -535,18 +535,18 @@ a.rss:active, button.rss:active {
   background-color: #d86612; }
 
 .safari {
-  background-color: #f8f8f8;
+  background-color: #f4f4f4;
   background-position: -56px -364px; }
   .safari.csmb {
     -webkit-box-shadow: inset 0 1px 2px 0 white;
     box-shadow: inset 0 1px 2px 0 white; }
   .safari.csmb-border:after {
-    border: solid 2px #dfdfdf; }
+    border: solid 2px #dbdbdb; }
 
 a.safari:hover, a.safari:focus, button.safari:hover, button.safari:focus {
   background-color: white; }
 a.safari:active, button.safari:active {
-  background-color: #dfdfdf; }
+  background-color: #dbdbdb; }
 
 .skype {
   background-color: #00aff0;
@@ -689,18 +689,18 @@ a.yelp:active, button.yelp:active {
   background-color: #910d00; }
 
 .youtube {
-  background-color: #f8f8f8;
+  background-color: #f4f4f4;
   background-position: 0 -420px; }
   .youtube.csmb {
     -webkit-box-shadow: inset 0 1px 2px 0 white;
     box-shadow: inset 0 1px 2px 0 white; }
   .youtube.csmb-border:after {
-    border: solid 2px #dfdfdf; }
+    border: solid 2px #dbdbdb; }
 
 a.youtube:hover, a.youtube:focus, button.youtube:hover, button.youtube:focus {
   background-color: white; }
 a.youtube:active, button.youtube:active {
-  background-color: #dfdfdf; }
+  background-color: #dbdbdb; }
 
 .youtube-alt {
   background-color: #c4302b;
