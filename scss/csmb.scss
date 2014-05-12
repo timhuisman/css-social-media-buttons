@@ -22,20 +22,21 @@ $button-alt-list: ();
 
 $btn-size: 28px;
 
-$radius-rounded: 8px;
-$radius-round: 16px;
-
 // Percentages by which the base color of the icon will be made lighter/darker
 $diff-large: 25%; // Used for: color of the inner shadow
 $diff-small: 10%; // Used for: background color in hover, focus & active state
 
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
+// Set option to 'false' for button styles/types that you don't use, to keep the compiled CSS small. //
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
+
 // Variables can be used to turn on/off button types: one of the two must always be true
 $default: true;
-$flat: true;
+$flat:    true;
 // Variables can be used to turn on/off button styles
-$border: true;
+$border:  true;
 $rounded: true;
-$round: true;
+$round:   true;
 // Variables can be used to turn on/off button style for certain type of elements
 $anchors: true; // <a> elements
 $buttons: true; // <button> elements
@@ -67,8 +68,8 @@ $buttons: true; // <button> elements
   &:before, &:after {
     content: '';
     display: block;
-    width: $btn-size;
-    height: $btn-size;
+    width: 100%;
+    height: 100%;
     position: absolute;
       top: 0;
       left: 0;
@@ -134,14 +135,14 @@ $buttons: true; // <button> elements
 // Rounded
 @if $rounded == true {
   .csmb-rounded, .csmb-rounded:before, .csmb-rounded:after {
-    @include border-radius( $radius-rounded );
+    @include border-radius( 25% );
   }
 }
 
 // Round
 @if $round == true {
   .csmb-round, .csmb-round:before, .csmb-round:after {
-    @include border-radius( $radius-round );
+    @include border-radius( 50% );
   }
 }
 
@@ -163,27 +164,15 @@ $buttons: true; // <button> elements
 
     @if $rounded == true {
       &.csmb-rounded {
-        @include border-radius( $radius-rounded - 4 );
-
-        &:before {
-          @include border-radius( $radius-rounded + 2 );
-        }
-      }
-    }
-
-    @if $round == true {
-      &.csmb-round {
-        &:before {
-          @include border-radius( $radius-round + 2 );
-        }
+        @include border-radius( 20% );
       }
     }
   }
 }
 
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
-// Remove/Comment out the buttons below that you won't use, to keep the CSS file small. //
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
+// Remove/Comment out the buttons below that you don't use, to keep the compiled CSS small. //
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
 
 $button-list: append($button-list, ('.bitbucket', #205081, -56px -84px ));
 $button-list: append($button-list, ('.blogger', #FC4F08, -56px -168px ));

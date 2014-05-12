@@ -20,8 +20,8 @@
   .csmb:before, .csmb:after, .csmb-flat:before, .csmb-flat:after {
     content: '';
     display: block;
-    width: 28px;
-    height: 28px;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0; }
@@ -60,12 +60,12 @@ button.csmb, button.csmb-flat {
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25); }
 
 .csmb-rounded, .csmb-rounded:before, .csmb-rounded:after {
-  -webkit-border-radius: 8px;
-  border-radius: 8px; }
+  -webkit-border-radius: 25%;
+  border-radius: 25%; }
 
 .csmb-round, .csmb-round:before, .csmb-round:after {
-  -webkit-border-radius: 16px;
-  border-radius: 16px; }
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
 
 .csmb-border:before {
   border: solid 2px #fff;
@@ -77,14 +77,8 @@ button.csmb, button.csmb-flat {
   top: -2px;
   left: -2px; }
 .csmb-border.csmb-rounded {
-  -webkit-border-radius: 4px;
-  border-radius: 4px; }
-  .csmb-border.csmb-rounded:before {
-    -webkit-border-radius: 10px;
-    border-radius: 10px; }
-.csmb-border.csmb-round:before {
-  -webkit-border-radius: 18px;
-  border-radius: 18px; }
+  -webkit-border-radius: 20%;
+  border-radius: 20%; }
 
 .bitbucket {
   background-color: #205081;
