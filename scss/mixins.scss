@@ -1,0 +1,62 @@
+//
+// Mixins
+// ------------------------------------------------------------------------------------
+
+// How to use: @include appearance( none ); || @include appearance( button );
+@mixin appearance( $type ) {
+  -webkit-appearance: $type;
+  -moz-appearance: $type;
+  appearance: $type;
+}
+
+// How to use: @include background-size( 50px 200px ); || @include background-size( 100% );
+@mixin background-size( $size ) {
+  -webkit-background-size: $size;
+  -moz-background-size: $size;
+  background-size: $size;
+}
+
+// How to use: @include border-radius( 50% ); || @include border-radius( 8px 0 8px 0 );
+@mixin border-radius ( $radius ) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+
+// How to use: @include box-shadow( 0 0 4px 0 #aaa ); || @include box-shadow( inset 0 0 4px 0 #aaa );
+@mixin box-shadow ( $arguments ) {
+  -webkit-box-shadow: $arguments;
+  box-shadow: $arguments;
+}
+
+// How to use: @include border-box;
+@mixin border-box {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+// How to use: @include linear-gradient-top-to-bottom( 0%, rgba( 255,255,255,0.25 ), 100%, rgba( 255,255,255,0 ) );
+@mixin linear-gradient-top-to-bottom( $begin, $color-begin, $end, $end-color ) {
+  background: -moz-linear-gradient(top, $color-begin $begin, $end-color $end );
+  background: -webkit-gradient(linear, left top, left bottom, color-stop($begin, $color-begin ), color-stop( $end, $end-color ) );
+  background: -webkit-linear-gradient(top, $color-begin $begin, $end-color $end );
+  background: -o-linear-gradient(top, $color-begin $begin, $end-color $end );
+  background: -ms-linear-gradient(top, $color-begin$begin, $end-color $end );
+  background: linear-gradient(to bottom, $color-begin $begin, $end-color $end );
+}
+
+// How to use: @include text-indent;
+@mixin text-indent {
+  text-indent: -9999px;
+  font-size: 0;
+  line-height: 0;
+}
+
+// How to use: @include transition( background-color 0.25s ease );
+@mixin transition ( $arguments ) {
+  -webkit-transition: $arguments;
+  -moz-transition: $arguments;
+  -ms-transition: $arguments;
+  -o-transition: $arguments;
+  transition: $arguments;
+}

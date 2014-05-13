@@ -2,23 +2,7 @@
 // Mixins
 // ------------------------------------------------------------------------------------
 
-@mixin box-shadow ( $arguments ) {
-  -webkit-box-shadow: $arguments;
-  box-shadow: $arguments;
-}
-
-@mixin border-radius ( $radius ) {
-  -webkit-border-radius: $radius;
-  border-radius: $radius;
-}
-
-@mixin transition ( $arguments ) {
-  -webkit-transition: $arguments;
-  -moz-transition: $arguments;
-  -ms-transition: $arguments;
-  -o-transition: $arguments;
-  transition: $arguments;
-}
+@import 'mixins.scss';
 
 //
 // Variables
@@ -55,13 +39,10 @@ $buttons: true; // <button> elements
 // ------------------------------------------------------------------------------------
 
 .csmb, .csmb-flat {
-  content: '';
   background-image: url('#{$img-path}/sprite-rsmb.png');
   background-repeat: no-repeat;
   @include transition( background-color 0.25s ease );
-  text-indent: -9999px;
-  font-size: 0;
-  line-height: 0;
+  @include text-indent;
   display: inline-block;
   width: $btn-size;
   height: $btn-size;
@@ -91,18 +72,14 @@ $buttons: true; // <button> elements
   // Use larger sprite (2 x 28pixels) for Retina display
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
     background-image: url('#{$img-path}/sprite-rsmb-x2.png');
-    -webkit-background-size: 84px;
-    -moz-background-size: 84px;
-    background-size: 84px;
+    @include background-size( 84px );
   }
 }
 
 @if $buttons == true {
   button {
     &.csmb, &.csmb-flat {
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
+      @include appearance( none );
       border: none;
       cursor: pointer;
       padding: 0;
@@ -118,12 +95,7 @@ $buttons: true; // <button> elements
     }
 
     &:after {
-      background: -moz-linear-gradient(top,  rgba( 255,255,255,0.25 ) 0%, rgba( 255,255,255,0 ) 100% );
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba( 255,255,255,0.25 ) ), color-stop( 100%, rgba( 255,255,255,0 ) ) );
-      background: -webkit-linear-gradient(top,  rgba( 255,255,255,0.25 ) 0%, rgba( 255,255,255,0 ) 100% );
-      background: -o-linear-gradient(top,  rgba( 255,255,255,0.25 ) 0%, rgba( 255,255,255,0 ) 100% );
-      background: -ms-linear-gradient(top,  rgba( 255,255,255,0.25 ) 0%, rgba( 255,255,255,0 ) 100% );
-      background: linear-gradient(to bottom,  rgba( 255,255,255,0.25 ) 0%, rgba( 255,255,255,0 ) 100% );
+      @include linear-gradient-top-to-bottom( 0%, rgba( 255, 255, 255, 0.25 ), 100%, rgba( 255, 255, 255, 0 ) );
     }
   }
 }

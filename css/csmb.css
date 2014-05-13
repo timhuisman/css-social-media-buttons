@@ -1,5 +1,4 @@
 .csmb, .csmb-flat {
-  content: '';
   background-image: url("../img/sprite-rsmb.png");
   background-repeat: no-repeat;
   -webkit-transition: background-color 0.25s ease;
