@@ -9,9 +9,9 @@ A set of 50 social media buttons made with CSS, that can be added with just one 
 
 Simply put the CSS file in your project CSS folder and link to it in your `<head>` or copy/paste the content of the `csmb.css` into your own CSS file:
 
-Not using all the buttons? You can compile your own CSS file that suits your needs with SASS. Open `csmb.scss` and remove/comment out the list appends (see line 183) you don't need. Compile the SASS file and add the resulting CSS to your project.
+Not using all the buttons? You can compile your own CSS file that suits your needs with SASS. Open `csmb.scss` and remove/comment out packages (see line 42) or buttons within packages (see the files within the `/scss/packages` folder) that you don't need. Compile the SASS file and add the resulting CSS to your project.
 
-You can also turn off button styles and/or types that you won't use, to keep the size of the CSS file small. This can be done by changing `true` to `false` for the various options starting at line 42.
+You can also turn off button styles and/or types that you won't use, to keep the size of the CSS file small. This can be done by changing `true` to `false` for the various options starting at line 23.
 
 
 ## How to use ##
@@ -22,7 +22,7 @@ Add an HTML element (`<a>`, `<span>` or `<button>`) with the class `csmb` or `cs
 	<span class="csmb-flat">CSS Social Media Button</span>
 	<button class="csmb">CSS Social Media Button</button>
 
-Add a class of a (social) network, like for example `github` (see *'Lists of available classes'* below for all the possibilities):
+Add a class of a (social) network, like for example `github` (see *'List of available buttons'* below for all the possibilities):
 
 	<a href="#" class="csmb github">GitHub profile: username</a>
 	<span class="csmb-flat github">GitHub profile: username</span>
@@ -54,7 +54,7 @@ For alternative versions with a different color button (like `youtube`) the old 
 	<button class="csmb youtube-alt">YouTube channel: username</button>
 
 
-## Lists of available classes ##
+## List of available buttons ##
 
 - `bitbucket`
 - `blogger`
@@ -121,8 +121,6 @@ The buttons have been tested and show as intended in the following browsers:
 
 This list shows some of the features/bugs I'm planning to work on for feature releases. Missing something? Leave a comment in [Issue #7: More buttons?](https://github.com/timhuisman/round-social-media-buttons/issues/7) or fork and add it yourself (please let me know if you do).
 
-- [2.1.0] Add OS buttons: `windows`, `apple` (for iOS and OS X) `linux`, `ubuntu` and `android`.
-- [2.1.0] Make a separate "package" for web related buttons: `drupal`, `wordpress`, browser and OS buttons.
 - [2.x.x] Fix styling for `<button>` elements.
 - [?.?.?] Make an alternative SVG/icon font version.
 - [?.?.?] Make it possible to add a label next to the icon, containing the link text.
@@ -137,6 +135,7 @@ This list shows some of the features/bugs I'm planning to work on for feature re
 - Changed colour of white buttons (for example: `flickr` and `github`) to `#F4F4F4`.
 - Replaced absolute pixel values with percentage values for the `:after` and `:before` width and height properties.
 - Replaced absolute pixel values with percentage values for the border-radius properties: 25% for `.csmb-rounded` and 50% for `.csmb-round`.
+- Added a separate file for all SASS mixins + added mixins for vendor prefixed styling.
 
 **v.2.0.0**
 
