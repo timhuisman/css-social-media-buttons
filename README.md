@@ -1,15 +1,17 @@
 CSS Social Media Buttons
 ==========================
 
-A set of 45 social media buttons made with CSS, that can be added with just one HTML element. They're retina proof, 36 pixels (excluding shadow) in diameter, come in two types (normal and flat) and in four styles (square, rounded, round, bordered).
+A set of 50 social media buttons made with CSS, that can be added with just one HTML element. They're retina proof, 36 pixels (excluding shadow) in diameter, come in two types (normal and flat) and in four styles (square, rounded, round, bordered).
 
-![](https://raw.github.com/timhuisman/round-social-media-buttons/master/screenshot-1.png)
+![](https://raw.github.com/timhuisman/round-social-media-buttons/v.2/screenshot-1.png)
 
 ## Installation ##
 
 Simply put the CSS file in your project CSS folder and link to it in your `<head>` or copy/paste the content of the `csmb.css` into your own CSS file:
 
-Not using all the buttons? You can compile your own CSS file that suits your needs with SASS. Open `csmb.scss` and remove/comment out the list appends (see line 188) you don't need at the bottom of the file. Compile it and add the CSS to your project.
+Not using all the buttons? You can compile your own CSS file that suits your needs with SASS. Open `csmb.scss` and remove/comment out packages (see line 42) or buttons within packages (see the files within the `/scss/packages` folder) that you don't need. Compile the SASS file and add the resulting CSS to your project.
+
+You can also turn off button styles and/or types that you won't use, to keep the size of the CSS file small. This can be done by changing `true` to `false` for the various options starting at line 23.
 
 
 ## How to use ##
@@ -20,7 +22,7 @@ Add an HTML element (`<a>`, `<span>` or `<button>`) with the class `csmb` or `cs
 	<span class="csmb-flat">CSS Social Media Button</span>
 	<button class="csmb">CSS Social Media Button</button>
 
-Add a class of a (social) network, like for example `github` (see *'Lists of available classes'* below for all the possibilities):
+Add a class of a (social) network, like for example `github` (see *'List of available buttons'* below for all the possibilities):
 
 	<a href="#" class="csmb github">GitHub profile: username</a>
 	<span class="csmb-flat github">GitHub profile: username</span>
@@ -52,22 +54,25 @@ For alternative versions with a different color button (like `youtube`) the old 
 	<button class="csmb youtube-alt">YouTube channel: username</button>
 
 
-## Lists of available classes ##
+## List of available buttons ##
 
 - `bitbucket`
-- `blogger` **!new**
-- `delicious` **!new**
-- `deviantart` **!new**
-- `digg` **!new**
-- `dropbox` **!new**
+- `blogger`
+- `chrome` **!new**
+- `delicious`
+- `deviantart`
+- `digg`
+- `dropbox`
 - `drupal`
 - `facebook` [`alt`]
+- `firefox` **!new**
 - `flickr`
 - `foursquare` [`alt`]
 - `github` [`alt`] | `github-alt`
 - `gplus`
-- `grooveshark` **!new**
+- `grooveshark`
 - `icheckmovies`
+- `ie` **!new**
 - `imdb`
 - `instagram` | `instagram-alt`
 - `issuu`
@@ -75,15 +80,17 @@ For alternative versions with a different color button (like `youtube`) the old 
 - `linkedin`
 - `mail`
 - `myspace`
+- `opera` **!new**
 - `path`
-- `paypal` **!new**
+- `paypal`
 - `pinterest`
-- `reddit` **!new**
+- `reddit`
 - `rss`
+- `safari` **!new**
 - `skype`
-- `soundcloud` **!new**
-- `spotify` **!new**
-- `stumbleupon` **!new**
+- `soundcloud`
+- `spotify`
+- `stumbleupon`
 - `tumblr`
 - `twitter` [`alt`]
 - `vimeo`
@@ -97,30 +104,38 @@ For alternative versions with a different color button (like `youtube`) the old 
 
 The buttons have been tested and show as intended in the following browsers:
 
-- Opera	12
-- Chrome 30
-- Safari 6
-- Firefox 19
-- Internet Explorer 10
-- Internet Explorer 9
-- Internet Explorer 8
-- Chrome for iPhone 30
-- Safari for iPhone iOS 7
+- Opera	12+
+- Chrome 24+
+- Safari 5+
+- Firefox 8+
+- Internet Explorer 8+ **[!]**
+- Chrome for iPhone 23+
+- Safari for iPhone iOS 6+
 
-IE9: The `csmb` buttons don't have a gradient.
+**[!]** IE9: The `csmb` buttons don't have gradients.
 
-IE8: The `csmb` buttons are the same as `csmb-flat` buttons: they don't have gradients, rounded corners and shadows.
+**[!]** IE8: The `csmb` buttons are the same as `csmb-flat` buttons: they don't have gradients, rounded corners and shadows.
 
 
 ## To-Do List ##
 
 This list shows some of the features/bugs I'm planning to work on for feature releases. Missing something? Leave a comment in [Issue #7: More buttons?](https://github.com/timhuisman/round-social-media-buttons/issues/7) or fork and add it yourself (please let me know if you do).
 
-- [2.x.x] Add browser buttons: `chrome`, `firefox`, `ie`, `opera` and `safari`.
 - [2.x.x] Fix styling for `<button>` elements.
-
+- [?.?.?] Make an alternative SVG/icon font version.
+- [?.?.?] Make it possible to add a label next to the icon, containing the link text.
+- [?.?.?] Make a Compass version: to use the automatic sprite generator feature.
 
 ## Changelog v.2 ##
+
+**v.2.1.0**
+
+- Added five new buttons (browsers): `chome`, `safari`, `opera` (all three on white background), `firefox` (on light blue background) and `ie` (on blue background).
+- Added darker inner border on the `:hover`, `:focus` and `:active` states of `.csmb-border` buttons.
+- Changed colour of white buttons (for example: `flickr` and `github`) to `#F4F4F4`.
+- Replaced absolute pixel values with percentage values for the `:after` and `:before` width and height properties.
+- Replaced absolute pixel values with percentage values for the border-radius properties: 25% for `.csmb-rounded` and 50% for `.csmb-round`.
+- Added a separate file for all SASS mixins + added mixins for vendor prefixed styling.
 
 **v.2.0.0**
 
@@ -182,7 +197,7 @@ Colour changes:
 
 - Changed colour of buttons to match values from [Brandcolours.net](http://brandcolours.net/). Affected buttons: `facebook`, `foursquare`, `gplus`, `imdb`, `instagram-alt`, `lastfm`, `linkedin`, `path`, `pinterest`, `rss`, `skype`, `tumblr`, `vimeo`, `yelp` and `youtube-alt`.
 - Changed colour of `wordpress` button from `#EBEBEB` (white) to `#21759B` (blue)
-- Changed colour of white buttons (for example: `flickr` and `github`) to `#E8E8E8`.
+- Changed colour of white buttons (for example: `flickr` and `github`) to `#F8F8F8`.
 - Changed colour of black buttons (for example: `github-alt` and `icheckmovies`) to `#383838`.
 - Changed color of `github` and `github alt` icons to `#383838`.
 

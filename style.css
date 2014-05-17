@@ -1,5 +1,5 @@
 body {
-	font: 400 12px/20px Corbel, Calibri, Helvetica, Verdana, sans-serif;
+	font: 400 14px/20px 'Abel', Corbel, Calibri, Helvetica, Verdana, sans-serif;
 }
 
 .cf:before,
@@ -22,14 +22,13 @@ body {
 
 .container {
   width: 960px;
-  margin: 0 auto 20px;
+  margin: 0 auto 10px;
   clear: both;
 }
-  
-  .container.buttons {
-    border-top: solid 1px #aaa;
-    padding-top: 20px;
-  }
+
+  /*.container.buttons {
+    padding-top: 10px;
+  }*/
 
 .types-container {
   width: 50%;
@@ -41,7 +40,7 @@ body {
   }
 
   .types-container.default .type {
-    margin-right: 20px;
+    margin-right: 10px;
   }
 
   .types-container.flat .type, .types-container.flat .buttons {
@@ -49,7 +48,7 @@ body {
   }
 
   .types-container.flat .type {
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .types-container .button-container {
@@ -66,6 +65,15 @@ body {
     height: 36px;
   }
 
+.buttons-header {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  padding: 0 20px;
+  margin: 0 -20px 20px;
+}
+
 .buttons-container {
   float: left;
   width: 20%;
@@ -78,7 +86,7 @@ body {
 
   .buttons-container .type {
     line-height: 36px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .buttons-container .buttons {
