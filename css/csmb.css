@@ -276,6 +276,22 @@ a.foursquare:active, button.foursquare:active {
 a.foursquare.csmb-border:hover:after, a.foursquare.csmb-border:focus:after, a.foursquare.csmb-border:active:after, button.foursquare.csmb-border:hover:after, button.foursquare.csmb-border:focus:after, button.foursquare.csmb-border:active:after {
   border: solid 2px #17647f; }
 
+.git {
+  background-color: #f4f4f4;
+  background-position: 0 -112px; }
+  .git.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 white;
+    box-shadow: inset 0 1px 2px 0 white; }
+  .git.csmb-border:after {
+    border: solid 2px #dbdbdb; }
+
+a.git:hover, a.git:focus, button.git:hover, button.git:focus {
+  background-color: white; }
+a.git:active, button.git:active {
+  background-color: #dbdbdb; }
+a.git.csmb-border:hover:after, a.git.csmb-border:focus:after, a.git.csmb-border:active:after, button.git.csmb-border:hover:after, button.git.csmb-border:focus:after, button.git.csmb-border:active:after {
+  border: solid 2px #c7c7c7; }
+
 .github {
   background-color: #f4f4f4;
   background-position: 0 -84px; }
@@ -809,9 +825,6 @@ a.youtube-alt.csmb-border:hover:after, a.youtube-alt.csmb-border:focus:after, a.
 
 .foursquare.alt {
   background-position: -28px -140px; }
-
-.github.alt {
-  background-position: 0 -112px; }
 
 .twitter.alt {
   background-position: 0 -364px; }
