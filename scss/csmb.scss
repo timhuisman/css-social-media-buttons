@@ -39,7 +39,7 @@ $buttons: true; // <button> elements
 // ------------------------------------------------------------------------------------
 
 .csmb, .csmb-flat {
-  background-image: url('#{$img-path}/sprite-rsmb.png');
+  background-image: url('#{$img-path}/icon-sprite.png');
   background-repeat: no-repeat;
   @include transition( background-color 0.25s ease );
   @include text-indent;
@@ -71,7 +71,7 @@ $buttons: true; // <button> elements
 
   // Use larger sprite (2 x 28pixels) for Retina display
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
-    background-image: url('#{$img-path}/sprite-rsmb-x2.png');
+    background-image: url('#{$img-path}/icon-sprite-x2.png');
     @include background-size( 84px );
   }
 }

@@ -1,5 +1,5 @@
 .csmb, .csmb-flat {
-  background-image: url("../img/sprite-rsmb.png");
+  background-image: url("../img/icon-sprite.png");
   background-repeat: no-repeat;
   -webkit-transition: background-color 0.25s ease;
   -moz-transition: background-color 0.25s ease;
@@ -30,7 +30,7 @@
     z-index: 300; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
     .csmb, .csmb-flat {
-      background-image: url("../img/sprite-rsmb-x2.png");
+      background-image: url("../img/icon-sprite-x2.png");
       -webkit-background-size: 84px;
       -moz-background-size: 84px;
       background-size: 84px; } }
