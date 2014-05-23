@@ -92,7 +92,7 @@ $buttons: true; // <button> elements
 @if $default == true {
   .csmb {
     &:before {
-      @include box-shadow( 0 0 4px 0 rgba( 0, 0, 0, 0.25 ) );
+      @include box-shadow( 0 0 4px 0 #aaa );
     }
 
     &:after {
@@ -105,7 +105,7 @@ $buttons: true; // <button> elements
 @if $flat == true {
   .csmb-flat {
     &:before {
-      @include box-shadow( 0 0 1px 0 rgba( 0, 0, 0, 0.25 ) );
+      @include box-shadow( 0 0 1px 0 #aaa );
     }
   }
 }

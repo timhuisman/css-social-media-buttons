@@ -42,8 +42,8 @@ button.csmb, button.csmb-flat {
   padding: 0; }
 
 .csmb:before {
-  -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25); }
+  -webkit-box-shadow: 0 0 4px 0 #aaaaaa;
+  box-shadow: 0 0 4px 0 #aaaaaa; }
 .csmb:after {
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.25)), color-stop(100%, rgba(255, 255, 255, 0)));
@@ -53,8 +53,8 @@ button.csmb, button.csmb-flat {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%); }
 
 .csmb-flat:before {
-  -webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25); }
+  -webkit-box-shadow: 0 0 1px 0 #aaaaaa;
+  box-shadow: 0 0 1px 0 #aaaaaa; }
 
 .csmb-rounded, .csmb-rounded:before, .csmb-rounded:after {
   -webkit-border-radius: 25%;
