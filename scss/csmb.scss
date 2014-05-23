@@ -49,7 +49,6 @@ $buttons: true; // <button> elements
   margin: 4px;
   padding: 0;
   position: relative;
-  z-index: 200;
 
   &:before, &:after {
     content: '';
@@ -61,18 +60,20 @@ $buttons: true; // <button> elements
       left: 0;
   }
 
-  &:before {
-    z-index: 100;
-  }
-
-  &:after {
-    z-index: 300;
-  }
-
   // Use larger sprite (2 x 28pixels) for Retina display
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
     background-image: url('#{$img-path}/icon-sprite-x2.png');
     @include background-size( 84px );
+  }
+}
+
+@if $anchors == true or $buttons == true {
+  a, button {
+    &.csmb, &.csmb-flat {
+      &:hover, &:focus, &:active {
+        outline: none;
+      }
+    }
   }
 }
 
