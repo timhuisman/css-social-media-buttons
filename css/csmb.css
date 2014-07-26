@@ -259,19 +259,35 @@ a.flickr.csmb-border:hover:after, a.flickr.csmb-border:focus:after, a.flickr.csm
   border: solid 2px #c7c7c7; }
 
 .foursquare {
-  background-color: #25a0ca;
-  background-position: 0 -56px; }
+  background-color: #f4f4f4;
+  background-position: -56px -420px; }
   .foursquare.csmb {
-    -webkit-box-shadow: inset 0 1px 2px 0 #86d0e9;
-    box-shadow: inset 0 1px 2px 0 #86d0e9; }
+    -webkit-box-shadow: inset 0 1px 2px 0 white;
+    box-shadow: inset 0 1px 2px 0 white; }
   .foursquare.csmb-border:after {
-    border: solid 2px #1d7e9f; }
+    border: solid 2px #dbdbdb; }
 
 a.foursquare:hover, a.foursquare:focus, button.foursquare:hover, button.foursquare:focus {
-  background-color: #45b6dd; }
+  background-color: white; }
 a.foursquare:active, button.foursquare:active {
-  background-color: #1d7e9f; }
+  background-color: #dbdbdb; }
 a.foursquare.csmb-border:hover:after, a.foursquare.csmb-border:focus:after, a.foursquare.csmb-border:active:after, button.foursquare.csmb-border:hover:after, button.foursquare.csmb-border:focus:after, button.foursquare.csmb-border:active:after {
+  border: solid 2px #c7c7c7; }
+
+.foursquare-alt {
+  background-color: #25a0ca;
+  background-position: 0 -56px; }
+  .foursquare-alt.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 #86d0e9;
+    box-shadow: inset 0 1px 2px 0 #86d0e9; }
+  .foursquare-alt.csmb-border:after {
+    border: solid 2px #1d7e9f; }
+
+a.foursquare-alt:hover, a.foursquare-alt:focus, button.foursquare-alt:hover, button.foursquare-alt:focus {
+  background-color: #45b6dd; }
+a.foursquare-alt:active, button.foursquare-alt:active {
+  background-color: #1d7e9f; }
+a.foursquare-alt.csmb-border:hover:after, a.foursquare-alt.csmb-border:focus:after, a.foursquare-alt.csmb-border:active:after, button.foursquare-alt.csmb-border:hover:after, button.foursquare-alt.csmb-border:focus:after, button.foursquare-alt.csmb-border:active:after {
   border: solid 2px #17647f; }
 
 .git {
@@ -690,6 +706,22 @@ a.stumbleupon:active, button.stumbleupon:active {
 a.stumbleupon.csmb-border:hover:after, a.stumbleupon.csmb-border:focus:after, a.stumbleupon.csmb-border:active:after, button.stumbleupon.csmb-border:hover:after, button.stumbleupon.csmb-border:focus:after, button.stumbleupon.csmb-border:active:after {
   border: solid 2px #bc2207; }
 
+.swarm {
+  background-color: #fdaf17;
+  background-position: -28px -448px; }
+  .swarm.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 #fedb95;
+    box-shadow: inset 0 1px 2px 0 #fedb95; }
+  .swarm.csmb-border:after {
+    border: solid 2px #df9402; }
+
+a.swarm:hover, a.swarm:focus, button.swarm:hover, button.swarm:focus {
+  background-color: #fdc04a; }
+a.swarm:active, button.swarm:active {
+  background-color: #df9402; }
+a.swarm.csmb-border:hover:after, a.swarm.csmb-border:focus:after, a.swarm.csmb-border:active:after, button.swarm.csmb-border:hover:after, button.swarm.csmb-border:focus:after, button.swarm.csmb-border:active:after {
+  border: solid 2px #b97b02; }
+
 .tumblr {
   background-color: #34526f;
   background-position: 0 -308px; }
@@ -821,7 +853,7 @@ a.youtube-alt.csmb-border:hover:after, a.youtube-alt.csmb-border:focus:after, a.
 .facebook.alt {
   background-position: -28px -84px; }
 
-.foursquare.alt {
+.foursquare-alt.alt {
   background-position: -28px -140px; }
 
 .twitter.alt {
