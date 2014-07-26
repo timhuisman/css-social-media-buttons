@@ -39,7 +39,7 @@ $buttons: true; // <button> elements
 // ------------------------------------------------------------------------------------
 
 .csmb, .csmb-flat {
-  background-image: url('#{$img-path}/sprite-rsmb.png');
+  background-image: url('#{$img-path}/icon-sprite.png');
   background-repeat: no-repeat;
   @include transition( background-color 0.25s ease );
   @include text-indent;
@@ -49,7 +49,6 @@ $buttons: true; // <button> elements
   margin: 4px;
   padding: 0;
   position: relative;
-  z-index: 200;
 
   &:before, &:after {
     content: '';
@@ -61,18 +60,20 @@ $buttons: true; // <button> elements
       left: 0;
   }
 
-  &:before {
-    z-index: 100;
-  }
-
-  &:after {
-    z-index: 300;
-  }
-
   // Use larger sprite (2 x 28pixels) for Retina display
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
-    background-image: url('#{$img-path}/sprite-rsmb-x2.png');
+    background-image: url('#{$img-path}/icon-sprite-x2.png');
     @include background-size( 84px );
+  }
+}
+
+@if $anchors == true or $buttons == true {
+  a, button {
+    &.csmb, &.csmb-flat {
+      &:hover, &:focus, &:active {
+        outline: none;
+      }
+    }
   }
 }
 
@@ -91,7 +92,7 @@ $buttons: true; // <button> elements
 @if $default == true {
   .csmb {
     &:before {
-      @include box-shadow( 0 0 4px 0 rgba( 0, 0, 0, 0.25 ) );
+      @include box-shadow( 0 0 4px 0 #aaa );
     }
 
     &:after {
@@ -104,7 +105,7 @@ $buttons: true; // <button> elements
 @if $flat == true {
   .csmb-flat {
     &:before {
-      @include box-shadow( 0 0 1px 0 rgba( 0, 0, 0, 0.25 ) );
+      @include box-shadow( 0 0 1px 0 #aaa );
     }
   }
 }
@@ -164,10 +165,11 @@ $button-list: append($button-list, ('.facebook', #3B5998, 0 0 ));
 $button-alt-list: append($button-alt-list, ('.facebook.alt', -28px -84px ));
 $button-list: append($button-list, ('.firefox', #CAE1f4 , -56px -308px ));
 $button-list: append($button-list, ('.flickr', #F4F4F4, 0 -28px ));
-$button-list: append($button-list, ('.foursquare', #25a0ca, 0 -56px ));
-$button-alt-list: append($button-alt-list, ('.foursquare.alt', -28px -140px ));
+$button-list: append($button-list, ('.foursquare', #F4F4F4, -56px -420px ));
+$button-list: append($button-list, ('.foursquare-alt', #25a0ca, 0 -56px ));
+$button-alt-list: append($button-alt-list, ('.foursquare-alt.alt', -28px -140px ));
+$button-list: append($button-list, ('.git', #F4F4F4, 0 -112px ));
 $button-list: append($button-list, ('.github', #F4F4F4, 0 -84px ));
-$button-alt-list: append($button-alt-list, ('.github.alt', 0 -112px ));
 $button-list: append($button-list, ('.github-alt', #383838, -56px 0 ));
 $button-list: append($button-list, ('.gplus', #DD4B39, 0 -140px ));
 $button-list: append($button-list, ('.grooveshark', #F77F00, -56px -56px ));
@@ -192,6 +194,7 @@ $button-list: append($button-list, ('.skype', #00AFF0, -28px 0 ));
 $button-list: append($button-list, ('.soundcloud', #FF7700, -28px -112px ));
 $button-list: append($button-list, ('.spotify', #81B71A, -28px -196px ));
 $button-list: append($button-list, ('.stumbleupon', #F74425, -28px -56px ));
+$button-list: append($button-list, ('.swarm', #FDAF17, -28px -448px ));
 $button-list: append($button-list, ('.tumblr', #34526F, 0 -308px ));
 $button-list: append($button-list, ('.twitter', #00ACEE, 0 -336px ));
 $button-alt-list: append($button-alt-list, ('.twitter.alt', 0 -364px ));

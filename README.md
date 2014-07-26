@@ -1,7 +1,7 @@
 CSS Social Media Buttons
 ==========================
 
-A set of 50 social media buttons made with CSS, that can be added with just one HTML element. They're retina proof, 36 pixels (excluding shadow) in diameter, come in two types (normal and flat) and in four styles (square, rounded, round, bordered).
+A set of 52 social media buttons made with CSS, that can be added with just one HTML element. They're retina proof, 36 pixels (excluding shadow) in diameter, come in two types (normal and flat) and in four styles (square, rounded, round, bordered).
 
 ![](https://raw.github.com/timhuisman/round-social-media-buttons/v.2/screenshot-1.png)
 
@@ -58,21 +58,21 @@ For alternative versions with a different color button (like `youtube`) the old 
 
 - `bitbucket`
 - `blogger`
-- `chrome` **!new**
+- `chrome`
 - `delicious`
 - `deviantart`
 - `digg`
 - `dropbox`
 - `drupal`
 - `facebook` [`alt`]
-- `firefox` **!new**
+- `firefox`
 - `flickr`
-- `foursquare` [`alt`]
+- `foursquare` **!new** | `foursquare-alt` [`alt`]
 - `github` [`alt`] | `github-alt`
 - `gplus`
 - `grooveshark`
 - `icheckmovies`
-- `ie` **!new**
+- `ie`
 - `imdb`
 - `instagram` | `instagram-alt`
 - `issuu`
@@ -80,17 +80,18 @@ For alternative versions with a different color button (like `youtube`) the old 
 - `linkedin`
 - `mail`
 - `myspace`
-- `opera` **!new**
+- `opera`
 - `path`
 - `paypal`
 - `pinterest`
 - `reddit`
 - `rss`
-- `safari` **!new**
+- `safari`
 - `skype`
 - `soundcloud`
 - `spotify`
 - `stumbleupon`
+- `swarm` **!new**
 - `tumblr`
 - `twitter` [`alt`]
 - `vimeo`
@@ -127,6 +128,17 @@ This list shows some of the features/bugs I'm planning to work on for feature re
 - [?.?.?] Make a Compass version: to use the automatic sprite generator feature.
 
 ## Changelog v.2 ##
+
+**[!]** = Can cause issues when updating from older version
+
+**v.2.2.0**
+
+- Added two new buttons: `foursquare` (the new "F" logo on a white background) and `swarm` (the bee on an orange background).
+- **[!]** Renamed `foursquare` (the old "bouncing ball" logo) to `foursquare-alt`.
+- **[!]** Renamed `foursquare.alt` to `foursquare-alt.alt`.
+- **[!]** Renamed `github.alt` to `git`.
+- Removed outline from buttons on `:hover`, `:focus` and `:active` states.
+- Renamed the sprite image from `sprite-rsmb` to `icon-sprite`.
 
 **v.2.1.0**
 

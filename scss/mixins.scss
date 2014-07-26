@@ -35,13 +35,13 @@
   box-sizing: border-box;
 }
 
-// How to use: @include linear-gradient-top-to-bottom( 0%, rgba( 255,255,255,0.25 ), 100%, rgba( 255,255,255,0 ) );
+// How to use: @include linear-gradient-top-to-bottom( 0%, rgba( 255, 255, 255, 0.25 ), 100%, rgba( 255, 255, 255, 0 ) );
 @mixin linear-gradient-top-to-bottom( $begin, $color-begin, $end, $end-color ) {
   background: -moz-linear-gradient(top, $color-begin $begin, $end-color $end );
   background: -webkit-gradient(linear, left top, left bottom, color-stop($begin, $color-begin ), color-stop( $end, $end-color ) );
   background: -webkit-linear-gradient(top, $color-begin $begin, $end-color $end );
   background: -o-linear-gradient(top, $color-begin $begin, $end-color $end );
-  background: -ms-linear-gradient(top, $color-begin$begin, $end-color $end );
+  background: -ms-linear-gradient(top, $color-begin $begin, $end-color $end );
   background: linear-gradient(to bottom, $color-begin $begin, $end-color $end );
 }
 
