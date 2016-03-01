@@ -1,5 +1,5 @@
 .csmb, .csmb-flat {
-  background-image: url("../img/icon-sprite.png");
+  background-image: url("../images/icon-sprite.png");
   background-repeat: no-repeat;
   -webkit-transition: background-color 0.25s ease;
   transition: background-color 0.25s ease;
@@ -22,7 +22,7 @@
     left: 0; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
     .csmb, .csmb-flat {
-      background-image: url("../img/icon-sprite-x2.png");
+      background-image: url("../images/icon-sprite-x2.png");
       background-size: 84px; } }
 
 a.csmb:hover, a.csmb:focus, a.csmb:active, a.csmb-flat:hover, a.csmb-flat:focus, a.csmb-flat:active, button.csmb:hover, button.csmb:focus, button.csmb:active, button.csmb-flat:hover, button.csmb-flat:focus, button.csmb-flat:active {
