@@ -2,6 +2,18 @@
 // CSS Social Media Buttons
 // ====================================================================================
 
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// Set option to 'false' for styles/types that aren't used; to keep the CSS small.
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// Turn on/off button types: one of the two must always be true
+$default : true;
+$flat    : true;
+// Turn on/off button styles
+$round   : true;
+$rounded : true;
+$border  : true;
+
 //
 // Settings
 // ------------------------------------------------------------------------------------
@@ -9,146 +21,13 @@
 @import 'settings/colors.scss';
 @import 'settings/buttons.scss';
 
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
-// Set option to 'false' for button styles/types that you don't use, to keep the compiled CSS small. //
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
-
-// Variables can be used to turn on/off button types: one of the two must always be true
-$default: true;
-$flat:    true;
-// Variables can be used to turn on/off button styles
-$border:  true;
-$rounded: true;
-$round:   true;
-// Variables can be used to turn on/off button style for certain type of elements
-$anchors: true; // <a> elements
-$buttons: true; // <button> elements
-
 //
-// Styling
+// Base
 // ------------------------------------------------------------------------------------
 
-.csmb,
-.csmb-flat {
-  background-image: url('#{$img-path}/icon-sprite.png');
-  background-repeat: no-repeat;
-  transition: background-color 0.25s ease;
-  text-indent: -9999px;
-  display: inline-block;
-  width: $btn-size;
-  height: $btn-size;
-  margin: 4px;
-  padding: 0;
-  position: relative;
+@import 'base/types.scss';
+@import 'base/styles.scss';
 
-  &::before,
-  &::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-  // Use larger sprite (2 x 28pixels) for Retina display
-  @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
-    background-image: url('#{$img-path}/icon-sprite-x2.png');
-    background-size: 84px;
-  }
-}
-
-@if $anchors == true or $buttons == true {
-  a,
-  button {
-    &.csmb,
-    &.csmb-flat {
-      &:hover,
-      &:focus,
-      &:active {
-        outline: none;
-      }
-    }
-  }
-}
-
-@if $buttons == true {
-  button {
-    &.csmb,
-    &.csmb-flat {
-      appearance: none;
-      border: 0;
-      cursor: pointer;
-      padding: 0;
-    }
-  }
-}
-
-// Default
-@if $default == true {
-  .csmb {
-    &::before {
-      box-shadow: 0 0 4px 0 $color-box-shadow;
-    }
-
-    &::after {
-      background: linear-gradient(to bottom, $color-gradient-top 0%, $color-gradient-bottom 100%);
-    }
-  }
-}
-
-// Flat
-@if $flat == true {
-  .csmb-flat {
-    &::before {
-      box-shadow: 0 0 1px 0 $color-box-shadow;
-    }
-  }
-}
-
-// Rounded
-@if $rounded == true {
-  .csmb-rounded,
-  .csmb-rounded::before,
-  .csmb-rounded::after {
-    border-radius: 25%;
-  }
-}
-
-// Round
-@if $round == true {
-  .csmb-round,
-  .csmb-round::before,
-  .csmb-round::after {
-    border-radius: 50%;
-  }
-}
-
-// Bordered
-@if $border == true {
-  .csmb-border {
-    &::before {
-      border: solid 2px $color-border;
-      width: ($btn-size + 4);
-      height: ($btn-size + 4);
-      top: -4px;
-      left: -4px;
-    }
-
-    &::after {
-      transition: border-color 0.25s ease;
-      top: -2px;
-      left: -2px;
-    }
-
-    @if $rounded == true {
-      &.csmb-rounded {
-        border-radius: 20%;
-      }
-    }
-  }
-}
 
 // Base buttons
 @if length($button-list) > 0 { // Only loop if list has items to avoid compile errors

@@ -1,0 +1,78 @@
+// ====================================================================================
+// BASE | Types
+// ====================================================================================
+
+//
+// Default & Flat
+// ------------------------------------------------------------------------------------
+
+%csmb {
+  appearance: none;
+  background-image: url('#{$img-path}/icon-sprite.png');
+  background-repeat: no-repeat;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  text-indent: -9999px;
+  display: inline-block;
+  width: $btn-size;
+  height: $btn-size;
+  margin: 4px;
+  padding: 0;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+  }
+
+  // Use larger sprite (2 x 28pixels) for Retina display
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+    background-image: url('#{$img-path}/icon-sprite-x2.png');
+    background-size: 84px;
+  }
+}
+
+//
+// Default
+// ------------------------------------------------------------------------------------
+
+@if $default == true {
+  .csmb {
+    @extend %csmb;
+
+    &::before {
+      box-shadow: 0 0 4px 0 $color-box-shadow;
+    }
+
+    &::after {
+      background: linear-gradient(to bottom, $color-gradient-top 0%, $color-gradient-bottom 100%);
+    }
+  }
+}
+
+//
+// Flat
+// ------------------------------------------------------------------------------------
+
+@if $flat == true {
+  .csmb-flat {
+    @extend %csmb;
+
+    &::before {
+      box-shadow: 0 0 1px 0 $color-box-shadow;
+    }
+  }
+}
