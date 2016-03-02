@@ -1,14 +1,8 @@
 //
-// Mixins
-// ------------------------------------------------------------------------------------
-
-@import 'mixins.scss';
-
-//
 // Variables
 // ------------------------------------------------------------------------------------
 
-$img-path: "../img"; // Path to the folder where the sprites are stored
+$img-path: "../images"; // Path to the folder where the sprites are stored
 $button-list: ();
 $button-alt-list: ();
 
@@ -41,8 +35,8 @@ $buttons: true; // <button> elements
 .csmb, .csmb-flat {
   background-image: url('#{$img-path}/icon-sprite.png');
   background-repeat: no-repeat;
-  @include transition( background-color 0.25s ease );
-  @include text-indent;
+  transition: background-color 0.25s ease;
+  text-indent: -9999px;
   display: inline-block;
   width: $btn-size;
   height: $btn-size;
@@ -63,7 +57,7 @@ $buttons: true; // <button> elements
   // Use larger sprite (2 x 28pixels) for Retina display
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
     background-image: url('#{$img-path}/icon-sprite-x2.png');
-    @include background-size( 84px );
+    background-size: 84px;
   }
 }
 
@@ -80,7 +74,7 @@ $buttons: true; // <button> elements
 @if $buttons == true {
   button {
     &.csmb, &.csmb-flat {
-      @include appearance( none );
+      appearance: none;
       border: none;
       cursor: pointer;
       padding: 0;
@@ -92,11 +86,11 @@ $buttons: true; // <button> elements
 @if $default == true {
   .csmb {
     &:before {
-      @include box-shadow( 0 0 4px 0 #aaa );
+      box-shadow: 0 0 4px 0 #aaa;
     }
 
     &:after {
-      @include linear-gradient-top-to-bottom( 0%, rgba( 255, 255, 255, 0.25 ), 100%, rgba( 255, 255, 255, 0 ) );
+      background: linear-gradient(to bottom, rgba( 255, 255, 255, 0.25 ) 0%, rgba( 255, 255, 255, 0 ) 100% );
     }
   }
 }
@@ -105,7 +99,7 @@ $buttons: true; // <button> elements
 @if $flat == true {
   .csmb-flat {
     &:before {
-      @include box-shadow( 0 0 1px 0 #aaa );
+      box-shadow: 0 0 1px 0 #aaa;
     }
   }
 }
@@ -113,14 +107,14 @@ $buttons: true; // <button> elements
 // Rounded
 @if $rounded == true {
   .csmb-rounded, .csmb-rounded:before, .csmb-rounded:after {
-    @include border-radius( 25% );
+    border-radius: 25%;
   }
 }
 
 // Round
 @if $round == true {
   .csmb-round, .csmb-round:before, .csmb-round:after {
-    @include border-radius( 50% );
+    border-radius: 50%;
   }
 }
 
@@ -136,14 +130,14 @@ $buttons: true; // <button> elements
     }
 
     &:after {
-      @include transition( border-color 0.25s ease );
+      transition: border-color 0.25s ease;
       top: -2px;
       left: -2px;
     }
 
     @if $rounded == true {
       &.csmb-rounded {
-        @include border-radius( 20% );
+        border-radius: 20%;
       }
     }
   }
@@ -218,7 +212,7 @@ $button-alt-list: append($button-alt-list, ('.youtube-alt.alt', -28px -476px ));
       // Default
       @if $default == true {
         &.csmb {
-          @include box-shadow( inset 0 1px 2px 0 lighten( $color, $diff-large ) );
+          box-shadow: inset 0 1px 2px 0 lighten( $color, $diff-large );
         }
       }
 
