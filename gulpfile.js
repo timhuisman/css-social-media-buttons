@@ -5,8 +5,7 @@ var gulp         = require('gulp'),
     rename       = require('gulp-rename'),
     clean        = require('gulp-clean');
 
-var src  = 'src/stylesheets/csmb.scss',
-    dist = 'dist/stylesheets';
+var dist = 'dist/stylesheets';
 
 // Clean
 gulp.task('clean-styles', function () {
@@ -16,7 +15,7 @@ gulp.task('clean-styles', function () {
 
 // Styles
 gulp.task('styles', function() {
-  gulp.src(src)
+  gulp.src('src/stylesheets/csmb.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest(dist))
     .pipe(autoprefixer({
@@ -34,5 +33,5 @@ gulp.task('default', ['clean-styles', 'styles']);
 
 // Watch
 gulp.task('watch', function(callback) {
-  gulp.watch(src, ['styles']);
+  gulp.watch('src/stylesheets/**/*.scss', ['styles']);
 });
