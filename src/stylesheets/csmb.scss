@@ -28,69 +28,9 @@ $border  : true;
 @import 'base/types.scss';
 @import 'base/styles.scss';
 
+//
+// Buttons
+// ------------------------------------------------------------------------------------
 
-// Base buttons
-@if length($button-list) > 0 { // Only loop if list has items to avoid compile errors
-  @each $button in $button-list {
-    $color: nth($button, 2);
-
-    #{nth($button, 1)} {
-      background-color: $color;
-      background-position: nth($button, 3);
-
-      // Default
-      @if $default == true {
-        &.csmb {
-          box-shadow: inset 0 1px 2px 0 lighten($color, $diff-large);
-        }
-      }
-
-      // Bordered
-      @if $border == true {
-        &.csmb-border {
-          &::after {
-            border: solid 2px darken($color, $diff-small);
-          }
-        }
-      }
-    }
-
-    @if $anchors == true or $buttons == true {
-      a,
-      button {
-        &#{nth($button, 1)} {
-          &:hover,
-          &:focus {
-            background-color: lighten($color, $diff-small);
-          }
-
-          &:active {
-            background-color: darken($color, $diff-small);
-          }
-
-          // Bordered
-          @if $border == true {
-            &.csmb-border {
-              &:hover,
-              &:focus,
-              &:active {
-                &::after {
-                  border: solid 2px darken($color, $diff-medium);
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-// Alternative buttons
-@if length($button-alt-list) > 0 { // Only loop if list has items to avoid compile errors
-  @each $button-alt in $button-alt-list {
-    #{nth($button-alt, 1)} {
-      background-position: nth($button-alt, 2);
-    }
-  }
-}
+@import 'buttons/base.scss';
+@import 'buttons/alternative.scss';
