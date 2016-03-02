@@ -1,19 +1,13 @@
+// ====================================================================================
+// CSS Social Media Buttons
+// ====================================================================================
+
 //
-// Variables
+// Settings
 // ------------------------------------------------------------------------------------
 
 @import 'settings/colors.scss';
-
-$img-path: '../images'; // Path to the folder where the sprites are stored
-$button-list: ();
-$button-alt-list: ();
-
-$btn-size: 28px;
-
-// Percentages by which the base color of the icon will be made lighter/darker
-$diff-large: 25%; // Used for: color of the inner shadow
-$diff-medium: 17.5%; // Used for: border color in hover, focus & active state
-$diff-small: 10%; // Used for: background color in hover, focus & active state
+@import 'settings/buttons.scss';
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
 // Set option to 'false' for button styles/types that you don't use, to keep the compiled CSS small. //
@@ -155,63 +149,6 @@ $buttons: true; // <button> elements
     }
   }
 }
-
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
-// Remove/Comment out the buttons below that you don't use, to keep the compiled CSS small. //
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
-
-$button-list: append($button-list, ('.bitbucket', $color-bitbucket, -56px -84px));
-$button-list: append($button-list, ('.blogger', $color-blogger, -56px -168px));
-$button-list: append($button-list, ('.chrome', $color-chrome, -56px -280px));
-$button-list: append($button-list, ('.delicious', $color-delicious, -56px -196px));
-$button-list: append($button-list, ('.deviantart', $color-deviantart, -28px -28px));
-$button-list: append($button-list, ('.digg', $color-digg, -56px -224px));
-$button-list: append($button-list, ('.dropbox', $color-dropbox, -28px -364px));
-$button-list: append($button-list, ('.drupal', $color-drupal, -28px -252px));
-$button-list: append($button-list, ('.facebook', $color-facebook, 0 0));
-$button-alt-list: append($button-alt-list, ('.facebook.alt', -28px -84px));
-$button-list: append($button-list, ('.firefox', $color-firefox, -56px -308px));
-$button-list: append($button-list, ('.flickr', $color-flickr, 0 -28px));
-$button-list: append($button-list, ('.foursquare', $color-foursquare, -56px -420px));
-$button-list: append($button-list, ('.foursquare-alt', $color-foursquare-alt, 0 -56px));
-$button-alt-list: append($button-alt-list, ('.foursquare-alt.alt', -28px -140px));
-$button-list: append($button-list, ('.git', $color-git, 0 -112px));
-$button-list: append($button-list, ('.github', $color-github, 0 -84px));
-$button-list: append($button-list, ('.github-alt', $color-github-alt, -56px 0));
-$button-list: append($button-list, ('.gplus', $color-gplus, 0 -140px));
-$button-list: append($button-list, ('.grooveshark', $color-grooveshark, -56px -56px));
-$button-list: append($button-list, ('.icheckmovies', $color-icheckmovies, 0 -476px));
-$button-list: append($button-list, ('.ie', $color-ie, -56px -392px));
-$button-list: append($button-list, ('.imdb', $color-imdb, -56px -140px));
-$button-list: append($button-list, ('.instagram', $color-instagram, -28px -392px));
-$button-list: append($button-list, ('.instagram-alt', $color-instagram-alt, -28px -420px));
-$button-list: append($button-list, ('.issuu', $color-issuu, -28px -168px));
-$button-list: append($button-list, ('.lastfm', $color-lastfm, 0 -168px));
-$button-list: append($button-list, ('.linkedin', $color-linkedin, 0 -196px));
-$button-list: append($button-list, ('.mail', $color-mail, 0 -224px));
-$button-list: append($button-list, ('.myspace', $color-myspace, -28px -308px));
-$button-list: append($button-list, ('.opera', $color-opera, -56px -336px));
-$button-list: append($button-list, ('.path', $color-path, 0 -252px));
-$button-list: append($button-list, ('.paypal', $color-paypal, -28px -280px));
-$button-list: append($button-list, ('.pinterest', $color-pinterest, -28px -336px)); // Black BG color: #383838
-$button-list: append($button-list, ('.reddit', $color-reddit, -56px -252px));
-$button-list: append($button-list, ('.rss', $color-rss, 0 -280px));
-$button-list: append($button-list, ('.safari', $color-safari, -56px -364px));
-$button-list: append($button-list, ('.skype', $color-skype, -28px 0));
-$button-list: append($button-list, ('.soundcloud', $color-soundcloud, -28px -112px));
-$button-list: append($button-list, ('.spotify', $color-spotify, -28px -196px));
-$button-list: append($button-list, ('.stumbleupon', $color-stumbleupon, -28px -56px));
-$button-list: append($button-list, ('.swarm', $color-swarm, -28px -448px));
-$button-list: append($button-list, ('.tumblr', $color-tumblr, 0 -308px));
-$button-list: append($button-list, ('.twitter', $color-twitter, 0 -336px));
-$button-alt-list: append($button-alt-list, ('.twitter.alt', 0 -364px));
-$button-list: append($button-list, ('.vimeo', $color-vimeo, 0 -392px));
-$button-list: append($button-list, ('.vine', $color-vine, -56px -28px));
-$button-list: append($button-list, ('.wordpress', $color-wordpress, -28px -224px)); // Grey BG color: #464646
-$button-list: append($button-list, ('.yelp', $color-yelp, -56px -112px));
-$button-list: append($button-list, ('.youtube', $color-youtube, 0 -420px));
-$button-list: append($button-list, ('.youtube-alt', $color-youtube-alt, 0 -448px));
-$button-alt-list: append($button-alt-list, ('.youtube-alt.alt', -28px -476px));
 
 // Base buttons
 @if length($button-list) > 0 { // Only loop if list has items to avoid compile errors
