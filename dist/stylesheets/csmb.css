@@ -1,4 +1,5 @@
-.csmb, .csmb-flat {
+.csmb,
+.csmb-flat {
   background-image: url("../images/icon-sprite.png");
   background-repeat: no-repeat;
   -webkit-transition: background-color 0.25s ease;
@@ -10,7 +11,9 @@
   margin: 4px;
   padding: 0;
   position: relative; }
-  .csmb:before, .csmb:after, .csmb-flat:before, .csmb-flat:after {
+  .csmb::before, .csmb::after,
+  .csmb-flat::before,
+  .csmb-flat::after {
     content: '';
     display: block;
     width: 100%;
@@ -19,45 +22,56 @@
     top: 0;
     left: 0; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
-    .csmb, .csmb-flat {
+    .csmb,
+    .csmb-flat {
       background-image: url("../images/icon-sprite-x2.png");
       background-size: 84px; } }
 
-a.csmb:hover, a.csmb:focus, a.csmb:active, a.csmb-flat:hover, a.csmb-flat:focus, a.csmb-flat:active, button.csmb:hover, button.csmb:focus, button.csmb:active, button.csmb-flat:hover, button.csmb-flat:focus, button.csmb-flat:active {
+a.csmb:hover, a.csmb:focus, a.csmb:active, a.csmb-flat:hover, a.csmb-flat:focus, a.csmb-flat:active,
+button.csmb:hover,
+button.csmb:focus,
+button.csmb:active,
+button.csmb-flat:hover,
+button.csmb-flat:focus,
+button.csmb-flat:active {
   outline: none; }
 
 button.csmb, button.csmb-flat {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border: none;
+  border: 0;
   cursor: pointer;
   padding: 0; }
 
-.csmb:before {
+.csmb::before {
   box-shadow: 0 0 4px 0 #aaa; }
 
-.csmb:after {
+.csmb::after {
   background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%); }
 
-.csmb-flat:before {
+.csmb-flat::before {
   box-shadow: 0 0 1px 0 #aaa; }
 
-.csmb-rounded, .csmb-rounded:before, .csmb-rounded:after {
+.csmb-rounded,
+.csmb-rounded::before,
+.csmb-rounded::after {
   border-radius: 25%; }
 
-.csmb-round, .csmb-round:before, .csmb-round:after {
+.csmb-round,
+.csmb-round::before,
+.csmb-round::after {
   border-radius: 50%; }
 
-.csmb-border:before {
+.csmb-border::before {
   border: solid 2px #fff;
   width: 32px;
   height: 32px;
   top: -4px;
   left: -4px; }
 
-.csmb-border:after {
+.csmb-border::after {
   -webkit-transition: border-color 0.25s ease;
   transition: border-color 0.25s ease;
   top: -2px;
@@ -71,84 +85,114 @@ button.csmb, button.csmb-flat {
   background-position: -56px -84px; }
   .bitbucket.csmb {
     box-shadow: inset 0 1px 2px 0 #4e90d3; }
-  .bitbucket.csmb-border:after {
+  .bitbucket.csmb-border::after {
     border: solid 2px #163758; }
 
-a.bitbucket:hover, a.bitbucket:focus, button.bitbucket:hover, button.bitbucket:focus {
+a.bitbucket:hover, a.bitbucket:focus,
+button.bitbucket:hover,
+button.bitbucket:focus {
   background-color: #2a69aa; }
 
-a.bitbucket:active, button.bitbucket:active {
+a.bitbucket:active,
+button.bitbucket:active {
   background-color: #163758; }
 
-a.bitbucket.csmb-border:hover:after, a.bitbucket.csmb-border:focus:after, a.bitbucket.csmb-border:active:after, button.bitbucket.csmb-border:hover:after, button.bitbucket.csmb-border:focus:after, button.bitbucket.csmb-border:active:after {
+a.bitbucket.csmb-border:hover::after, a.bitbucket.csmb-border:focus::after, a.bitbucket.csmb-border:active::after,
+button.bitbucket.csmb-border:hover::after,
+button.bitbucket.csmb-border:focus::after,
+button.bitbucket.csmb-border:active::after {
   border: solid 2px #0e2439; }
 
 .blogger {
-  background-color: #FC4F08;
+  background-color: #fc4f08;
   background-position: -56px -168px; }
   .blogger.csmb {
     box-shadow: inset 0 1px 2px 0 #fea986; }
-  .blogger.csmb-border:after {
+  .blogger.csmb-border::after {
     border: solid 2px #ce3e03; }
 
-a.blogger:hover, a.blogger:focus, button.blogger:hover, button.blogger:focus {
+a.blogger:hover, a.blogger:focus,
+button.blogger:hover,
+button.blogger:focus {
   background-color: #fd733a; }
 
-a.blogger:active, button.blogger:active {
+a.blogger:active,
+button.blogger:active {
   background-color: #ce3e03; }
 
-a.blogger.csmb-border:hover:after, a.blogger.csmb-border:focus:after, a.blogger.csmb-border:active:after, button.blogger.csmb-border:hover:after, button.blogger.csmb-border:focus:after, button.blogger.csmb-border:active:after {
+a.blogger.csmb-border:hover::after, a.blogger.csmb-border:focus::after, a.blogger.csmb-border:active::after,
+button.blogger.csmb-border:hover::after,
+button.blogger.csmb-border:focus::after,
+button.blogger.csmb-border:active::after {
   border: solid 2px #a93302; }
 
 .chrome {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   background-position: -56px -280px; }
   .chrome.csmb {
     box-shadow: inset 0 1px 2px 0 white; }
-  .chrome.csmb-border:after {
+  .chrome.csmb-border::after {
     border: solid 2px #dbdbdb; }
 
-a.chrome:hover, a.chrome:focus, button.chrome:hover, button.chrome:focus {
+a.chrome:hover, a.chrome:focus,
+button.chrome:hover,
+button.chrome:focus {
   background-color: white; }
 
-a.chrome:active, button.chrome:active {
+a.chrome:active,
+button.chrome:active {
   background-color: #dbdbdb; }
 
-a.chrome.csmb-border:hover:after, a.chrome.csmb-border:focus:after, a.chrome.csmb-border:active:after, button.chrome.csmb-border:hover:after, button.chrome.csmb-border:focus:after, button.chrome.csmb-border:active:after {
+a.chrome.csmb-border:hover::after, a.chrome.csmb-border:focus::after, a.chrome.csmb-border:active::after,
+button.chrome.csmb-border:hover::after,
+button.chrome.csmb-border:focus::after,
+button.chrome.csmb-border:active::after {
   border: solid 2px #c7c7c7; }
 
 .delicious {
-  background-color: #EEE;
+  background-color: #eee;
   background-position: -56px -196px; }
   .delicious.csmb {
     box-shadow: inset 0 1px 2px 0 white; }
-  .delicious.csmb-border:after {
+  .delicious.csmb-border::after {
     border: solid 2px #d5d5d5; }
 
-a.delicious:hover, a.delicious:focus, button.delicious:hover, button.delicious:focus {
+a.delicious:hover, a.delicious:focus,
+button.delicious:hover,
+button.delicious:focus {
   background-color: white; }
 
-a.delicious:active, button.delicious:active {
+a.delicious:active,
+button.delicious:active {
   background-color: #d5d5d5; }
 
-a.delicious.csmb-border:hover:after, a.delicious.csmb-border:focus:after, a.delicious.csmb-border:active:after, button.delicious.csmb-border:hover:after, button.delicious.csmb-border:focus:after, button.delicious.csmb-border:active:after {
+a.delicious.csmb-border:hover::after, a.delicious.csmb-border:focus::after, a.delicious.csmb-border:active::after,
+button.delicious.csmb-border:hover::after,
+button.delicious.csmb-border:focus::after,
+button.delicious.csmb-border:active::after {
   border: solid 2px #c1c1c1; }
 
 .deviantart {
-  background-color: #4E6252;
+  background-color: #4e6252;
   background-position: -28px -28px; }
   .deviantart.csmb {
     box-shadow: inset 0 1px 2px 0 #8ca391; }
-  .deviantart.csmb-border:after {
+  .deviantart.csmb-border::after {
     border: solid 2px #37463a; }
 
-a.deviantart:hover, a.deviantart:focus, button.deviantart:hover, button.deviantart:focus {
+a.deviantart:hover, a.deviantart:focus,
+button.deviantart:hover,
+button.deviantart:focus {
   background-color: #657e6a; }
 
-a.deviantart:active, button.deviantart:active {
+a.deviantart:active,
+button.deviantart:active {
   background-color: #37463a; }
 
-a.deviantart.csmb-border:hover:after, a.deviantart.csmb-border:focus:after, a.deviantart.csmb-border:active:after, button.deviantart.csmb-border:hover:after, button.deviantart.csmb-border:focus:after, button.deviantart.csmb-border:active:after {
+a.deviantart.csmb-border:hover::after, a.deviantart.csmb-border:focus::after, a.deviantart.csmb-border:active::after,
+button.deviantart.csmb-border:hover::after,
+button.deviantart.csmb-border:focus::after,
+button.deviantart.csmb-border:active::after {
   border: solid 2px #263028; }
 
 .digg {
@@ -156,118 +200,160 @@ a.deviantart.csmb-border:hover:after, a.deviantart.csmb-border:focus:after, a.de
   background-position: -56px -224px; }
   .digg.csmb {
     box-shadow: inset 0 1px 2px 0 #787878; }
-  .digg.csmb-border:after {
+  .digg.csmb-border::after {
     border: solid 2px #1f1f1f; }
 
-a.digg:hover, a.digg:focus, button.digg:hover, button.digg:focus {
+a.digg:hover, a.digg:focus,
+button.digg:hover,
+button.digg:focus {
   background-color: #525252; }
 
-a.digg:active, button.digg:active {
+a.digg:active,
+button.digg:active {
   background-color: #1f1f1f; }
 
-a.digg.csmb-border:hover:after, a.digg.csmb-border:focus:after, a.digg.csmb-border:active:after, button.digg.csmb-border:hover:after, button.digg.csmb-border:focus:after, button.digg.csmb-border:active:after {
+a.digg.csmb-border:hover::after, a.digg.csmb-border:focus::after, a.digg.csmb-border:active::after,
+button.digg.csmb-border:hover::after,
+button.digg.csmb-border:focus::after,
+button.digg.csmb-border:active::after {
   border: solid 2px #0b0b0b; }
 
 .dropbox {
-  background-color: #3D9AE8;
+  background-color: #3d9ae8;
   background-position: -28px -364px; }
   .dropbox.csmb {
     box-shadow: inset 0 1px 2px 0 #afd5f6; }
-  .dropbox.csmb-border:after {
+  .dropbox.csmb-border::after {
     border: solid 2px #1a81d8; }
 
-a.dropbox:hover, a.dropbox:focus, button.dropbox:hover, button.dropbox:focus {
+a.dropbox:hover, a.dropbox:focus,
+button.dropbox:hover,
+button.dropbox:focus {
   background-color: #6bb2ed; }
 
-a.dropbox:active, button.dropbox:active {
+a.dropbox:active,
+button.dropbox:active {
   background-color: #1a81d8; }
 
-a.dropbox.csmb-border:hover:after, a.dropbox.csmb-border:focus:after, a.dropbox.csmb-border:active:after, button.dropbox.csmb-border:hover:after, button.dropbox.csmb-border:focus:after, button.dropbox.csmb-border:active:after {
+a.dropbox.csmb-border:hover::after, a.dropbox.csmb-border:focus::after, a.dropbox.csmb-border:active::after,
+button.dropbox.csmb-border:hover::after,
+button.dropbox.csmb-border:focus::after,
+button.dropbox.csmb-border:active::after {
   border: solid 2px #166db6; }
 
 .drupal {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   background-position: -28px -252px; }
   .drupal.csmb {
     box-shadow: inset 0 1px 2px 0 white; }
-  .drupal.csmb-border:after {
+  .drupal.csmb-border::after {
     border: solid 2px #dbdbdb; }
 
-a.drupal:hover, a.drupal:focus, button.drupal:hover, button.drupal:focus {
+a.drupal:hover, a.drupal:focus,
+button.drupal:hover,
+button.drupal:focus {
   background-color: white; }
 
-a.drupal:active, button.drupal:active {
+a.drupal:active,
+button.drupal:active {
   background-color: #dbdbdb; }
 
-a.drupal.csmb-border:hover:after, a.drupal.csmb-border:focus:after, a.drupal.csmb-border:active:after, button.drupal.csmb-border:hover:after, button.drupal.csmb-border:focus:after, button.drupal.csmb-border:active:after {
+a.drupal.csmb-border:hover::after, a.drupal.csmb-border:focus::after, a.drupal.csmb-border:active::after,
+button.drupal.csmb-border:hover::after,
+button.drupal.csmb-border:focus::after,
+button.drupal.csmb-border:active::after {
   border: solid 2px #c7c7c7; }
 
 .facebook {
-  background-color: #3B5998;
+  background-color: #3b5998;
   background-position: 0 0; }
   .facebook.csmb {
     box-shadow: inset 0 1px 2px 0 #839ccf; }
-  .facebook.csmb-border:after {
+  .facebook.csmb-border::after {
     border: solid 2px #2d4373; }
 
-a.facebook:hover, a.facebook:focus, button.facebook:hover, button.facebook:focus {
+a.facebook:hover, a.facebook:focus,
+button.facebook:hover,
+button.facebook:focus {
   background-color: #4c70ba; }
 
-a.facebook:active, button.facebook:active {
+a.facebook:active,
+button.facebook:active {
   background-color: #2d4373; }
 
-a.facebook.csmb-border:hover:after, a.facebook.csmb-border:focus:after, a.facebook.csmb-border:active:after, button.facebook.csmb-border:hover:after, button.facebook.csmb-border:focus:after, button.facebook.csmb-border:active:after {
+a.facebook.csmb-border:hover::after, a.facebook.csmb-border:focus::after, a.facebook.csmb-border:active::after,
+button.facebook.csmb-border:hover::after,
+button.facebook.csmb-border:focus::after,
+button.facebook.csmb-border:active::after {
   border: solid 2px #223358; }
 
 .firefox {
-  background-color: #CAE1f4;
+  background-color: #cae1f4;
   background-position: -56px -308px; }
   .firefox.csmb {
     box-shadow: inset 0 1px 2px 0 white; }
-  .firefox.csmb-border:after {
+  .firefox.csmb-border::after {
     border: solid 2px #a0c9eb; }
 
-a.firefox:hover, a.firefox:focus, button.firefox:hover, button.firefox:focus {
+a.firefox:hover, a.firefox:focus,
+button.firefox:hover,
+button.firefox:focus {
   background-color: #f4f9fd; }
 
-a.firefox:active, button.firefox:active {
+a.firefox:active,
+button.firefox:active {
   background-color: #a0c9eb; }
 
-a.firefox.csmb-border:hover:after, a.firefox.csmb-border:focus:after, a.firefox.csmb-border:active:after, button.firefox.csmb-border:hover:after, button.firefox.csmb-border:focus:after, button.firefox.csmb-border:active:after {
+a.firefox.csmb-border:hover::after, a.firefox.csmb-border:focus::after, a.firefox.csmb-border:active::after,
+button.firefox.csmb-border:hover::after,
+button.firefox.csmb-border:focus::after,
+button.firefox.csmb-border:active::after {
   border: solid 2px #80b7e5; }
 
 .flickr {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   background-position: 0 -28px; }
   .flickr.csmb {
     box-shadow: inset 0 1px 2px 0 white; }
-  .flickr.csmb-border:after {
+  .flickr.csmb-border::after {
     border: solid 2px #dbdbdb; }
 
-a.flickr:hover, a.flickr:focus, button.flickr:hover, button.flickr:focus {
+a.flickr:hover, a.flickr:focus,
+button.flickr:hover,
+button.flickr:focus {
   background-color: white; }
 
-a.flickr:active, button.flickr:active {
+a.flickr:active,
+button.flickr:active {
   background-color: #dbdbdb; }
 
-a.flickr.csmb-border:hover:after, a.flickr.csmb-border:focus:after, a.flickr.csmb-border:active:after, button.flickr.csmb-border:hover:after, button.flickr.csmb-border:focus:after, button.flickr.csmb-border:active:after {
+a.flickr.csmb-border:hover::after, a.flickr.csmb-border:focus::after, a.flickr.csmb-border:active::after,
+button.flickr.csmb-border:hover::after,
+button.flickr.csmb-border:focus::after,
+button.flickr.csmb-border:active::after {
   border: solid 2px #c7c7c7; }
 
 .foursquare {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   background-position: -56px -420px; }
   .foursquare.csmb {
     box-shadow: inset 0 1px 2px 0 white; }
-  .foursquare.csmb-border:after {
+  .foursquare.csmb-border::after {
     border: solid 2px #dbdbdb; }
 
-a.foursquare:hover, a.foursquare:focus, button.foursquare:hover, button.foursquare:focus {
+a.foursquare:hover, a.foursquare:focus,
+button.foursquare:hover,
+button.foursquare:focus {
   background-color: white; }
 
-a.foursquare:active, button.foursquare:active {
+a.foursquare:active,
+button.foursquare:active {
   background-color: #dbdbdb; }
 
-a.foursquare.csmb-border:hover:after, a.foursquare.csmb-border:focus:after, a.foursquare.csmb-border:active:after, button.foursquare.csmb-border:hover:after, button.foursquare.csmb-border:focus:after, button.foursquare.csmb-border:active:after {
+a.foursquare.csmb-border:hover::after, a.foursquare.csmb-border:focus::after, a.foursquare.csmb-border:active::after,
+button.foursquare.csmb-border:hover::after,
+button.foursquare.csmb-border:focus::after,
+button.foursquare.csmb-border:active::after {
   border: solid 2px #c7c7c7; }
 
 .foursquare-alt {
@@ -275,50 +361,68 @@ a.foursquare.csmb-border:hover:after, a.foursquare.csmb-border:focus:after, a.fo
   background-position: 0 -56px; }
   .foursquare-alt.csmb {
     box-shadow: inset 0 1px 2px 0 #86d0e9; }
-  .foursquare-alt.csmb-border:after {
+  .foursquare-alt.csmb-border::after {
     border: solid 2px #1d7e9f; }
 
-a.foursquare-alt:hover, a.foursquare-alt:focus, button.foursquare-alt:hover, button.foursquare-alt:focus {
+a.foursquare-alt:hover, a.foursquare-alt:focus,
+button.foursquare-alt:hover,
+button.foursquare-alt:focus {
   background-color: #45b6dd; }
 
-a.foursquare-alt:active, button.foursquare-alt:active {
+a.foursquare-alt:active,
+button.foursquare-alt:active {
   background-color: #1d7e9f; }
 
-a.foursquare-alt.csmb-border:hover:after, a.foursquare-alt.csmb-border:focus:after, a.foursquare-alt.csmb-border:active:after, button.foursquare-alt.csmb-border:hover:after, button.foursquare-alt.csmb-border:focus:after, button.foursquare-alt.csmb-border:active:after {
+a.foursquare-alt.csmb-border:hover::after, a.foursquare-alt.csmb-border:focus::after, a.foursquare-alt.csmb-border:active::after,
+button.foursquare-alt.csmb-border:hover::after,
+button.foursquare-alt.csmb-border:focus::after,
+button.foursquare-alt.csmb-border:active::after {
   border: solid 2px #17647f; }
 
 .git {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   background-position: 0 -112px; }
   .git.csmb {
     box-shadow: inset 0 1px 2px 0 white; }
-  .git.csmb-border:after {
+  .git.csmb-border::after {
     border: solid 2px #dbdbdb; }
 
-a.git:hover, a.git:focus, button.git:hover, button.git:focus {
+a.git:hover, a.git:focus,
+button.git:hover,
+button.git:focus {
   background-color: white; }
 
-a.git:active, button.git:active {
+a.git:active,
+button.git:active {
   background-color: #dbdbdb; }
 
-a.git.csmb-border:hover:after, a.git.csmb-border:focus:after, a.git.csmb-border:active:after, button.git.csmb-border:hover:after, button.git.csmb-border:focus:after, button.git.csmb-border:active:after {
+a.git.csmb-border:hover::after, a.git.csmb-border:focus::after, a.git.csmb-border:active::after,
+button.git.csmb-border:hover::after,
+button.git.csmb-border:focus::after,
+button.git.csmb-border:active::after {
   border: solid 2px #c7c7c7; }
 
 .github {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   background-position: 0 -84px; }
   .github.csmb {
     box-shadow: inset 0 1px 2px 0 white; }
-  .github.csmb-border:after {
+  .github.csmb-border::after {
     border: solid 2px #dbdbdb; }
 
-a.github:hover, a.github:focus, button.github:hover, button.github:focus {
+a.github:hover, a.github:focus,
+button.github:hover,
+button.github:focus {
   background-color: white; }
 
-a.github:active, button.github:active {
+a.github:active,
+button.github:active {
   background-color: #dbdbdb; }
 
-a.github.csmb-border:hover:after, a.github.csmb-border:focus:after, a.github.csmb-border:active:after, button.github.csmb-border:hover:after, button.github.csmb-border:focus:after, button.github.csmb-border:active:after {
+a.github.csmb-border:hover::after, a.github.csmb-border:focus::after, a.github.csmb-border:active::after,
+button.github.csmb-border:hover::after,
+button.github.csmb-border:focus::after,
+button.github.csmb-border:active::after {
   border: solid 2px #c7c7c7; }
 
 .github-alt {
@@ -326,50 +430,68 @@ a.github.csmb-border:hover:after, a.github.csmb-border:focus:after, a.github.csm
   background-position: -56px 0; }
   .github-alt.csmb {
     box-shadow: inset 0 1px 2px 0 #787878; }
-  .github-alt.csmb-border:after {
+  .github-alt.csmb-border::after {
     border: solid 2px #1f1f1f; }
 
-a.github-alt:hover, a.github-alt:focus, button.github-alt:hover, button.github-alt:focus {
+a.github-alt:hover, a.github-alt:focus,
+button.github-alt:hover,
+button.github-alt:focus {
   background-color: #525252; }
 
-a.github-alt:active, button.github-alt:active {
+a.github-alt:active,
+button.github-alt:active {
   background-color: #1f1f1f; }
 
-a.github-alt.csmb-border:hover:after, a.github-alt.csmb-border:focus:after, a.github-alt.csmb-border:active:after, button.github-alt.csmb-border:hover:after, button.github-alt.csmb-border:focus:after, button.github-alt.csmb-border:active:after {
+a.github-alt.csmb-border:hover::after, a.github-alt.csmb-border:focus::after, a.github-alt.csmb-border:active::after,
+button.github-alt.csmb-border:hover::after,
+button.github-alt.csmb-border:focus::after,
+button.github-alt.csmb-border:active::after {
   border: solid 2px #0b0b0b; }
 
 .gplus {
-  background-color: #DD4B39;
+  background-color: #dd4b39;
   background-position: 0 -140px; }
   .gplus.csmb {
     box-shadow: inset 0 1px 2px 0 #f0aea6; }
-  .gplus.csmb-border:after {
+  .gplus.csmb-border::after {
     border: solid 2px #c23321; }
 
-a.gplus:hover, a.gplus:focus, button.gplus:hover, button.gplus:focus {
+a.gplus:hover, a.gplus:focus,
+button.gplus:hover,
+button.gplus:focus {
   background-color: #e47365; }
 
-a.gplus:active, button.gplus:active {
+a.gplus:active,
+button.gplus:active {
   background-color: #c23321; }
 
-a.gplus.csmb-border:hover:after, a.gplus.csmb-border:focus:after, a.gplus.csmb-border:active:after, button.gplus.csmb-border:hover:after, button.gplus.csmb-border:focus:after, button.gplus.csmb-border:active:after {
+a.gplus.csmb-border:hover::after, a.gplus.csmb-border:focus::after, a.gplus.csmb-border:active::after,
+button.gplus.csmb-border:hover::after,
+button.gplus.csmb-border:focus::after,
+button.gplus.csmb-border:active::after {
   border: solid 2px #a12a1c; }
 
 .grooveshark {
-  background-color: #F77F00;
+  background-color: #f77f00;
   background-position: -56px -56px; }
   .grooveshark.csmb {
     box-shadow: inset 0 1px 2px 0 #ffbd78; }
-  .grooveshark.csmb-border:after {
+  .grooveshark.csmb-border::after {
     border: solid 2px #c46500; }
 
-a.grooveshark:hover, a.grooveshark:focus, button.grooveshark:hover, button.grooveshark:focus {
+a.grooveshark:hover, a.grooveshark:focus,
+button.grooveshark:hover,
+button.grooveshark:focus {
   background-color: #ff982b; }
 
-a.grooveshark:active, button.grooveshark:active {
+a.grooveshark:active,
+button.grooveshark:active {
   background-color: #c46500; }
 
-a.grooveshark.csmb-border:hover:after, a.grooveshark.csmb-border:focus:after, a.grooveshark.csmb-border:active:after, button.grooveshark.csmb-border:hover:after, button.grooveshark.csmb-border:focus:after, button.grooveshark.csmb-border:active:after {
+a.grooveshark.csmb-border:hover::after, a.grooveshark.csmb-border:focus::after, a.grooveshark.csmb-border:active::after,
+button.grooveshark.csmb-border:hover::after,
+button.grooveshark.csmb-border:focus::after,
+button.grooveshark.csmb-border:active::after {
   border: solid 2px #9e5100; }
 
 .icheckmovies {
@@ -377,50 +499,68 @@ a.grooveshark.csmb-border:hover:after, a.grooveshark.csmb-border:focus:after, a.
   background-position: 0 -476px; }
   .icheckmovies.csmb {
     box-shadow: inset 0 1px 2px 0 #787878; }
-  .icheckmovies.csmb-border:after {
+  .icheckmovies.csmb-border::after {
     border: solid 2px #1f1f1f; }
 
-a.icheckmovies:hover, a.icheckmovies:focus, button.icheckmovies:hover, button.icheckmovies:focus {
+a.icheckmovies:hover, a.icheckmovies:focus,
+button.icheckmovies:hover,
+button.icheckmovies:focus {
   background-color: #525252; }
 
-a.icheckmovies:active, button.icheckmovies:active {
+a.icheckmovies:active,
+button.icheckmovies:active {
   background-color: #1f1f1f; }
 
-a.icheckmovies.csmb-border:hover:after, a.icheckmovies.csmb-border:focus:after, a.icheckmovies.csmb-border:active:after, button.icheckmovies.csmb-border:hover:after, button.icheckmovies.csmb-border:focus:after, button.icheckmovies.csmb-border:active:after {
+a.icheckmovies.csmb-border:hover::after, a.icheckmovies.csmb-border:focus::after, a.icheckmovies.csmb-border:active::after,
+button.icheckmovies.csmb-border:hover::after,
+button.icheckmovies.csmb-border:focus::after,
+button.icheckmovies.csmb-border:active::after {
   border: solid 2px #0b0b0b; }
 
 .ie {
-  background-color: #00BCF2;
+  background-color: #00bcf2;
   background-position: -56px -392px; }
   .ie.csmb {
     box-shadow: inset 0 1px 2px 0 #73e0ff; }
-  .ie.csmb-border:after {
+  .ie.csmb-border::after {
     border: solid 2px #0094bf; }
 
-a.ie:hover, a.ie:focus, button.ie:hover, button.ie:focus {
+a.ie:hover, a.ie:focus,
+button.ie:hover,
+button.ie:focus {
   background-color: #26cfff; }
 
-a.ie:active, button.ie:active {
+a.ie:active,
+button.ie:active {
   background-color: #0094bf; }
 
-a.ie.csmb-border:hover:after, a.ie.csmb-border:focus:after, a.ie.csmb-border:active:after, button.ie.csmb-border:hover:after, button.ie.csmb-border:focus:after, button.ie.csmb-border:active:after {
+a.ie.csmb-border:hover::after, a.ie.csmb-border:focus::after, a.ie.csmb-border:active::after,
+button.ie.csmb-border:hover::after,
+button.ie.csmb-border:focus::after,
+button.ie.csmb-border:active::after {
   border: solid 2px #007799; }
 
 .imdb {
-  background-color: #F3CE13;
+  background-color: #f3ce13;
   background-position: -56px -140px; }
   .imdb.csmb {
     box-shadow: inset 0 1px 2px 0 #f9e78c; }
-  .imdb.csmb-border:after {
+  .imdb.csmb-border::after {
     border: solid 2px #c9a90a; }
 
-a.imdb:hover, a.imdb:focus, button.imdb:hover, button.imdb:focus {
+a.imdb:hover, a.imdb:focus,
+button.imdb:hover,
+button.imdb:focus {
   background-color: #f5d844; }
 
-a.imdb:active, button.imdb:active {
+a.imdb:active,
+button.imdb:active {
   background-color: #c9a90a; }
 
-a.imdb.csmb-border:hover:after, a.imdb.csmb-border:focus:after, a.imdb.csmb-border:active:after, button.imdb.csmb-border:hover:after, button.imdb.csmb-border:focus:after, button.imdb.csmb-border:active:after {
+a.imdb.csmb-border:hover::after, a.imdb.csmb-border:focus::after, a.imdb.csmb-border:active::after,
+button.imdb.csmb-border:hover::after,
+button.imdb.csmb-border:focus::after,
+button.imdb.csmb-border:active::after {
   border: solid 2px #a48b08; }
 
 .instagram {
@@ -428,101 +568,137 @@ a.imdb.csmb-border:hover:after, a.imdb.csmb-border:focus:after, a.imdb.csmb-bord
   background-position: -28px -392px; }
   .instagram.csmb {
     box-shadow: inset 0 1px 2px 0 #c8b7b0; }
-  .instagram.csmb-border:after {
+  .instagram.csmb-border::after {
     border: solid 2px #755b51; }
 
-a.instagram:hover, a.instagram:focus, button.instagram:hover, button.instagram:focus {
+a.instagram:hover, a.instagram:focus,
+button.instagram:hover,
+button.instagram:focus {
   background-color: #a98d83; }
 
-a.instagram:active, button.instagram:active {
+a.instagram:active,
+button.instagram:active {
   background-color: #755b51; }
 
-a.instagram.csmb-border:hover:after, a.instagram.csmb-border:focus:after, a.instagram.csmb-border:active:after, button.instagram.csmb-border:hover:after, button.instagram.csmb-border:focus:after, button.instagram.csmb-border:active:after {
+a.instagram.csmb-border:hover::after, a.instagram.csmb-border:focus::after, a.instagram.csmb-border:active::after,
+button.instagram.csmb-border:hover::after,
+button.instagram.csmb-border:focus::after,
+button.instagram.csmb-border:active::after {
   border: solid 2px #5e4941; }
 
 .instagram-alt {
-  background-color: #3F729B;
+  background-color: #3f729b;
   background-position: -28px -420px; }
   .instagram-alt.csmb {
     box-shadow: inset 0 1px 2px 0 #8ab1cf; }
-  .instagram-alt.csmb-border:after {
+  .instagram-alt.csmb-border::after {
     border: solid 2px #305777; }
 
-a.instagram-alt:hover, a.instagram-alt:focus, button.instagram-alt:hover, button.instagram-alt:focus {
+a.instagram-alt:hover, a.instagram-alt:focus,
+button.instagram-alt:hover,
+button.instagram-alt:focus {
   background-color: #548cb9; }
 
-a.instagram-alt:active, button.instagram-alt:active {
+a.instagram-alt:active,
+button.instagram-alt:active {
   background-color: #305777; }
 
-a.instagram-alt.csmb-border:hover:after, a.instagram-alt.csmb-border:focus:after, a.instagram-alt.csmb-border:active:after, button.instagram-alt.csmb-border:hover:after, button.instagram-alt.csmb-border:focus:after, button.instagram-alt.csmb-border:active:after {
+a.instagram-alt.csmb-border:hover::after, a.instagram-alt.csmb-border:focus::after, a.instagram-alt.csmb-border:active::after,
+button.instagram-alt.csmb-border:hover::after,
+button.instagram-alt.csmb-border:focus::after,
+button.instagram-alt.csmb-border:active::after {
   border: solid 2px #25435c; }
 
 .issuu {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   background-position: -28px -168px; }
   .issuu.csmb {
     box-shadow: inset 0 1px 2px 0 white; }
-  .issuu.csmb-border:after {
+  .issuu.csmb-border::after {
     border: solid 2px #dbdbdb; }
 
-a.issuu:hover, a.issuu:focus, button.issuu:hover, button.issuu:focus {
+a.issuu:hover, a.issuu:focus,
+button.issuu:hover,
+button.issuu:focus {
   background-color: white; }
 
-a.issuu:active, button.issuu:active {
+a.issuu:active,
+button.issuu:active {
   background-color: #dbdbdb; }
 
-a.issuu.csmb-border:hover:after, a.issuu.csmb-border:focus:after, a.issuu.csmb-border:active:after, button.issuu.csmb-border:hover:after, button.issuu.csmb-border:focus:after, button.issuu.csmb-border:active:after {
+a.issuu.csmb-border:hover::after, a.issuu.csmb-border:focus::after, a.issuu.csmb-border:active::after,
+button.issuu.csmb-border:hover::after,
+button.issuu.csmb-border:focus::after,
+button.issuu.csmb-border:active::after {
   border: solid 2px #c7c7c7; }
 
 .lastfm {
-  background-color: #C3000D;
+  background-color: #c3000d;
   background-position: 0 -168px; }
   .lastfm.csmb {
     box-shadow: inset 0 1px 2px 0 #ff4450; }
-  .lastfm.csmb-border:after {
+  .lastfm.csmb-border::after {
     border: solid 2px #90000a; }
 
-a.lastfm:hover, a.lastfm:focus, button.lastfm:hover, button.lastfm:focus {
+a.lastfm:hover, a.lastfm:focus,
+button.lastfm:hover,
+button.lastfm:focus {
   background-color: #f60010; }
 
-a.lastfm:active, button.lastfm:active {
+a.lastfm:active,
+button.lastfm:active {
   background-color: #90000a; }
 
-a.lastfm.csmb-border:hover:after, a.lastfm.csmb-border:focus:after, a.lastfm.csmb-border:active:after, button.lastfm.csmb-border:hover:after, button.lastfm.csmb-border:focus:after, button.lastfm.csmb-border:active:after {
+a.lastfm.csmb-border:hover::after, a.lastfm.csmb-border:focus::after, a.lastfm.csmb-border:active::after,
+button.lastfm.csmb-border:hover::after,
+button.lastfm.csmb-border:focus::after,
+button.lastfm.csmb-border:active::after {
   border: solid 2px #6a0007; }
 
 .linkedin {
-  background-color: #0E76A8;
+  background-color: #0e76a8;
   background-position: 0 -196px; }
   .linkedin.csmb {
     box-shadow: inset 0 1px 2px 0 #46b8f0; }
-  .linkedin.csmb-border:after {
+  .linkedin.csmb-border::after {
     border: solid 2px #0a5579; }
 
-a.linkedin:hover, a.linkedin:focus, button.linkedin:hover, button.linkedin:focus {
+a.linkedin:hover, a.linkedin:focus,
+button.linkedin:hover,
+button.linkedin:focus {
   background-color: #1297d7; }
 
-a.linkedin:active, button.linkedin:active {
+a.linkedin:active,
+button.linkedin:active {
   background-color: #0a5579; }
 
-a.linkedin.csmb-border:hover:after, a.linkedin.csmb-border:focus:after, a.linkedin.csmb-border:active:after, button.linkedin.csmb-border:hover:after, button.linkedin.csmb-border:focus:after, button.linkedin.csmb-border:active:after {
+a.linkedin.csmb-border:hover::after, a.linkedin.csmb-border:focus::after, a.linkedin.csmb-border:active::after,
+button.linkedin.csmb-border:hover::after,
+button.linkedin.csmb-border:focus::after,
+button.linkedin.csmb-border:active::after {
   border: solid 2px #073c56; }
 
 .mail {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   background-position: 0 -224px; }
   .mail.csmb {
     box-shadow: inset 0 1px 2px 0 white; }
-  .mail.csmb-border:after {
+  .mail.csmb-border::after {
     border: solid 2px #dbdbdb; }
 
-a.mail:hover, a.mail:focus, button.mail:hover, button.mail:focus {
+a.mail:hover, a.mail:focus,
+button.mail:hover,
+button.mail:focus {
   background-color: white; }
 
-a.mail:active, button.mail:active {
+a.mail:active,
+button.mail:active {
   background-color: #dbdbdb; }
 
-a.mail.csmb-border:hover:after, a.mail.csmb-border:focus:after, a.mail.csmb-border:active:after, button.mail.csmb-border:hover:after, button.mail.csmb-border:focus:after, button.mail.csmb-border:active:after {
+a.mail.csmb-border:hover::after, a.mail.csmb-border:focus::after, a.mail.csmb-border:active::after,
+button.mail.csmb-border:hover::after,
+button.mail.csmb-border:focus::after,
+button.mail.csmb-border:active::after {
   border: solid 2px #c7c7c7; }
 
 .myspace {
@@ -530,356 +706,482 @@ a.mail.csmb-border:hover:after, a.mail.csmb-border:focus:after, a.mail.csmb-bord
   background-position: -28px -308px; }
   .myspace.csmb {
     box-shadow: inset 0 1px 2px 0 #666891; }
-  .myspace.csmb-border:after {
+  .myspace.csmb-border::after {
     border: solid 2px #1c1d28; }
 
-a.myspace:hover, a.myspace:focus, button.myspace:hover, button.myspace:focus {
+a.myspace:hover, a.myspace:focus,
+button.myspace:hover,
+button.myspace:focus {
   background-color: #464764; }
 
-a.myspace:active, button.myspace:active {
+a.myspace:active,
+button.myspace:active {
   background-color: #1c1d28; }
 
-a.myspace.csmb-border:hover:after, a.myspace.csmb-border:focus:after, a.myspace.csmb-border:active:after, button.myspace.csmb-border:hover:after, button.myspace.csmb-border:focus:after, button.myspace.csmb-border:active:after {
+a.myspace.csmb-border:hover::after, a.myspace.csmb-border:focus::after, a.myspace.csmb-border:active::after,
+button.myspace.csmb-border:hover::after,
+button.myspace.csmb-border:focus::after,
+button.myspace.csmb-border:active::after {
   border: solid 2px #0c0d12; }
 
 .opera {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   background-position: -56px -336px; }
   .opera.csmb {
     box-shadow: inset 0 1px 2px 0 white; }
-  .opera.csmb-border:after {
+  .opera.csmb-border::after {
     border: solid 2px #dbdbdb; }
 
-a.opera:hover, a.opera:focus, button.opera:hover, button.opera:focus {
+a.opera:hover, a.opera:focus,
+button.opera:hover,
+button.opera:focus {
   background-color: white; }
 
-a.opera:active, button.opera:active {
+a.opera:active,
+button.opera:active {
   background-color: #dbdbdb; }
 
-a.opera.csmb-border:hover:after, a.opera.csmb-border:focus:after, a.opera.csmb-border:active:after, button.opera.csmb-border:hover:after, button.opera.csmb-border:focus:after, button.opera.csmb-border:active:after {
+a.opera.csmb-border:hover::after, a.opera.csmb-border:focus::after, a.opera.csmb-border:active::after,
+button.opera.csmb-border:hover::after,
+button.opera.csmb-border:focus::after,
+button.opera.csmb-border:active::after {
   border: solid 2px #c7c7c7; }
 
 .path {
-  background-color: #E41F11;
+  background-color: #e41f11;
   background-position: 0 -252px; }
   .path.csmb {
     box-shadow: inset 0 1px 2px 0 #f5877f; }
-  .path.csmb-border:after {
+  .path.csmb-border::after {
     border: solid 2px #b5190d; }
 
-a.path:hover, a.path:focus, button.path:hover, button.path:focus {
+a.path:hover, a.path:focus,
+button.path:hover,
+button.path:focus {
   background-color: #f04438; }
 
-a.path:active, button.path:active {
+a.path:active,
+button.path:active {
   background-color: #b5190d; }
 
-a.path.csmb-border:hover:after, a.path.csmb-border:focus:after, a.path.csmb-border:active:after, button.path.csmb-border:hover:after, button.path.csmb-border:focus:after, button.path.csmb-border:active:after {
+a.path.csmb-border:hover::after, a.path.csmb-border:focus::after, a.path.csmb-border:active::after,
+button.path.csmb-border:hover::after,
+button.path.csmb-border:focus::after,
+button.path.csmb-border:active::after {
   border: solid 2px #91140b; }
 
 .paypal {
-  background-color: #1E477A;
+  background-color: #1e477a;
   background-position: -28px -280px; }
   .paypal.csmb {
     box-shadow: inset 0 1px 2px 0 #4684d2; }
-  .paypal.csmb-border:after {
+  .paypal.csmb-border::after {
     border: solid 2px #142f51; }
 
-a.paypal:hover, a.paypal:focus, button.paypal:hover, button.paypal:focus {
+a.paypal:hover, a.paypal:focus,
+button.paypal:hover,
+button.paypal:focus {
   background-color: #285fa3; }
 
-a.paypal:active, button.paypal:active {
+a.paypal:active,
+button.paypal:active {
   background-color: #142f51; }
 
-a.paypal.csmb-border:hover:after, a.paypal.csmb-border:focus:after, a.paypal.csmb-border:active:after, button.paypal.csmb-border:hover:after, button.paypal.csmb-border:focus:after, button.paypal.csmb-border:active:after {
+a.paypal.csmb-border:hover::after, a.paypal.csmb-border:focus::after, a.paypal.csmb-border:active::after,
+button.paypal.csmb-border:hover::after,
+button.paypal.csmb-border:focus::after,
+button.paypal.csmb-border:active::after {
   border: solid 2px #0c1d32; }
 
 .pinterest {
-  background-color: #C8232C;
+  background-color: #c8232c;
   background-position: -28px -336px; }
   .pinterest.csmb {
     box-shadow: inset 0 1px 2px 0 #e98187; }
-  .pinterest.csmb-border:after {
+  .pinterest.csmb-border::after {
     border: solid 2px #9d1b22; }
 
-a.pinterest:hover, a.pinterest:focus, button.pinterest:hover, button.pinterest:focus {
+a.pinterest:hover, a.pinterest:focus,
+button.pinterest:hover,
+button.pinterest:focus {
   background-color: #de4049; }
 
-a.pinterest:active, button.pinterest:active {
+a.pinterest:active,
+button.pinterest:active {
   background-color: #9d1b22; }
 
-a.pinterest.csmb-border:hover:after, a.pinterest.csmb-border:focus:after, a.pinterest.csmb-border:active:after, button.pinterest.csmb-border:hover:after, button.pinterest.csmb-border:focus:after, button.pinterest.csmb-border:active:after {
+a.pinterest.csmb-border:hover::after, a.pinterest.csmb-border:focus::after, a.pinterest.csmb-border:active::after,
+button.pinterest.csmb-border:hover::after,
+button.pinterest.csmb-border:focus::after,
+button.pinterest.csmb-border:active::after {
   border: solid 2px #7c161b; }
 
 .reddit {
-  background-color: #CEE2F8;
+  background-color: #cee2f8;
   background-position: -56px -252px; }
   .reddit.csmb {
     box-shadow: inset 0 1px 2px 0 white; }
-  .reddit.csmb-border:after {
+  .reddit.csmb-border::after {
     border: solid 2px #a1c8f2; }
 
-a.reddit:hover, a.reddit:focus, button.reddit:hover, button.reddit:focus {
+a.reddit:hover, a.reddit:focus,
+button.reddit:hover,
+button.reddit:focus {
   background-color: #fbfcfe; }
 
-a.reddit:active, button.reddit:active {
+a.reddit:active,
+button.reddit:active {
   background-color: #a1c8f2; }
 
-a.reddit.csmb-border:hover:after, a.reddit.csmb-border:focus:after, a.reddit.csmb-border:active:after, button.reddit.csmb-border:hover:after, button.reddit.csmb-border:focus:after, button.reddit.csmb-border:active:after {
+a.reddit.csmb-border:hover::after, a.reddit.csmb-border:focus::after, a.reddit.csmb-border:active::after,
+button.reddit.csmb-border:hover::after,
+button.reddit.csmb-border:focus::after,
+button.reddit.csmb-border:active::after {
   border: solid 2px #80b4ed; }
 
 .rss {
-  background-color: #EE802F;
+  background-color: #ee802f;
   background-position: 0 -280px; }
   .rss.csmb {
     box-shadow: inset 0 1px 2px 0 #f8c8a5; }
-  .rss.csmb-border:after {
+  .rss.csmb-border::after {
     border: solid 2px #d86612; }
 
-a.rss:hover, a.rss:focus, button.rss:hover, button.rss:focus {
+a.rss:hover, a.rss:focus,
+button.rss:hover,
+button.rss:focus {
   background-color: #f29d5e; }
 
-a.rss:active, button.rss:active {
+a.rss:active,
+button.rss:active {
   background-color: #d86612; }
 
-a.rss.csmb-border:hover:after, a.rss.csmb-border:focus:after, a.rss.csmb-border:active:after, button.rss.csmb-border:hover:after, button.rss.csmb-border:focus:after, button.rss.csmb-border:active:after {
+a.rss.csmb-border:hover::after, a.rss.csmb-border:focus::after, a.rss.csmb-border:active::after,
+button.rss.csmb-border:hover::after,
+button.rss.csmb-border:focus::after,
+button.rss.csmb-border:active::after {
   border: solid 2px #b5550f; }
 
 .safari {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   background-position: -56px -364px; }
   .safari.csmb {
     box-shadow: inset 0 1px 2px 0 white; }
-  .safari.csmb-border:after {
+  .safari.csmb-border::after {
     border: solid 2px #dbdbdb; }
 
-a.safari:hover, a.safari:focus, button.safari:hover, button.safari:focus {
+a.safari:hover, a.safari:focus,
+button.safari:hover,
+button.safari:focus {
   background-color: white; }
 
-a.safari:active, button.safari:active {
+a.safari:active,
+button.safari:active {
   background-color: #dbdbdb; }
 
-a.safari.csmb-border:hover:after, a.safari.csmb-border:focus:after, a.safari.csmb-border:active:after, button.safari.csmb-border:hover:after, button.safari.csmb-border:focus:after, button.safari.csmb-border:active:after {
+a.safari.csmb-border:hover::after, a.safari.csmb-border:focus::after, a.safari.csmb-border:active::after,
+button.safari.csmb-border:hover::after,
+button.safari.csmb-border:focus::after,
+button.safari.csmb-border:active::after {
   border: solid 2px #c7c7c7; }
 
 .skype {
-  background-color: #00AFF0;
+  background-color: #00aff0;
   background-position: -28px 0; }
   .skype.csmb {
     box-shadow: inset 0 1px 2px 0 #71d8ff; }
-  .skype.csmb-border:after {
+  .skype.csmb-border::after {
     border: solid 2px #008abd; }
 
-a.skype:hover, a.skype:focus, button.skype:hover, button.skype:focus {
+a.skype:hover, a.skype:focus,
+button.skype:hover,
+button.skype:focus {
   background-color: #24c4ff; }
 
-a.skype:active, button.skype:active {
+a.skype:active,
+button.skype:active {
   background-color: #008abd; }
 
-a.skype.csmb-border:hover:after, a.skype.csmb-border:focus:after, a.skype.csmb-border:active:after, button.skype.csmb-border:hover:after, button.skype.csmb-border:focus:after, button.skype.csmb-border:active:after {
+a.skype.csmb-border:hover::after, a.skype.csmb-border:focus::after, a.skype.csmb-border:active::after,
+button.skype.csmb-border:hover::after,
+button.skype.csmb-border:focus::after,
+button.skype.csmb-border:active::after {
   border: solid 2px #006e97; }
 
 .soundcloud {
-  background-color: #FF7700;
+  background-color: #f70;
   background-position: -28px -112px; }
   .soundcloud.csmb {
     box-shadow: inset 0 1px 2px 0 #ffbb80; }
-  .soundcloud.csmb-border:after {
+  .soundcloud.csmb-border::after {
     border: solid 2px #cc5f00; }
 
-a.soundcloud:hover, a.soundcloud:focus, button.soundcloud:hover, button.soundcloud:focus {
+a.soundcloud:hover, a.soundcloud:focus,
+button.soundcloud:hover,
+button.soundcloud:focus {
   background-color: #ff9233; }
 
-a.soundcloud:active, button.soundcloud:active {
+a.soundcloud:active,
+button.soundcloud:active {
   background-color: #cc5f00; }
 
-a.soundcloud.csmb-border:hover:after, a.soundcloud.csmb-border:focus:after, a.soundcloud.csmb-border:active:after, button.soundcloud.csmb-border:hover:after, button.soundcloud.csmb-border:focus:after, button.soundcloud.csmb-border:active:after {
+a.soundcloud.csmb-border:hover::after, a.soundcloud.csmb-border:focus::after, a.soundcloud.csmb-border:active::after,
+button.soundcloud.csmb-border:hover::after,
+button.soundcloud.csmb-border:focus::after,
+button.soundcloud.csmb-border:active::after {
   border: solid 2px #a64d00; }
 
 .spotify {
-  background-color: #81B71A;
+  background-color: #81b71a;
   background-position: -28px -196px; }
   .spotify.csmb {
     box-shadow: inset 0 1px 2px 0 #bde967; }
-  .spotify.csmb-border:after {
+  .spotify.csmb-border::after {
     border: solid 2px #628a14; }
 
-a.spotify:hover, a.spotify:focus, button.spotify:hover, button.spotify:focus {
+a.spotify:hover, a.spotify:focus,
+button.spotify:hover,
+button.spotify:focus {
   background-color: #9fe024; }
 
-a.spotify:active, button.spotify:active {
+a.spotify:active,
+button.spotify:active {
   background-color: #628a14; }
 
-a.spotify.csmb-border:hover:after, a.spotify.csmb-border:focus:after, a.spotify.csmb-border:active:after, button.spotify.csmb-border:hover:after, button.spotify.csmb-border:focus:after, button.spotify.csmb-border:active:after {
+a.spotify.csmb-border:hover::after, a.spotify.csmb-border:focus::after, a.spotify.csmb-border:active::after,
+button.spotify.csmb-border:hover::after,
+button.spotify.csmb-border:focus::after,
+button.spotify.csmb-border:active::after {
   border: solid 2px #4a690f; }
 
 .stumbleupon {
-  background-color: #F74425;
+  background-color: #f74425;
   background-position: -28px -56px; }
   .stumbleupon.csmb {
     box-shadow: inset 0 1px 2px 0 #fcada0; }
-  .stumbleupon.csmb-border:after {
+  .stumbleupon.csmb-border::after {
     border: solid 2px #e12808; }
 
-a.stumbleupon:hover, a.stumbleupon:focus, button.stumbleupon:hover, button.stumbleupon:focus {
+a.stumbleupon:hover, a.stumbleupon:focus,
+button.stumbleupon:hover,
+button.stumbleupon:focus {
   background-color: #f96e56; }
 
-a.stumbleupon:active, button.stumbleupon:active {
+a.stumbleupon:active,
+button.stumbleupon:active {
   background-color: #e12808; }
 
-a.stumbleupon.csmb-border:hover:after, a.stumbleupon.csmb-border:focus:after, a.stumbleupon.csmb-border:active:after, button.stumbleupon.csmb-border:hover:after, button.stumbleupon.csmb-border:focus:after, button.stumbleupon.csmb-border:active:after {
+a.stumbleupon.csmb-border:hover::after, a.stumbleupon.csmb-border:focus::after, a.stumbleupon.csmb-border:active::after,
+button.stumbleupon.csmb-border:hover::after,
+button.stumbleupon.csmb-border:focus::after,
+button.stumbleupon.csmb-border:active::after {
   border: solid 2px #bc2207; }
 
 .swarm {
-  background-color: #FDAF17;
+  background-color: #fdaf17;
   background-position: -28px -448px; }
   .swarm.csmb {
     box-shadow: inset 0 1px 2px 0 #fedb95; }
-  .swarm.csmb-border:after {
+  .swarm.csmb-border::after {
     border: solid 2px #df9402; }
 
-a.swarm:hover, a.swarm:focus, button.swarm:hover, button.swarm:focus {
+a.swarm:hover, a.swarm:focus,
+button.swarm:hover,
+button.swarm:focus {
   background-color: #fdc04a; }
 
-a.swarm:active, button.swarm:active {
+a.swarm:active,
+button.swarm:active {
   background-color: #df9402; }
 
-a.swarm.csmb-border:hover:after, a.swarm.csmb-border:focus:after, a.swarm.csmb-border:active:after, button.swarm.csmb-border:hover:after, button.swarm.csmb-border:focus:after, button.swarm.csmb-border:active:after {
+a.swarm.csmb-border:hover::after, a.swarm.csmb-border:focus::after, a.swarm.csmb-border:active::after,
+button.swarm.csmb-border:hover::after,
+button.swarm.csmb-border:focus::after,
+button.swarm.csmb-border:active::after {
   border: solid 2px #b97b02; }
 
 .tumblr {
-  background-color: #34526F;
+  background-color: #34526f;
   background-position: 0 -308px; }
   .tumblr.csmb {
     box-shadow: inset 0 1px 2px 0 #6a92b9; }
-  .tumblr.csmb-border:after {
+  .tumblr.csmb-border::after {
     border: solid 2px #24384c; }
 
-a.tumblr:hover, a.tumblr:focus, button.tumblr:hover, button.tumblr:focus {
+a.tumblr:hover, a.tumblr:focus,
+button.tumblr:hover,
+button.tumblr:focus {
   background-color: #446c92; }
 
-a.tumblr:active, button.tumblr:active {
+a.tumblr:active,
+button.tumblr:active {
   background-color: #24384c; }
 
-a.tumblr.csmb-border:hover:after, a.tumblr.csmb-border:focus:after, a.tumblr.csmb-border:active:after, button.tumblr.csmb-border:hover:after, button.tumblr.csmb-border:focus:after, button.tumblr.csmb-border:active:after {
+a.tumblr.csmb-border:hover::after, a.tumblr.csmb-border:focus::after, a.tumblr.csmb-border:active::after,
+button.tumblr.csmb-border:hover::after,
+button.tumblr.csmb-border:focus::after,
+button.tumblr.csmb-border:active::after {
   border: solid 2px #182532; }
 
 .twitter {
-  background-color: #00ACEE;
+  background-color: #00acee;
   background-position: 0 -336px; }
   .twitter.csmb {
     box-shadow: inset 0 1px 2px 0 #6fd7ff; }
-  .twitter.csmb-border:after {
+  .twitter.csmb-border::after {
     border: solid 2px #0087bb; }
 
-a.twitter:hover, a.twitter:focus, button.twitter:hover, button.twitter:focus {
+a.twitter:hover, a.twitter:focus,
+button.twitter:hover,
+button.twitter:focus {
   background-color: #22c2ff; }
 
-a.twitter:active, button.twitter:active {
+a.twitter:active,
+button.twitter:active {
   background-color: #0087bb; }
 
-a.twitter.csmb-border:hover:after, a.twitter.csmb-border:focus:after, a.twitter.csmb-border:active:after, button.twitter.csmb-border:hover:after, button.twitter.csmb-border:focus:after, button.twitter.csmb-border:active:after {
+a.twitter.csmb-border:hover::after, a.twitter.csmb-border:focus::after, a.twitter.csmb-border:active::after,
+button.twitter.csmb-border:hover::after,
+button.twitter.csmb-border:focus::after,
+button.twitter.csmb-border:active::after {
   border: solid 2px #006c95; }
 
 .vimeo {
-  background-color: #86C9EF;
+  background-color: #86c9ef;
   background-position: 0 -392px; }
   .vimeo.csmb {
     box-shadow: inset 0 1px 2px 0 #f7fbfe; }
-  .vimeo.csmb-border:after {
+  .vimeo.csmb-border::after {
     border: solid 2px #59b5e9; }
 
-a.vimeo:hover, a.vimeo:focus, button.vimeo:hover, button.vimeo:focus {
+a.vimeo:hover, a.vimeo:focus,
+button.vimeo:hover,
+button.vimeo:focus {
   background-color: #b3ddf5; }
 
-a.vimeo:active, button.vimeo:active {
+a.vimeo:active,
+button.vimeo:active {
   background-color: #59b5e9; }
 
-a.vimeo.csmb-border:hover:after, a.vimeo.csmb-border:focus:after, a.vimeo.csmb-border:active:after, button.vimeo.csmb-border:hover:after, button.vimeo.csmb-border:focus:after, button.vimeo.csmb-border:active:after {
+a.vimeo.csmb-border:hover::after, a.vimeo.csmb-border:focus::after, a.vimeo.csmb-border:active::after,
+button.vimeo.csmb-border:hover::after,
+button.vimeo.csmb-border:focus::after,
+button.vimeo.csmb-border:active::after {
   border: solid 2px #37a6e5; }
 
 .vine {
-  background-color: #00A478;
+  background-color: #00a478;
   background-position: -56px -28px; }
   .vine.csmb {
     box-shadow: inset 0 1px 2px 0 #25ffc4; }
-  .vine.csmb-border:after {
+  .vine.csmb-border::after {
     border: solid 2px #007153; }
 
-a.vine:hover, a.vine:focus, button.vine:hover, button.vine:focus {
+a.vine:hover, a.vine:focus,
+button.vine:hover,
+button.vine:focus {
   background-color: #00d79d; }
 
-a.vine:active, button.vine:active {
+a.vine:active,
+button.vine:active {
   background-color: #007153; }
 
-a.vine.csmb-border:hover:after, a.vine.csmb-border:focus:after, a.vine.csmb-border:active:after, button.vine.csmb-border:hover:after, button.vine.csmb-border:focus:after, button.vine.csmb-border:active:after {
+a.vine.csmb-border:hover::after, a.vine.csmb-border:focus::after, a.vine.csmb-border:active::after,
+button.vine.csmb-border:hover::after,
+button.vine.csmb-border:focus::after,
+button.vine.csmb-border:active::after {
   border: solid 2px #004b37; }
 
 .wordpress {
-  background-color: #21759B;
+  background-color: #21759b;
   background-position: -28px -224px; }
   .wordpress.csmb {
     box-shadow: inset 0 1px 2px 0 #5fb6dd; }
-  .wordpress.csmb-border:after {
+  .wordpress.csmb-border::after {
     border: solid 2px #185571; }
 
-a.wordpress:hover, a.wordpress:focus, button.wordpress:hover, button.wordpress:focus {
+a.wordpress:hover, a.wordpress:focus,
+button.wordpress:hover,
+button.wordpress:focus {
   background-color: #2a95c5; }
 
-a.wordpress:active, button.wordpress:active {
+a.wordpress:active,
+button.wordpress:active {
   background-color: #185571; }
 
-a.wordpress.csmb-border:hover:after, a.wordpress.csmb-border:focus:after, a.wordpress.csmb-border:active:after, button.wordpress.csmb-border:hover:after, button.wordpress.csmb-border:focus:after, button.wordpress.csmb-border:active:after {
+a.wordpress.csmb-border:hover::after, a.wordpress.csmb-border:focus::after, a.wordpress.csmb-border:active::after,
+button.wordpress.csmb-border:hover::after,
+button.wordpress.csmb-border:focus::after,
+button.wordpress.csmb-border:active::after {
   border: solid 2px #113d51; }
 
 .yelp {
-  background-color: #C41200;
+  background-color: #c41200;
   background-position: -56px -112px; }
   .yelp.csmb {
     box-shadow: inset 0 1px 2px 0 #ff5645; }
-  .yelp.csmb-border:after {
+  .yelp.csmb-border::after {
     border: solid 2px #910d00; }
 
-a.yelp:hover, a.yelp:focus, button.yelp:hover, button.yelp:focus {
+a.yelp:hover, a.yelp:focus,
+button.yelp:hover,
+button.yelp:focus {
   background-color: #f71700; }
 
-a.yelp:active, button.yelp:active {
+a.yelp:active,
+button.yelp:active {
   background-color: #910d00; }
 
-a.yelp.csmb-border:hover:after, a.yelp.csmb-border:focus:after, a.yelp.csmb-border:active:after, button.yelp.csmb-border:hover:after, button.yelp.csmb-border:focus:after, button.yelp.csmb-border:active:after {
+a.yelp.csmb-border:hover::after, a.yelp.csmb-border:focus::after, a.yelp.csmb-border:active::after,
+button.yelp.csmb-border:hover::after,
+button.yelp.csmb-border:focus::after,
+button.yelp.csmb-border:active::after {
   border: solid 2px #6b0a00; }
 
 .youtube {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   background-position: 0 -420px; }
   .youtube.csmb {
     box-shadow: inset 0 1px 2px 0 white; }
-  .youtube.csmb-border:after {
+  .youtube.csmb-border::after {
     border: solid 2px #dbdbdb; }
 
-a.youtube:hover, a.youtube:focus, button.youtube:hover, button.youtube:focus {
+a.youtube:hover, a.youtube:focus,
+button.youtube:hover,
+button.youtube:focus {
   background-color: white; }
 
-a.youtube:active, button.youtube:active {
+a.youtube:active,
+button.youtube:active {
   background-color: #dbdbdb; }
 
-a.youtube.csmb-border:hover:after, a.youtube.csmb-border:focus:after, a.youtube.csmb-border:active:after, button.youtube.csmb-border:hover:after, button.youtube.csmb-border:focus:after, button.youtube.csmb-border:active:after {
+a.youtube.csmb-border:hover::after, a.youtube.csmb-border:focus::after, a.youtube.csmb-border:active::after,
+button.youtube.csmb-border:hover::after,
+button.youtube.csmb-border:focus::after,
+button.youtube.csmb-border:active::after {
   border: solid 2px #c7c7c7; }
 
 .youtube-alt {
-  background-color: #C4302B;
+  background-color: #c4302b;
   background-position: 0 -448px; }
   .youtube-alt.csmb {
     box-shadow: inset 0 1px 2px 0 #e58c89; }
-  .youtube-alt.csmb-border:after {
+  .youtube-alt.csmb-border::after {
     border: solid 2px #9a2622; }
 
-a.youtube-alt:hover, a.youtube-alt:focus, button.youtube-alt:hover, button.youtube-alt:focus {
+a.youtube-alt:hover, a.youtube-alt:focus,
+button.youtube-alt:hover,
+button.youtube-alt:focus {
   background-color: #d74f4b; }
 
-a.youtube-alt:active, button.youtube-alt:active {
+a.youtube-alt:active,
+button.youtube-alt:active {
   background-color: #9a2622; }
 
-a.youtube-alt.csmb-border:hover:after, a.youtube-alt.csmb-border:focus:after, a.youtube-alt.csmb-border:active:after, button.youtube-alt.csmb-border:hover:after, button.youtube-alt.csmb-border:focus:after, button.youtube-alt.csmb-border:active:after {
+a.youtube-alt.csmb-border:hover::after, a.youtube-alt.csmb-border:focus::after, a.youtube-alt.csmb-border:active::after,
+button.youtube-alt.csmb-border:hover::after,
+button.youtube-alt.csmb-border:focus::after,
+button.youtube-alt.csmb-border:active::after {
   border: solid 2px #7b1e1b; }
 
 .facebook.alt {
