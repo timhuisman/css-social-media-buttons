@@ -1,7 +1,7 @@
 # For SCSS-Lint v0.32.0
 # Below linters are based on the SCSS guidelines: http://sass-guidelin.es/#scss-lint
 
-scss_files: 'src/stylesheets/*.scss'
+scss_files: 'src/stylesheets/**/*.scss'
 
 linters:
   BangFormat:
@@ -127,6 +127,9 @@ linters:
 
   SpaceAfterPropertyName:
     enabled: true
+
+  SpaceAfterVariableName:
+    enabled: false
 
   SpaceBeforeBrace:
     enabled: true

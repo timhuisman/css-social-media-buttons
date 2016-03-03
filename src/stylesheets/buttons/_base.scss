@@ -1,0 +1,47 @@
+// ====================================================================================
+// BUTTONS | Base buttons
+// ====================================================================================
+
+@if length($button-list) > 0 {
+  @each $button in $button-list {
+    $color: nth($button, 2);
+
+    #{nth($button, 1)} {
+      background-color: $color;
+      background-position: nth($button, 3);
+
+      &:hover,
+      &:focus {
+        background-color: lighten($color, $diff-small);
+      }
+
+      &:active {
+        background-color: darken($color, $diff-small);
+      }
+
+      // Default
+      @if $default == true {
+        &.csmb {
+          box-shadow: inset 0 1px 2px 0 lighten($color, $diff-large);
+        }
+      }
+
+      // Bordered
+      @if $border == true {
+        &.csmb-border {
+          &::after {
+            border-color: darken($color, $diff-small);
+          }
+
+          &:hover,
+          &:focus,
+          &:active {
+            &::after {
+              border-color: darken($color, $diff-medium);
+            }
+          }
+        }
+      }
+    }
+  }
+}

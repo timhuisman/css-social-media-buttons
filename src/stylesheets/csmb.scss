@@ -1,280 +1,36 @@
-//
-// Variables
-// ------------------------------------------------------------------------------------
+// ====================================================================================
+// CSS Social Media Buttons
+// ====================================================================================
 
-@import 'settings/colors.scss';
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// Set option to 'false' for styles/types that aren't used; to keep the CSS small.
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-$img-path: '../images'; // Path to the folder where the sprites are stored
-$button-list: ();
-$button-alt-list: ();
-
-$btn-size: 28px;
-
-// Percentages by which the base color of the icon will be made lighter/darker
-$diff-large: 25%; // Used for: color of the inner shadow
-$diff-medium: 17.5%; // Used for: border color in hover, focus & active state
-$diff-small: 10%; // Used for: background color in hover, focus & active state
-
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
-// Set option to 'false' for button styles/types that you don't use, to keep the compiled CSS small. //
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
-
-// Variables can be used to turn on/off button types: one of the two must always be true
-$default: true;
-$flat:    true;
-// Variables can be used to turn on/off button styles
-$border:  true;
-$rounded: true;
-$round:   true;
-// Variables can be used to turn on/off button style for certain type of elements
-$anchors: true; // <a> elements
-$buttons: true; // <button> elements
+// Turn on/off button types: one of the two must always be true
+$default : true;
+$flat    : true;
+// Turn on/off button styles
+$round   : true;
+$rounded : true;
+$border  : true;
 
 //
-// Styling
+// Settings
 // ------------------------------------------------------------------------------------
 
-.csmb,
-.csmb-flat {
-  background-image: url('#{$img-path}/icon-sprite.png');
-  background-repeat: no-repeat;
-  transition: background-color 0.25s ease;
-  text-indent: -9999px;
-  display: inline-block;
-  width: $btn-size;
-  height: $btn-size;
-  margin: 4px;
-  padding: 0;
-  position: relative;
+@import 'settings/colors';
+@import 'settings/buttons';
 
-  &::before,
-  &::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+//
+// Base
+// ------------------------------------------------------------------------------------
 
-  // Use larger sprite (2 x 28pixels) for Retina display
-  @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
-    background-image: url('#{$img-path}/icon-sprite-x2.png');
-    background-size: 84px;
-  }
-}
+@import 'base/types';
+@import 'base/styles';
 
-@if $anchors == true or $buttons == true {
-  a,
-  button {
-    &.csmb,
-    &.csmb-flat {
-      &:hover,
-      &:focus,
-      &:active {
-        outline: none;
-      }
-    }
-  }
-}
+//
+// Buttons
+// ------------------------------------------------------------------------------------
 
-@if $buttons == true {
-  button {
-    &.csmb,
-    &.csmb-flat {
-      appearance: none;
-      border: 0;
-      cursor: pointer;
-      padding: 0;
-    }
-  }
-}
-
-// Default
-@if $default == true {
-  .csmb {
-    &::before {
-      box-shadow: 0 0 4px 0 $color-box-shadow;
-    }
-
-    &::after {
-      background: linear-gradient(to bottom, $color-gradient-top 0%, $color-gradient-bottom 100%);
-    }
-  }
-}
-
-// Flat
-@if $flat == true {
-  .csmb-flat {
-    &::before {
-      box-shadow: 0 0 1px 0 $color-box-shadow;
-    }
-  }
-}
-
-// Rounded
-@if $rounded == true {
-  .csmb-rounded,
-  .csmb-rounded::before,
-  .csmb-rounded::after {
-    border-radius: 25%;
-  }
-}
-
-// Round
-@if $round == true {
-  .csmb-round,
-  .csmb-round::before,
-  .csmb-round::after {
-    border-radius: 50%;
-  }
-}
-
-// Bordered
-@if $border == true {
-  .csmb-border {
-    &::before {
-      border: solid 2px $color-border;
-      width: ($btn-size + 4);
-      height: ($btn-size + 4);
-      top: -4px;
-      left: -4px;
-    }
-
-    &::after {
-      transition: border-color 0.25s ease;
-      top: -2px;
-      left: -2px;
-    }
-
-    @if $rounded == true {
-      &.csmb-rounded {
-        border-radius: 20%;
-      }
-    }
-  }
-}
-
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
-// Remove/Comment out the buttons below that you don't use, to keep the compiled CSS small. //
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
-
-$button-list: append($button-list, ('.bitbucket', $color-bitbucket, -56px -84px));
-$button-list: append($button-list, ('.blogger', $color-blogger, -56px -168px));
-$button-list: append($button-list, ('.chrome', $color-chrome, -56px -280px));
-$button-list: append($button-list, ('.delicious', $color-delicious, -56px -196px));
-$button-list: append($button-list, ('.deviantart', $color-deviantart, -28px -28px));
-$button-list: append($button-list, ('.digg', $color-digg, -56px -224px));
-$button-list: append($button-list, ('.dropbox', $color-dropbox, -28px -364px));
-$button-list: append($button-list, ('.drupal', $color-drupal, -28px -252px));
-$button-list: append($button-list, ('.facebook', $color-facebook, 0 0));
-$button-alt-list: append($button-alt-list, ('.facebook.alt', -28px -84px));
-$button-list: append($button-list, ('.firefox', $color-firefox, -56px -308px));
-$button-list: append($button-list, ('.flickr', $color-flickr, 0 -28px));
-$button-list: append($button-list, ('.foursquare', $color-foursquare, -56px -420px));
-$button-list: append($button-list, ('.foursquare-alt', $color-foursquare-alt, 0 -56px));
-$button-alt-list: append($button-alt-list, ('.foursquare-alt.alt', -28px -140px));
-$button-list: append($button-list, ('.git', $color-git, 0 -112px));
-$button-list: append($button-list, ('.github', $color-github, 0 -84px));
-$button-list: append($button-list, ('.github-alt', $color-github-alt, -56px 0));
-$button-list: append($button-list, ('.gplus', $color-gplus, 0 -140px));
-$button-list: append($button-list, ('.grooveshark', $color-grooveshark, -56px -56px));
-$button-list: append($button-list, ('.icheckmovies', $color-icheckmovies, 0 -476px));
-$button-list: append($button-list, ('.ie', $color-ie, -56px -392px));
-$button-list: append($button-list, ('.imdb', $color-imdb, -56px -140px));
-$button-list: append($button-list, ('.instagram', $color-instagram, -28px -392px));
-$button-list: append($button-list, ('.instagram-alt', $color-instagram-alt, -28px -420px));
-$button-list: append($button-list, ('.issuu', $color-issuu, -28px -168px));
-$button-list: append($button-list, ('.lastfm', $color-lastfm, 0 -168px));
-$button-list: append($button-list, ('.linkedin', $color-linkedin, 0 -196px));
-$button-list: append($button-list, ('.mail', $color-mail, 0 -224px));
-$button-list: append($button-list, ('.myspace', $color-myspace, -28px -308px));
-$button-list: append($button-list, ('.opera', $color-opera, -56px -336px));
-$button-list: append($button-list, ('.path', $color-path, 0 -252px));
-$button-list: append($button-list, ('.paypal', $color-paypal, -28px -280px));
-$button-list: append($button-list, ('.pinterest', $color-pinterest, -28px -336px)); // Black BG color: #383838
-$button-list: append($button-list, ('.reddit', $color-reddit, -56px -252px));
-$button-list: append($button-list, ('.rss', $color-rss, 0 -280px));
-$button-list: append($button-list, ('.safari', $color-safari, -56px -364px));
-$button-list: append($button-list, ('.skype', $color-skype, -28px 0));
-$button-list: append($button-list, ('.soundcloud', $color-soundcloud, -28px -112px));
-$button-list: append($button-list, ('.spotify', $color-spotify, -28px -196px));
-$button-list: append($button-list, ('.stumbleupon', $color-stumbleupon, -28px -56px));
-$button-list: append($button-list, ('.swarm', $color-swarm, -28px -448px));
-$button-list: append($button-list, ('.tumblr', $color-tumblr, 0 -308px));
-$button-list: append($button-list, ('.twitter', $color-twitter, 0 -336px));
-$button-alt-list: append($button-alt-list, ('.twitter.alt', 0 -364px));
-$button-list: append($button-list, ('.vimeo', $color-vimeo, 0 -392px));
-$button-list: append($button-list, ('.vine', $color-vine, -56px -28px));
-$button-list: append($button-list, ('.wordpress', $color-wordpress, -28px -224px)); // Grey BG color: #464646
-$button-list: append($button-list, ('.yelp', $color-yelp, -56px -112px));
-$button-list: append($button-list, ('.youtube', $color-youtube, 0 -420px));
-$button-list: append($button-list, ('.youtube-alt', $color-youtube-alt, 0 -448px));
-$button-alt-list: append($button-alt-list, ('.youtube-alt.alt', -28px -476px));
-
-// Base buttons
-@if length($button-list) > 0 { // Only loop if list has items to avoid compile errors
-  @each $button in $button-list {
-    $color: nth($button, 2);
-
-    #{nth($button, 1)} {
-      background-color: $color;
-      background-position: nth($button, 3);
-
-      // Default
-      @if $default == true {
-        &.csmb {
-          box-shadow: inset 0 1px 2px 0 lighten($color, $diff-large);
-        }
-      }
-
-      // Bordered
-      @if $border == true {
-        &.csmb-border {
-          &::after {
-            border: solid 2px darken($color, $diff-small);
-          }
-        }
-      }
-    }
-
-    @if $anchors == true or $buttons == true {
-      a,
-      button {
-        &#{nth($button, 1)} {
-          &:hover,
-          &:focus {
-            background-color: lighten($color, $diff-small);
-          }
-
-          &:active {
-            background-color: darken($color, $diff-small);
-          }
-
-          // Bordered
-          @if $border == true {
-            &.csmb-border {
-              &:hover,
-              &:focus,
-              &:active {
-                &::after {
-                  border: solid 2px darken($color, $diff-medium);
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-// Alternative buttons
-@if length($button-alt-list) > 0 { // Only loop if list has items to avoid compile errors
-  @each $button-alt in $button-alt-list {
-    #{nth($button-alt, 1)} {
-      background-position: nth($button-alt, 2);
-    }
-  }
-}
+@import 'buttons/base';
+@import 'buttons/alternative';
