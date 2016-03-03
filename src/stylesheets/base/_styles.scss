@@ -4,7 +4,9 @@
 
 @if $round == true {
   .csmb-round {
-    &, &::before, &::after {
+    &,
+    &::before,
+    &::after {
       border-radius: 50%;
     }
   }
@@ -12,7 +14,9 @@
 
 @if $rounded == true {
   .csmb-rounded {
-    &, &::before, &::after {
+    &,
+    &::before,
+    &::after {
       border-radius: 25%;
     }
   }

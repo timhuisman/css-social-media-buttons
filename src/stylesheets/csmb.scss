@@ -18,19 +18,19 @@ $border  : true;
 // Settings
 // ------------------------------------------------------------------------------------
 
-@import 'settings/colors.scss';
-@import 'settings/buttons.scss';
+@import 'settings/colors';
+@import 'settings/buttons';
 
 //
 // Base
 // ------------------------------------------------------------------------------------
 
-@import 'base/types.scss';
-@import 'base/styles.scss';
+@import 'base/types';
+@import 'base/styles';
 
 //
 // Buttons
 // ------------------------------------------------------------------------------------
 
-@import 'buttons/base.scss';
-@import 'buttons/alternative.scss';
+@import 'buttons/base';
+@import 'buttons/alternative';
