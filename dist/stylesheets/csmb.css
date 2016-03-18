@@ -91,20 +91,6 @@
   .blogger.csmb-border:hover::after, .blogger.csmb-border:focus::after, .blogger.csmb-border:active::after {
     border-color: #a93302; }
 
-.chrome {
-  background-color: #f4f4f4;
-  background-position: -56px -280px; }
-  .chrome:hover, .chrome:focus {
-    background-color: white; }
-  .chrome:active {
-    background-color: #dbdbdb; }
-  .chrome.csmb {
-    box-shadow: inset 0 1px 2px 0 white; }
-  .chrome.csmb-border::after {
-    border-color: #dbdbdb; }
-  .chrome.csmb-border:hover::after, .chrome.csmb-border:focus::after, .chrome.csmb-border:active::after {
-    border-color: #c7c7c7; }
-
 .delicious {
   background-color: #eee;
   background-position: -56px -196px; }
@@ -161,20 +147,6 @@
   .dropbox.csmb-border:hover::after, .dropbox.csmb-border:focus::after, .dropbox.csmb-border:active::after {
     border-color: #166db6; }
 
-.drupal {
-  background-color: #f4f4f4;
-  background-position: -28px -252px; }
-  .drupal:hover, .drupal:focus {
-    background-color: white; }
-  .drupal:active {
-    background-color: #dbdbdb; }
-  .drupal.csmb {
-    box-shadow: inset 0 1px 2px 0 white; }
-  .drupal.csmb-border::after {
-    border-color: #dbdbdb; }
-  .drupal.csmb-border:hover::after, .drupal.csmb-border:focus::after, .drupal.csmb-border:active::after {
-    border-color: #c7c7c7; }
-
 .facebook {
   background-color: #3b5998;
   background-position: 0 0; }
@@ -188,20 +160,6 @@
     border-color: #2d4373; }
   .facebook.csmb-border:hover::after, .facebook.csmb-border:focus::after, .facebook.csmb-border:active::after {
     border-color: #223358; }
-
-.firefox {
-  background-color: #cae1f4;
-  background-position: -56px -308px; }
-  .firefox:hover, .firefox:focus {
-    background-color: #f4f9fd; }
-  .firefox:active {
-    background-color: #a0c9eb; }
-  .firefox.csmb {
-    box-shadow: inset 0 1px 2px 0 white; }
-  .firefox.csmb-border::after {
-    border-color: #a0c9eb; }
-  .firefox.csmb-border:hover::after, .firefox.csmb-border:focus::after, .firefox.csmb-border:active::after {
-    border-color: #80b7e5; }
 
 .flickr {
   background-color: #f4f4f4;
@@ -229,20 +187,6 @@
   .foursquare.csmb-border::after {
     border-color: #dbdbdb; }
   .foursquare.csmb-border:hover::after, .foursquare.csmb-border:focus::after, .foursquare.csmb-border:active::after {
-    border-color: #c7c7c7; }
-
-.git {
-  background-color: #f4f4f4;
-  background-position: 0 -112px; }
-  .git:hover, .git:focus {
-    background-color: white; }
-  .git:active {
-    background-color: #dbdbdb; }
-  .git.csmb {
-    box-shadow: inset 0 1px 2px 0 white; }
-  .git.csmb-border::after {
-    border-color: #dbdbdb; }
-  .git.csmb-border:hover::after, .git.csmb-border:focus::after, .git.csmb-border:active::after {
     border-color: #c7c7c7; }
 
 .github {
@@ -300,20 +244,6 @@
     border-color: #1f1f1f; }
   .icheckmovies.csmb-border:hover::after, .icheckmovies.csmb-border:focus::after, .icheckmovies.csmb-border:active::after {
     border-color: #0b0b0b; }
-
-.ie {
-  background-color: #00bcf2;
-  background-position: -56px -392px; }
-  .ie:hover, .ie:focus {
-    background-color: #26cfff; }
-  .ie:active {
-    background-color: #0094bf; }
-  .ie.csmb {
-    box-shadow: inset 0 1px 2px 0 #73e0ff; }
-  .ie.csmb-border::after {
-    border-color: #0094bf; }
-  .ie.csmb-border:hover::after, .ie.csmb-border:focus::after, .ie.csmb-border:active::after {
-    border-color: #007799; }
 
 .imdb {
   background-color: #f3ce13;
@@ -413,20 +343,6 @@
   .myspace.csmb-border:hover::after, .myspace.csmb-border:focus::after, .myspace.csmb-border:active::after {
     border-color: #0c0d12; }
 
-.opera {
-  background-color: #f4f4f4;
-  background-position: -56px -336px; }
-  .opera:hover, .opera:focus {
-    background-color: white; }
-  .opera:active {
-    background-color: #dbdbdb; }
-  .opera.csmb {
-    box-shadow: inset 0 1px 2px 0 white; }
-  .opera.csmb-border::after {
-    border-color: #dbdbdb; }
-  .opera.csmb-border:hover::after, .opera.csmb-border:focus::after, .opera.csmb-border:active::after {
-    border-color: #c7c7c7; }
-
 .path {
   background-color: #e41f11;
   background-position: 0 -252px; }
@@ -496,20 +412,6 @@
     border-color: #d86612; }
   .rss.csmb-border:hover::after, .rss.csmb-border:focus::after, .rss.csmb-border:active::after {
     border-color: #b5550f; }
-
-.safari {
-  background-color: #f4f4f4;
-  background-position: -56px -364px; }
-  .safari:hover, .safari:focus {
-    background-color: white; }
-  .safari:active {
-    background-color: #dbdbdb; }
-  .safari.csmb {
-    box-shadow: inset 0 1px 2px 0 white; }
-  .safari.csmb-border::after {
-    border-color: #dbdbdb; }
-  .safari.csmb-border:hover::after, .safari.csmb-border:focus::after, .safari.csmb-border:active::after {
-    border-color: #c7c7c7; }
 
 .skype {
   background-color: #00aff0;

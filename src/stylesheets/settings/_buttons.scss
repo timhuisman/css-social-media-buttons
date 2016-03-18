@@ -18,27 +18,21 @@ $button-list : ();
 // B
 $button-list : append($button-list, ('.bitbucket', $color-bitbucket, -56px -84px));
 $button-list : append($button-list, ('.blogger', $color-blogger, -56px -168px));
-// C
-$button-list : append($button-list, ('.chrome', $color-chrome, -56px -280px));
 // D
 $button-list : append($button-list, ('.delicious', $color-delicious, -56px -196px));
 $button-list : append($button-list, ('.deviantart', $color-deviantart, -28px -28px));
 $button-list : append($button-list, ('.digg', $color-digg, -56px -224px));
 $button-list : append($button-list, ('.dropbox', $color-dropbox, -28px -364px));
-$button-list : append($button-list, ('.drupal', $color-drupal, -28px -252px));
 // F
 $button-list : append($button-list, ('.facebook', $color-facebook, 0 0));
-$button-list : append($button-list, ('.firefox', $color-firefox, -56px -308px));
 $button-list : append($button-list, ('.flickr', $color-flickr, 0 -28px));
 $button-list : append($button-list, ('.foursquare', $color-foursquare, -56px -420px));
 // G
-$button-list : append($button-list, ('.git', $color-git, 0 -112px));
 $button-list : append($button-list, ('.github', $color-github, 0 -84px));
 $button-list : append($button-list, ('.gplus', $color-gplus, 0 -140px));
 $button-list : append($button-list, ('.grooveshark', $color-grooveshark, -56px -56px));
 // I
 $button-list : append($button-list, ('.icheckmovies', $color-icheckmovies, 0 -476px));
-$button-list : append($button-list, ('.ie', $color-ie, -56px -392px));
 $button-list : append($button-list, ('.imdb', $color-imdb, -56px -140px));
 $button-list : append($button-list, ('.instagram', $color-instagram, -28px -392px));
 $button-list : append($button-list, ('.issuu', $color-issuu, -28px -168px));
@@ -48,8 +42,6 @@ $button-list : append($button-list, ('.linkedin', $color-linkedin, 0 -196px));
 // M
 $button-list : append($button-list, ('.mail', $color-mail, 0 -224px));
 $button-list : append($button-list, ('.myspace', $color-myspace, -28px -308px));
-// O
-$button-list : append($button-list, ('.opera', $color-opera, -56px -336px));
 // P
 $button-list : append($button-list, ('.path', $color-path, 0 -252px));
 $button-list : append($button-list, ('.paypal', $color-paypal, -28px -280px));
@@ -58,7 +50,6 @@ $button-list : append($button-list, ('.pinterest', $color-pinterest, -28px -336p
 $button-list : append($button-list, ('.reddit', $color-reddit, -56px -252px));
 $button-list : append($button-list, ('.rss', $color-rss, 0 -280px));
 // S
-$button-list : append($button-list, ('.safari', $color-safari, -56px -364px));
 $button-list : append($button-list, ('.skype', $color-skype, -28px 0));
 $button-list : append($button-list, ('.soundcloud', $color-soundcloud, -28px -112px));
 $button-list : append($button-list, ('.spotify', $color-spotify, -28px -196px));
