@@ -231,20 +231,6 @@
   .foursquare.csmb-border:hover::after, .foursquare.csmb-border:focus::after, .foursquare.csmb-border:active::after {
     border-color: #c7c7c7; }
 
-.foursquare-alt {
-  background-color: #25a0ca;
-  background-position: 0 -56px; }
-  .foursquare-alt:hover, .foursquare-alt:focus {
-    background-color: #45b6dd; }
-  .foursquare-alt:active {
-    background-color: #1d7e9f; }
-  .foursquare-alt.csmb {
-    box-shadow: inset 0 1px 2px 0 #86d0e9; }
-  .foursquare-alt.csmb-border::after {
-    border-color: #1d7e9f; }
-  .foursquare-alt.csmb-border:hover::after, .foursquare-alt.csmb-border:focus::after, .foursquare-alt.csmb-border:active::after {
-    border-color: #17647f; }
-
 .git {
   background-color: #f4f4f4;
   background-position: 0 -112px; }
@@ -272,20 +258,6 @@
     border-color: #dbdbdb; }
   .github.csmb-border:hover::after, .github.csmb-border:focus::after, .github.csmb-border:active::after {
     border-color: #c7c7c7; }
-
-.github-alt {
-  background-color: #383838;
-  background-position: -56px 0; }
-  .github-alt:hover, .github-alt:focus {
-    background-color: #525252; }
-  .github-alt:active {
-    background-color: #1f1f1f; }
-  .github-alt.csmb {
-    box-shadow: inset 0 1px 2px 0 #787878; }
-  .github-alt.csmb-border::after {
-    border-color: #1f1f1f; }
-  .github-alt.csmb-border:hover::after, .github-alt.csmb-border:focus::after, .github-alt.csmb-border:active::after {
-    border-color: #0b0b0b; }
 
 .gplus {
   background-color: #dd4b39;
@@ -370,20 +342,6 @@
     border-color: #755b51; }
   .instagram.csmb-border:hover::after, .instagram.csmb-border:focus::after, .instagram.csmb-border:active::after {
     border-color: #5e4941; }
-
-.instagram-alt {
-  background-color: #3f729b;
-  background-position: -28px -420px; }
-  .instagram-alt:hover, .instagram-alt:focus {
-    background-color: #548cb9; }
-  .instagram-alt:active {
-    background-color: #305777; }
-  .instagram-alt.csmb {
-    box-shadow: inset 0 1px 2px 0 #8ab1cf; }
-  .instagram-alt.csmb-border::after {
-    border-color: #305777; }
-  .instagram-alt.csmb-border:hover::after, .instagram-alt.csmb-border:focus::after, .instagram-alt.csmb-border:active::after {
-    border-color: #25435c; }
 
 .issuu {
   background-color: #f4f4f4;
@@ -720,29 +678,3 @@
     border-color: #dbdbdb; }
   .youtube.csmb-border:hover::after, .youtube.csmb-border:focus::after, .youtube.csmb-border:active::after {
     border-color: #c7c7c7; }
-
-.youtube-alt {
-  background-color: #c4302b;
-  background-position: 0 -448px; }
-  .youtube-alt:hover, .youtube-alt:focus {
-    background-color: #d74f4b; }
-  .youtube-alt:active {
-    background-color: #9a2622; }
-  .youtube-alt.csmb {
-    box-shadow: inset 0 1px 2px 0 #e58c89; }
-  .youtube-alt.csmb-border::after {
-    border-color: #9a2622; }
-  .youtube-alt.csmb-border:hover::after, .youtube-alt.csmb-border:focus::after, .youtube-alt.csmb-border:active::after {
-    border-color: #7b1e1b; }
-
-.facebook.alt {
-  background-position: -28px -84px; }
-
-.foursquare-alt.alt {
-  background-position: -28px -140px; }
-
-.twitter.alt {
-  background-position: 0 -364px; }
-
-.youtube-alt.alt {
-  background-position: -28px -476px; }

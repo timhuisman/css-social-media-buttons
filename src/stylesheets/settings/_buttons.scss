@@ -31,11 +31,9 @@ $button-list : append($button-list, ('.facebook', $color-facebook, 0 0));
 $button-list : append($button-list, ('.firefox', $color-firefox, -56px -308px));
 $button-list : append($button-list, ('.flickr', $color-flickr, 0 -28px));
 $button-list : append($button-list, ('.foursquare', $color-foursquare, -56px -420px));
-$button-list : append($button-list, ('.foursquare-alt', $color-foursquare-alt, 0 -56px));
 // G
 $button-list : append($button-list, ('.git', $color-git, 0 -112px));
 $button-list : append($button-list, ('.github', $color-github, 0 -84px));
-$button-list : append($button-list, ('.github-alt', $color-github-alt, -56px 0));
 $button-list : append($button-list, ('.gplus', $color-gplus, 0 -140px));
 $button-list : append($button-list, ('.grooveshark', $color-grooveshark, -56px -56px));
 // I
@@ -43,7 +41,6 @@ $button-list : append($button-list, ('.icheckmovies', $color-icheckmovies, 0 -47
 $button-list : append($button-list, ('.ie', $color-ie, -56px -392px));
 $button-list : append($button-list, ('.imdb', $color-imdb, -56px -140px));
 $button-list : append($button-list, ('.instagram', $color-instagram, -28px -392px));
-$button-list : append($button-list, ('.instagram-alt', $color-instagram-alt, -28px -420px));
 $button-list : append($button-list, ('.issuu', $color-issuu, -28px -168px));
 // L
 $button-list : append($button-list, ('.lastfm', $color-lastfm, 0 -168px));
@@ -78,18 +75,3 @@ $button-list : append($button-list, ('.wordpress', $color-wordpress, -28px -224p
 // Y
 $button-list : append($button-list, ('.yelp', $color-yelp, -56px -112px));
 $button-list : append($button-list, ('.youtube', $color-youtube, 0 -420px));
-$button-list : append($button-list, ('.youtube-alt', $color-youtube-alt, 0 -448px));
-
-//
-// Alternative Buttons
-// ------------------------------------------------------------------------------------
-
-$button-alt-list : ();
-
-// F
-$button-alt-list : append($button-alt-list, ('.facebook.alt', -28px -84px));
-$button-alt-list : append($button-alt-list, ('.foursquare-alt.alt', -28px -140px));
-// T
-$button-alt-list : append($button-alt-list, ('.twitter.alt', 0 -364px));
-// Y
-$button-alt-list : append($button-alt-list, ('.youtube-alt.alt', -28px -476px));
