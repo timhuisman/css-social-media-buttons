@@ -3,6 +3,8 @@
 
 scss_files: 'src/stylesheets/**/*.scss'
 
+exclude: 'src/stylesheets/icons/*.scss'
+
 linters:
   BangFormat:
     enabled: true
