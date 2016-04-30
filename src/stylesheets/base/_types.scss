@@ -36,6 +36,9 @@
   &:active {
     outline: none;
 
+    &::after {
+      background: $color-gradient-top;
+    }
   }
 }
 
