@@ -15,53 +15,53 @@ $btn-size : 28px;
 $button-list : ();
 
 // B
-$button-list : append($button-list, ('.bitbucket', $color-bitbucket, -56px -84px));
-$button-list : append($button-list, ('.blogger', $color-blogger, -56px -168px));
+$button-list : append($button-list, ('csmb-bitbucket', $color-bitbucket));
+$button-list : append($button-list, ('csmb-blogger', $color-blogger));
 // D
-$button-list : append($button-list, ('.delicious', $color-delicious, -56px -196px));
-$button-list : append($button-list, ('.deviantart', $color-deviantart, -28px -28px));
-$button-list : append($button-list, ('.digg', $color-digg, -56px -224px));
-$button-list : append($button-list, ('.dropbox', $color-dropbox, -28px -364px));
+$button-list : append($button-list, ('csmb-delicious', $color-delicious));
+$button-list : append($button-list, ('csmb-deviantart', $color-deviantart));
+$button-list : append($button-list, ('csmb-digg', $color-digg));
+$button-list : append($button-list, ('csmb-dropbox', $color-dropbox));
 // F
-$button-list : append($button-list, ('.facebook', $color-facebook, 0 0));
-$button-list : append($button-list, ('.flickr', $color-flickr, 0 -28px));
-$button-list : append($button-list, ('.foursquare', $color-foursquare, -56px -420px));
+$button-list : append($button-list, ('csmb-facebook', $color-facebook));
+$button-list : append($button-list, ('csmb-flickr', $color-flickr));
+$button-list : append($button-list, ('csmb-foursquare', $color-foursquare));
 // G
-$button-list : append($button-list, ('.github', $color-github, 0 -84px));
-$button-list : append($button-list, ('.gplus', $color-gplus, 0 -140px));
-$button-list : append($button-list, ('.grooveshark', $color-grooveshark, -56px -56px));
+$button-list : append($button-list, ('csmb-github', $color-github));
+$button-list : append($button-list, ('csmb-googleplus', $color-gplus));
+$button-list : append($button-list, ('csmb-grooveshark', $color-grooveshark));
 // I
-$button-list : append($button-list, ('.icheckmovies', $color-icheckmovies, 0 -476px));
-$button-list : append($button-list, ('.imdb', $color-imdb, -56px -140px));
-$button-list : append($button-list, ('.instagram', $color-instagram, -28px -392px));
-$button-list : append($button-list, ('.issuu', $color-issuu, -28px -168px));
+$button-list : append($button-list, ('csmb-icheckmovies', $color-icheckmovies));
+$button-list : append($button-list, ('csmb-imdb', $color-imdb));
+$button-list : append($button-list, ('csmb-instagram', $color-instagram));
+$button-list : append($button-list, ('csmb-issuu', $color-issuu));
 // L
-$button-list : append($button-list, ('.lastfm', $color-lastfm, 0 -168px));
-$button-list : append($button-list, ('.linkedin', $color-linkedin, 0 -196px));
+$button-list : append($button-list, ('csmb-lastfm', $color-lastfm));
+$button-list : append($button-list, ('csmb-linkedin', $color-linkedin));
 // M
-$button-list : append($button-list, ('.mail', $color-mail, 0 -224px));
-$button-list : append($button-list, ('.myspace', $color-myspace, -28px -308px));
+$button-list : append($button-list, ('csmb-mail', $color-mail));
+$button-list : append($button-list, ('csmb-myspace', $color-myspace));
 // P
-$button-list : append($button-list, ('.path', $color-path, 0 -252px));
-$button-list : append($button-list, ('.paypal', $color-paypal, -28px -280px));
-$button-list : append($button-list, ('.pinterest', $color-pinterest, -28px -336px)); // Black BG color : #383838
+$button-list : append($button-list, ('csmb-path', $color-path));
+$button-list : append($button-list, ('csmb-paypal', $color-paypal));
+$button-list : append($button-list, ('csmb-pinterest', $color-pinterest));
 // R
-$button-list : append($button-list, ('.reddit', $color-reddit, -56px -252px));
-$button-list : append($button-list, ('.rss', $color-rss, 0 -280px));
+$button-list : append($button-list, ('csmb-reddit', $color-reddit));
+$button-list : append($button-list, ('csmb-rss', $color-rss));
 // S
-$button-list : append($button-list, ('.skype', $color-skype, -28px 0));
-$button-list : append($button-list, ('.soundcloud', $color-soundcloud, -28px -112px));
-$button-list : append($button-list, ('.spotify', $color-spotify, -28px -196px));
-$button-list : append($button-list, ('.stumbleupon', $color-stumbleupon, -28px -56px));
-$button-list : append($button-list, ('.swarm', $color-swarm, -28px -448px));
+$button-list : append($button-list, ('csmb-skype', $color-skype));
+$button-list : append($button-list, ('csmb-soundcloud', $color-soundcloud));
+$button-list : append($button-list, ('csmb-spotify', $color-spotify));
+$button-list : append($button-list, ('csmb-stumbleupon', $color-stumbleupon));
+$button-list : append($button-list, ('csmb-swarm', $color-swarm));
 // T
-$button-list : append($button-list, ('.tumblr', $color-tumblr, 0 -308px));
-$button-list : append($button-list, ('.twitter', $color-twitter, 0 -336px));
+$button-list : append($button-list, ('csmb-tumblr', $color-tumblr));
+$button-list : append($button-list, ('csmb-twitter', $color-twitter));
 // V
-$button-list : append($button-list, ('.vimeo', $color-vimeo, 0 -392px));
-$button-list : append($button-list, ('.vine', $color-vine, -56px -28px));
+$button-list : append($button-list, ('csmb-vimeo', $color-vimeo));
+$button-list : append($button-list, ('csmb-vine', $color-vine));
 // W
-$button-list : append($button-list, ('.wordpress', $color-wordpress, -28px -224px)); // Grey BG color : #464646
+$button-list : append($button-list, ('csmb-wordpress', $color-wordpress));
 // Y
-$button-list : append($button-list, ('.yelp', $color-yelp, -56px -112px));
-$button-list : append($button-list, ('.youtube', $color-youtube, 0 -420px));
+$button-list : append($button-list, ('csmb-yelp', $color-yelp));
+$button-list : append($button-list, ('csmb-youtube', $color-youtube));
