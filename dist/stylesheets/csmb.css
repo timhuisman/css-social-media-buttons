@@ -78,6 +78,15 @@
 .csmb-blogger.csmb-border:hover::after, .csmb-blogger.csmb-border:focus::after, .csmb-blogger.csmb-border:active::after {
   border-color: #9b5109; }
 
+.csmb-codepen.csmb {
+  box-shadow: inset 0 1px 2px 0 #5f5f58; }
+
+.csmb-codepen.csmb-border::after {
+  border-color: #030302; }
+
+.csmb-codepen.csmb-border:hover::after, .csmb-codepen.csmb-border:focus::after, .csmb-codepen.csmb-border:active::after {
+  border-color: black; }
+
 .csmb-delicious.csmb {
   box-shadow: inset 0 1px 2px 0 white; }
 
@@ -104,6 +113,15 @@
 
 .csmb-digg.csmb-border:hover::after, .csmb-digg.csmb-border:focus::after, .csmb-digg.csmb-border:active::after {
   border-color: black; }
+
+.csmb-dribble.csmb {
+  box-shadow: inset 0 1px 2px 0 #f7bed4; }
+
+.csmb-dribble.csmb-border::after {
+  border-color: #e51e6b; }
+
+.csmb-dribble.csmb-border:hover::after, .csmb-dribble.csmb-border:focus::after, .csmb-dribble.csmb-border:active::after {
+  border-color: #c6175b; }
 
 .csmb-dropbox.csmb {
   box-shadow: inset 0 1px 2px 0 #8bb5e1; }
@@ -150,6 +168,15 @@
 .csmb-github.csmb-border:hover::after, .csmb-github.csmb-border:focus::after, .csmb-github.csmb-border:active::after {
   border-color: black; }
 
+.csmb-gitlab.csmb {
+  box-shadow: inset 0 1px 2px 0 #687286; }
+
+.csmb-gitlab.csmb-border::after {
+  border-color: #1a1c21; }
+
+.csmb-gitlab.csmb-border:hover::after, .csmb-gitlab.csmb-border:focus::after, .csmb-gitlab.csmb-border:active::after {
+  border-color: #090a0c; }
+
 .csmb-googleplus.csmb {
   box-shadow: inset 0 1px 2px 0 #e79187; }
 
@@ -195,6 +222,15 @@
 .csmb-instagram.csmb-border:hover::after, .csmb-instagram.csmb-border:focus::after, .csmb-instagram.csmb-border:active::after {
   border-color: #08253a; }
 
+.csmb-invision.csmb {
+  box-shadow: inset 0 1px 2px 0 #f5adc0; }
+
+.csmb-invision.csmb-border::after {
+  border-color: #d7194b; }
+
+.csmb-invision.csmb-border:hover::after, .csmb-invision.csmb-border:focus::after, .csmb-invision.csmb-border:active::after {
+  border-color: #b5153f; }
+
 .csmb-issuu.csmb {
   box-shadow: inset 0 1px 2px 0 #fad6d2; }
 
@@ -203,6 +239,15 @@
 
 .csmb-issuu.csmb-border:hover::after, .csmb-issuu.csmb-border:focus::after, .csmb-issuu.csmb-border:active::after {
   border-color: #da2d19; }
+
+.csmb-jsfiddle.csmb {
+  box-shadow: inset 0 1px 2px 0 #99b8d3; }
+
+.csmb-jsfiddle.csmb-border::after {
+  border-color: #386082; }
+
+.csmb-jsfiddle.csmb-border:hover::after, .csmb-jsfiddle.csmb-border:focus::after, .csmb-jsfiddle.csmb-border:active::after {
+  border-color: #2c4c67; }
 
 .csmb-lastfm.csmb {
   box-shadow: inset 0 1px 2px 0 #f27678; }
@@ -230,6 +275,15 @@
 
 .csmb-mail.csmb-border:hover::after, .csmb-mail.csmb-border:focus::after, .csmb-mail.csmb-border:active::after {
   border-color: #c7c7c7; }
+
+.csmb-medium.csmb {
+  box-shadow: inset 0 1px 2px 0 #46f1ae; }
+
+.csmb-medium.csmb-border::after {
+  border-color: #097b4f; }
+
+.csmb-medium.csmb-border:hover::after, .csmb-medium.csmb-border:focus::after, .csmb-medium.csmb-border:active::after {
+  border-color: #075738; }
 
 .csmb-myspace.csmb {
   box-shadow: inset 0 1px 2px 0 #575748; }
@@ -285,6 +339,15 @@
 .csmb-rss.csmb-border:hover::after, .csmb-rss.csmb-border:focus::after, .csmb-rss.csmb-border:active::after {
   border-color: #b7550e; }
 
+.csmb-share.csmb {
+  box-shadow: inset 0 1px 2px 0 #a1d79e; }
+
+.csmb-share.csmb-border::after {
+  border-color: #3d8a39; }
+
+.csmb-share.csmb-border:hover::after, .csmb-share.csmb-border:focus::after, .csmb-share.csmb-border:active::after {
+  border-color: #316f2e; }
+
 .csmb-skype.csmb {
   box-shadow: inset 0 1px 2px 0 #9ad8f2; }
 
@@ -293,6 +356,24 @@
 
 .csmb-skype.csmb-border:hover::after, .csmb-skype.csmb-border:focus::after, .csmb-skype.csmb-border:active::after {
   border-color: #15759e; }
+
+.csmb-slack.csmb {
+  box-shadow: inset 0 1px 2px 0 #9ddac6; }
+
+.csmb-slack.csmb-border::after {
+  border-color: #368f72; }
+
+.csmb-slack.csmb-border:hover::after, .csmb-slack.csmb-border:focus::after, .csmb-slack.csmb-border:active::after {
+  border-color: #2c735c; }
+
+.csmb-snapchat.csmb {
+  box-shadow: inset 0 1px 2px 0 #faf384; }
+
+.csmb-snapchat.csmb-border::after {
+  border-color: #c3b908; }
+
+.csmb-snapchat.csmb-border:hover::after, .csmb-snapchat.csmb-border:focus::after, .csmb-snapchat.csmb-border:active::after {
+  border-color: #9e9606; }
 
 .csmb-soundcloud.csmb {
   box-shadow: inset 0 1px 2px 0 #f3a091; }
@@ -311,6 +392,24 @@
 
 .csmb-spotify.csmb-border:hover::after, .csmb-spotify.csmb-border:focus::after, .csmb-spotify.csmb-border:active::after {
   border-color: #507116; }
+
+.csmb-stackoverflow.csmb {
+  box-shadow: inset 0 1px 2px 0 #f8c7a0; }
+
+.csmb-stackoverflow.csmb-border::after {
+  border-color: #d7660f; }
+
+.csmb-stackoverflow.csmb-border:hover::after, .csmb-stackoverflow.csmb-border:focus::after, .csmb-stackoverflow.csmb-border:active::after {
+  border-color: #b3550d; }
+
+.csmb-steam.csmb {
+  box-shadow: inset 0 1px 2px 0 #4b556c; }
+
+.csmb-steam.csmb-border::after {
+  border-color: #020203; }
+
+.csmb-steam.csmb-border:hover::after, .csmb-steam.csmb-border:focus::after, .csmb-steam.csmb-border:active::after {
+  border-color: black; }
 
 .csmb-stumbleupon.csmb {
   box-shadow: inset 0 1px 2px 0 #f49e87; }
@@ -366,6 +465,15 @@
 .csmb-vine.csmb-border:hover::after, .csmb-vine.csmb-border:focus::after, .csmb-vine.csmb-border:active::after {
   border-color: #206c55; }
 
+.csmb-whatsapp.csmb {
+  box-shadow: inset 0 1px 2px 0 #addab3; }
+
+.csmb-whatsapp.csmb-border::after {
+  border-color: #42924d; }
+
+.csmb-whatsapp.csmb-border:hover::after, .csmb-whatsapp.csmb-border:focus::after, .csmb-whatsapp.csmb-border:active::after {
+  border-color: #36783f; }
+
 .csmb-wordpress.csmb {
   box-shadow: inset 0 1px 2px 0 #63b6dc; }
 
@@ -400,109 +508,145 @@
   background-position: 0 0; }
 
 .csmb-blogger {
-  background-position: 2.7777777777777777% 0; }
+  background-position: 2.0833333333333335% 0; }
+
+.csmb-codepen {
+  background-position: 4.166666666666667% 0; }
 
 .csmb-delicious {
-  background-position: 5.555555555555555% 0; }
+  background-position: 6.25% 0; }
 
 .csmb-deviantart {
   background-position: 8.333333333333334% 0; }
 
 .csmb-digg {
-  background-position: 11.11111111111111% 0; }
+  background-position: 10.416666666666666% 0; }
+
+.csmb-dribble {
+  background-position: 12.5% 0; }
 
 .csmb-dropbox {
-  background-position: 13.88888888888889% 0; }
+  background-position: 14.583333333333334% 0; }
 
 .csmb-facebook {
   background-position: 16.666666666666668% 0; }
 
 .csmb-flickr {
-  background-position: 19.444444444444443% 0; }
+  background-position: 18.75% 0; }
 
 .csmb-foursquare {
-  background-position: 22.22222222222222% 0; }
+  background-position: 20.833333333333332% 0; }
 
 .csmb-github {
+  background-position: 22.916666666666668% 0; }
+
+.csmb-gitlab {
   background-position: 25% 0; }
 
 .csmb-googleplus {
-  background-position: 27.77777777777778% 0; }
+  background-position: 27.083333333333332% 0; }
 
 .csmb-grooveshark {
-  background-position: 30.555555555555557% 0; }
+  background-position: 29.166666666666668% 0; }
 
 .csmb-icheckmovies {
-  background-position: 33.333333333333336% 0; }
+  background-position: 31.25% 0; }
 
 .csmb-imdb {
-  background-position: 36.111111111111114% 0; }
+  background-position: 33.333333333333336% 0; }
 
 .csmb-instagram {
-  background-position: 38.888888888888886% 0; }
+  background-position: 35.416666666666664% 0; }
+
+.csmb-invision {
+  background-position: 37.5% 0; }
 
 .csmb-issuu {
+  background-position: 39.583333333333336% 0; }
+
+.csmb-jsfiddle {
   background-position: 41.666666666666664% 0; }
 
 .csmb-lastfm {
-  background-position: 44.44444444444444% 0; }
+  background-position: 43.75% 0; }
 
 .csmb-linkedin {
-  background-position: 47.22222222222222% 0; }
+  background-position: 45.833333333333336% 0; }
 
 .csmb-mail {
+  background-position: 47.916666666666664% 0; }
+
+.csmb-medium {
   background-position: 50% 0; }
 
 .csmb-myspace {
-  background-position: 52.77777777777778% 0; }
+  background-position: 52.083333333333336% 0; }
 
 .csmb-path {
-  background-position: 55.55555555555556% 0; }
+  background-position: 54.166666666666664% 0; }
 
 .csmb-paypal {
-  background-position: 58.333333333333336% 0; }
+  background-position: 56.25% 0; }
 
 .csmb-pinterest {
-  background-position: 61.111111111111114% 0; }
+  background-position: 58.333333333333336% 0; }
 
 .csmb-reddit {
-  background-position: 63.888888888888886% 0; }
+  background-position: 60.416666666666664% 0; }
 
 .csmb-rss {
-  background-position: 66.66666666666667% 0; }
+  background-position: 62.5% 0; }
+
+.csmb-share {
+  background-position: 64.58333333333333% 0; }
 
 .csmb-skype {
-  background-position: 69.44444444444444% 0; }
+  background-position: 66.66666666666667% 0; }
+
+.csmb-slack {
+  background-position: 68.75% 0; }
+
+.csmb-snapchat {
+  background-position: 70.83333333333333% 0; }
 
 .csmb-soundcloud {
-  background-position: 72.22222222222223% 0; }
+  background-position: 72.91666666666667% 0; }
 
 .csmb-spotify {
   background-position: 75% 0; }
 
+.csmb-stackoverflow {
+  background-position: 77.08333333333333% 0; }
+
+.csmb-steam {
+  background-position: 79.16666666666667% 0; }
+
 .csmb-stumbleupon {
-  background-position: 77.77777777777777% 0; }
+  background-position: 81.25% 0; }
 
 .csmb-swarm {
-  background-position: 80.55555555555556% 0; }
-
-.csmb-tumblr {
   background-position: 83.33333333333333% 0; }
 
+.csmb-tumblr {
+  background-position: 85.41666666666667% 0; }
+
 .csmb-twitter {
-  background-position: 86.11111111111111% 0; }
+  background-position: 87.5% 0; }
 
 .csmb-vimeo {
-  background-position: 88.88888888888889% 0; }
+  background-position: 89.58333333333333% 0; }
 
 .csmb-vine {
   background-position: 91.66666666666667% 0; }
 
+.csmb-whatsapp {
+  background-position: 93.75% 0; }
+
 .csmb-wordpress {
-  background-position: 94.44444444444444% 0; }
+  background-position: 95.83333333333333% 0; }
 
 .csmb-yelp {
-  background-position: 97.22222222222223% 0; }
+  background-position: 97.91666666666667% 0; }
 
 .csmb-youtube {
   background-position: 100% 0; }
