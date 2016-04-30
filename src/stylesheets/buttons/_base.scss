@@ -6,18 +6,8 @@
   @each $button in $button-list {
     $color: nth($button, 2);
 
-    #{nth($button, 1)} {
-      background-color: $color;
-      background-position: nth($button, 3);
-
-      &:hover,
-      &:focus {
-        background-color: lighten($color, $diff-small);
-      }
-
-      &:active {
-        background-color: darken($color, $diff-small);
-      }
+    .#{nth($button, 1)} {
+      @extend %#{nth($button, 1)};
 
       // Default
       @if $default == true {
