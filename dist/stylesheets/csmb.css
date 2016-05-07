@@ -9,7 +9,7 @@
   display: inline-block;
   width: 28px;
   height: 28px;
-  margin: 4px;
+  margin: 4.0px;
   padding: 0;
   position: relative; }
   .csmb::before, .csmb-flat::before, .csmb::after, .csmb-flat::after {
@@ -20,17 +20,18 @@
     position: absolute;
     top: 0;
     left: 0; }
-  .csmb:hover, .csmb-flat:hover, .csmb:focus, .csmb-flat:focus, .csmb:active, .csmb-flat:active {
-    outline: none; }
-    .csmb:hover::after, .csmb-flat:hover::after, .csmb:focus::after, .csmb-flat:focus::after, .csmb:active::after, .csmb-flat:active::after {
-      background: rgba(255, 255, 255, 0.25); }
+  .csmb::after, .csmb-flat::after {
+    -webkit-transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease;
+    -webkit-transition-property: background-color, border-color;
+    transition-property: background-color, border-color; }
+  .csmb:hover::after, .csmb-flat:hover::after, .csmb:focus::after, .csmb-flat:focus::after, .csmb:active::after, .csmb-flat:active::after {
+    background: rgba(255, 255, 255, 0.25); }
 
 .csmb::before {
-  box-shadow: 0 0 4px 0 #aaa; }
-
-.csmb::after {
   background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%); }
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 4px 0 #aaa; }
 
 .csmb-flat::before {
   box-shadow: 0 0 1px 0 #aaa; }
@@ -42,18 +43,16 @@
   border-radius: 25%; }
 
 .csmb-border::before {
-  border: solid 2px #fff;
-  width: 32px;
-  height: 32px;
-  top: -4px;
-  left: -4px; }
+  border: solid 2.0px #fff;
+  width: 32.0px;
+  height: 32.0px;
+  top: -4.0px;
+  left: -4.0px; }
 
 .csmb-border::after {
-  border: solid 2px #aaa;
-  -webkit-transition: border-color 0.25s ease;
-  transition: border-color 0.25s ease;
-  top: -2px;
-  left: -2px; }
+  border: solid 2.0px #aaa;
+  top: -2.0px;
+  left: -2.0px; }
 
 .csmb-border.csmb-rounded {
   border-radius: 20%; }
