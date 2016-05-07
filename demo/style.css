@@ -40,7 +40,7 @@ body {
   }
 
   .types-container.default .type {
-    margin-right: 10px;
+    margin: 0 20px 0 0;
   }
 
   .types-container.flat .type, .types-container.flat .buttons {
@@ -48,7 +48,7 @@ body {
   }
 
   .types-container.flat .type {
-    margin-left: 10px;
+    margin: 0 0 0 20px;
   }
 
   .types-container .button-container {
@@ -75,8 +75,6 @@ body {
 }
 
 .buttons-container {
-  float: left;
-  width: 25%;
   margin-bottom: 10px;
 }
 
@@ -86,9 +84,14 @@ body {
 
   .buttons-container .type {
     line-height: 36px;
-    margin-left: 10px;
+    margin: 0 0 0 20px;
   }
 
   .buttons-container .buttons {
     height: 36px;
+  }
+
+  .buttons-container .buttons-group {
+    float: left;
+    margin-right: 20px;
   }
