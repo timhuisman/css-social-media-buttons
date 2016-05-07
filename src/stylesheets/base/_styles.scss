@@ -25,18 +25,17 @@
 @if $border == true {
   .csmb-border {
     &::before {
-      border: solid 2px $color-border;
-      width: ($btn-size + 4);
-      height: ($btn-size + 4);
-      top: -4px;
-      left: -4px;
+      border: solid $border-size $color-border;
+      width: ($button-size + $border-size-outer);
+      height: ($button-size + $border-size-outer);
+      top: -1 * $border-size-outer;
+      left: -1 * $border-size-outer;
     }
 
     &::after {
-      border: solid 2px $color-border-inner;
-      transition: border-color 0.25s ease;
-      top: -2px;
-      left: -2px;
+      border: solid $border-size $color-border-inner;
+      top: -1 * $border-size;
+      left: -1 * $border-size;
     }
   }
 }

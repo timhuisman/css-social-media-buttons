@@ -2,7 +2,9 @@
 // SETTINGS | Buttons
 // ====================================================================================
 
-$btn-size : 28px;
+$button-size       : 28px;
+$border-size       : $button-size * 0.07142857143; // Equals to 2px on a 28px button
+$border-size-outer : $button-size * 0.1428571429; // Equals to 4px on a 28px button
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 // Remove/Comment out the buttons below that aren't used; to keep the  CSS small.
