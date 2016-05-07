@@ -30,6 +30,10 @@
     left: 0;
   }
 
+  &::before {
+    box-shadow: 0 0 1px 0 $color-box-shadow;
+  }
+
   &::after {
     transition: background-color 0.25s ease;
   }
@@ -38,7 +42,7 @@
   &:focus,
   &:active {
     &::after {
-      background: $color-gradient-top;
+      background: $color-hover;
     }
   }
 }
@@ -53,7 +57,6 @@
 
     &::before {
       background: linear-gradient(to bottom, $color-gradient-top 0%, $color-gradient-bottom 100%);
-      box-shadow: 0 0 4px 0 $color-box-shadow;
     }
   }
 }
@@ -65,9 +68,5 @@
 @if $flat == true {
   .csmb-flat {
     @extend %csmb;
-
-    &::before {
-      box-shadow: 0 0 1px 0 $color-box-shadow;
-    }
   }
 }

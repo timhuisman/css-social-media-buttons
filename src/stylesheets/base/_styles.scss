@@ -26,6 +26,7 @@
   .csmb-border {
     &::before {
       border: solid $border-size $color-border;
+      box-shadow: 0 0 4px 0 $color-box-shadow;
       width: ($button-size + $border-size-outer);
       height: ($button-size + $border-size-outer);
       top: -1 * $border-size-outer;

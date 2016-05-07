@@ -9,13 +9,6 @@
     .#{nth($button, 1)} {
       @extend %#{nth($button, 1)};
 
-      // Default
-      @if $default == true {
-        &.csmb {
-          box-shadow: inset 0 1px $border-size 0 lighten($color, $diff-large);
-        }
-      }
-
       // Bordered
       @if $border == true {
         &.csmb-border {
