@@ -22,14 +22,6 @@
           &::after {
             border-color: darken($color, $diff-small);
           }
-
-          &:hover,
-          &:focus,
-          &:active {
-            &::after {
-              border-color: darken($color, $diff-medium);
-            }
-          }
         }
       }
     }

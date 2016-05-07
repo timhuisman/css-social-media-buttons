@@ -32,7 +32,6 @@
 
   &::after {
     transition: background-color 0.25s ease;
-    transition-property: background-color, border-color;
   }
 
   &:hover,

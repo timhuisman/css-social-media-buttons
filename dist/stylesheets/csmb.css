@@ -22,9 +22,7 @@
     left: 0; }
   .csmb::after, .csmb-flat::after {
     -webkit-transition: background-color 0.25s ease;
-    transition: background-color 0.25s ease;
-    -webkit-transition-property: background-color, border-color;
-    transition-property: background-color, border-color; }
+    transition: background-color 0.25s ease; }
   .csmb:hover::after, .csmb-flat:hover::after, .csmb:focus::after, .csmb-flat:focus::after, .csmb:active::after, .csmb-flat:active::after {
     background: rgba(255, 255, 255, 0.25); }
 
@@ -63,17 +61,11 @@
 .csmb-bitbucket.csmb-border::after {
   border-color: #163759; }
 
-.csmb-bitbucket.csmb-border:hover::after, .csmb-bitbucket.csmb-border:focus::after, .csmb-bitbucket.csmb-border:active::after {
-  border-color: #0e243a; }
-
 .csmb-blogger.csmb {
   box-shadow: inset 0 1px 2px 0 #f8bd85; }
 
 .csmb-blogger.csmb-border::after {
   border-color: #bf640b; }
-
-.csmb-blogger.csmb-border:hover::after, .csmb-blogger.csmb-border:focus::after, .csmb-blogger.csmb-border:active::after {
-  border-color: #9b5109; }
 
 .csmb-codepen.csmb {
   box-shadow: inset 0 1px 2px 0 #5f5f58; }
@@ -81,25 +73,16 @@
 .csmb-codepen.csmb-border::after {
   border-color: #030302; }
 
-.csmb-codepen.csmb-border:hover::after, .csmb-codepen.csmb-border:focus::after, .csmb-codepen.csmb-border:active::after {
-  border-color: black; }
-
 .csmb-delicious.csmb {
   box-shadow: inset 0 1px 2px 0 white; }
 
 .csmb-delicious.csmb-border::after {
   border-color: #dbdbdb; }
 
-.csmb-delicious.csmb-border:hover::after, .csmb-delicious.csmb-border:focus::after, .csmb-delicious.csmb-border:active::after {
-  border-color: #c7c7c7; }
-
 .csmb-deviantart.csmb {
   box-shadow: inset 0 1px 2px 0 #545b5f; }
 
 .csmb-deviantart.csmb-border::after {
-  border-color: black; }
-
-.csmb-deviantart.csmb-border:hover::after, .csmb-deviantart.csmb-border:focus::after, .csmb-deviantart.csmb-border:active::after {
   border-color: black; }
 
 .csmb-digg.csmb {
@@ -108,17 +91,11 @@
 .csmb-digg.csmb-border::after {
   border-color: black; }
 
-.csmb-digg.csmb-border:hover::after, .csmb-digg.csmb-border:focus::after, .csmb-digg.csmb-border:active::after {
-  border-color: black; }
-
 .csmb-dropbox.csmb {
   box-shadow: inset 0 1px 2px 0 #8bb5e1; }
 
 .csmb-dropbox.csmb-border::after {
   border-color: #265c93; }
-
-.csmb-dropbox.csmb-border:hover::after, .csmb-dropbox.csmb-border:focus::after, .csmb-dropbox.csmb-border:active::after {
-  border-color: #1e4974; }
 
 .csmb-facebook.csmb {
   box-shadow: inset 0 1px 2px 0 #859ccf; }
@@ -126,17 +103,11 @@
 .csmb-facebook.csmb-border::after {
   border-color: #2e4474; }
 
-.csmb-facebook.csmb-border:hover::after, .csmb-facebook.csmb-border:focus::after, .csmb-facebook.csmb-border:active::after {
-  border-color: #233459; }
-
 .csmb-flickr.csmb {
   box-shadow: inset 0 1px 2px 0 white; }
 
 .csmb-flickr.csmb-border::after {
   border-color: #dbdbdb; }
-
-.csmb-flickr.csmb-border:hover::after, .csmb-flickr.csmb-border:focus::after, .csmb-flickr.csmb-border:active::after {
-  border-color: #c7c7c7; }
 
 .csmb-foursquare.csmb {
   box-shadow: inset 0 1px 2px 0 #f7bece; }
@@ -144,17 +115,11 @@
 .csmb-foursquare.csmb-border::after {
   border-color: #e51e56; }
 
-.csmb-foursquare.csmb-border:hover::after, .csmb-foursquare.csmb-border:focus::after, .csmb-foursquare.csmb-border:active::after {
-  border-color: #c61748; }
-
 .csmb-github.csmb {
   box-shadow: inset 0 1px 2px 0 #6b5c53; }
 
 .csmb-github.csmb-border::after {
   border-color: #060505; }
-
-.csmb-github.csmb-border:hover::after, .csmb-github.csmb-border:focus::after, .csmb-github.csmb-border:active::after {
-  border-color: black; }
 
 .csmb-gitlab.csmb {
   box-shadow: inset 0 1px 2px 0 #687286; }
@@ -162,17 +127,11 @@
 .csmb-gitlab.csmb-border::after {
   border-color: #1a1c21; }
 
-.csmb-gitlab.csmb-border:hover::after, .csmb-gitlab.csmb-border:focus::after, .csmb-gitlab.csmb-border:active::after {
-  border-color: #090a0c; }
-
 .csmb-googleplus.csmb {
   box-shadow: inset 0 1px 2px 0 #e79187; }
 
 .csmb-googleplus.csmb-border::after {
   border-color: #9c2c1f; }
-
-.csmb-googleplus.csmb-border:hover::after, .csmb-googleplus.csmb-border:focus::after, .csmb-googleplus.csmb-border:active::after {
-  border-color: #7c2319; }
 
 .csmb-grooveshark.csmb {
   box-shadow: inset 0 1px 2px 0 #f5b298; }
@@ -180,17 +139,11 @@
 .csmb-grooveshark.csmb-border::after {
   border-color: #c84413; }
 
-.csmb-grooveshark.csmb-border:hover::after, .csmb-grooveshark.csmb-border:focus::after, .csmb-grooveshark.csmb-border:active::after {
-  border-color: #a53810; }
-
 .csmb-icheckmovies.csmb {
   box-shadow: inset 0 1px 2px 0 #787878; }
 
 .csmb-icheckmovies.csmb-border::after {
   border-color: #1f1f1f; }
-
-.csmb-icheckmovies.csmb-border:hover::after, .csmb-icheckmovies.csmb-border:focus::after, .csmb-icheckmovies.csmb-border:active::after {
-  border-color: #0b0b0b; }
 
 .csmb-imdb.csmb {
   box-shadow: inset 0 1px 2px 0 #fde06d; }
@@ -198,17 +151,11 @@
 .csmb-imdb.csmb-border::after {
   border-color: #b69202; }
 
-.csmb-imdb.csmb-border:hover::after, .csmb-imdb.csmb-border:focus::after, .csmb-imdb.csmb-border:active::after {
-  border-color: #907302; }
-
 .csmb-instagram.csmb {
   box-shadow: inset 0 1px 2px 0 #369be5; }
 
 .csmb-instagram.csmb-border::after {
   border-color: #0c3a5c; }
-
-.csmb-instagram.csmb-border:hover::after, .csmb-instagram.csmb-border:focus::after, .csmb-instagram.csmb-border:active::after {
-  border-color: #08253a; }
 
 .csmb-invision.csmb {
   box-shadow: inset 0 1px 2px 0 #f5adc0; }
@@ -216,17 +163,11 @@
 .csmb-invision.csmb-border::after {
   border-color: #d7194b; }
 
-.csmb-invision.csmb-border:hover::after, .csmb-invision.csmb-border:focus::after, .csmb-invision.csmb-border:active::after {
-  border-color: #b5153f; }
-
 .csmb-issuu.csmb {
   box-shadow: inset 0 1px 2px 0 #fad6d2; }
 
 .csmb-issuu.csmb-border::after {
   border-color: #e84431; }
-
-.csmb-issuu.csmb-border:hover::after, .csmb-issuu.csmb-border:focus::after, .csmb-issuu.csmb-border:active::after {
-  border-color: #da2d19; }
 
 .csmb-jsfiddle.csmb {
   box-shadow: inset 0 1px 2px 0 #99b8d3; }
@@ -234,17 +175,11 @@
 .csmb-jsfiddle.csmb-border::after {
   border-color: #386082; }
 
-.csmb-jsfiddle.csmb-border:hover::after, .csmb-jsfiddle.csmb-border:focus::after, .csmb-jsfiddle.csmb-border:active::after {
-  border-color: #2c4c67; }
-
 .csmb-lastfm.csmb {
   box-shadow: inset 0 1px 2px 0 #f27678; }
 
 .csmb-lastfm.csmb-border::after {
   border-color: #a61011; }
-
-.csmb-lastfm.csmb-border:hover::after, .csmb-lastfm.csmb-border:focus::after, .csmb-lastfm.csmb-border:active::after {
-  border-color: #830c0e; }
 
 .csmb-linkedin.csmb {
   box-shadow: inset 0 1px 2px 0 #37bbff; }
@@ -252,17 +187,11 @@
 .csmb-linkedin.csmb-border::after {
   border-color: #005683; }
 
-.csmb-linkedin.csmb-border:hover::after, .csmb-linkedin.csmb-border:focus::after, .csmb-linkedin.csmb-border:active::after {
-  border-color: #003d5d; }
-
 .csmb-mail.csmb {
   box-shadow: inset 0 1px 2px 0 white; }
 
 .csmb-mail.csmb-border::after {
   border-color: #dbdbdb; }
-
-.csmb-mail.csmb-border:hover::after, .csmb-mail.csmb-border:focus::after, .csmb-mail.csmb-border:active::after {
-  border-color: #c7c7c7; }
 
 .csmb-medium.csmb {
   box-shadow: inset 0 1px 2px 0 #46f1ae; }
@@ -270,16 +199,10 @@
 .csmb-medium.csmb-border::after {
   border-color: #097b4f; }
 
-.csmb-medium.csmb-border:hover::after, .csmb-medium.csmb-border:focus::after, .csmb-medium.csmb-border:active::after {
-  border-color: #075738; }
-
 .csmb-myspace.csmb {
   box-shadow: inset 0 1px 2px 0 #575748; }
 
 .csmb-myspace.csmb-border::after {
-  border-color: black; }
-
-.csmb-myspace.csmb-border:hover::after, .csmb-myspace.csmb-border:focus::after, .csmb-myspace.csmb-border:active::after {
   border-color: black; }
 
 .csmb-path.csmb {
@@ -288,17 +211,11 @@
 .csmb-path.csmb-border::after {
   border-color: #ba2614; }
 
-.csmb-path.csmb-border:hover::after, .csmb-path.csmb-border:focus::after, .csmb-path.csmb-border:active::after {
-  border-color: #971f11; }
-
 .csmb-paypal.csmb {
   box-shadow: inset 0 1px 2px 0 #2084e7; }
 
 .csmb-paypal.csmb-border::after {
   border-color: #082b4d; }
-
-.csmb-paypal.csmb-border:hover::after, .csmb-paypal.csmb-border:focus::after, .csmb-paypal.csmb-border:active::after {
-  border-color: #04172a; }
 
 .csmb-pinterest.csmb {
   box-shadow: inset 0 1px 2px 0 #ec696e; }
@@ -306,17 +223,11 @@
 .csmb-pinterest.csmb-border::after {
   border-color: #901218; }
 
-.csmb-pinterest.csmb-border:hover::after, .csmb-pinterest.csmb-border:focus::after, .csmb-pinterest.csmb-border:active::after {
-  border-color: #6e0e12; }
-
 .csmb-reddit.csmb {
   box-shadow: inset 0 1px 2px 0 white; }
 
 .csmb-reddit.csmb-border::after {
   border-color: #a3caee; }
-
-.csmb-reddit.csmb-border:hover::after, .csmb-reddit.csmb-border:focus::after, .csmb-reddit.csmb-border:active::after {
-  border-color: #83b8e8; }
 
 .csmb-rss.csmb {
   box-shadow: inset 0 1px 2px 0 #f8c8a5; }
@@ -324,17 +235,11 @@
 .csmb-rss.csmb-border::after {
   border-color: #da6611; }
 
-.csmb-rss.csmb-border:hover::after, .csmb-rss.csmb-border:focus::after, .csmb-rss.csmb-border:active::after {
-  border-color: #b7550e; }
-
 .csmb-share.csmb {
   box-shadow: inset 0 1px 2px 0 #a1d79e; }
 
 .csmb-share.csmb-border::after {
   border-color: #3d8a39; }
-
-.csmb-share.csmb-border:hover::after, .csmb-share.csmb-border:focus::after, .csmb-share.csmb-border:active::after {
-  border-color: #316f2e; }
 
 .csmb-skype.csmb {
   box-shadow: inset 0 1px 2px 0 #9ad8f2; }
@@ -342,17 +247,11 @@
 .csmb-skype.csmb-border::after {
   border-color: #198fc0; }
 
-.csmb-skype.csmb-border:hover::after, .csmb-skype.csmb-border:focus::after, .csmb-skype.csmb-border:active::after {
-  border-color: #15759e; }
-
 .csmb-slack.csmb {
   box-shadow: inset 0 1px 2px 0 #9ddac6; }
 
 .csmb-slack.csmb-border::after {
   border-color: #368f72; }
-
-.csmb-slack.csmb-border:hover::after, .csmb-slack.csmb-border:focus::after, .csmb-slack.csmb-border:active::after {
-  border-color: #2c735c; }
 
 .csmb-snapchat.csmb {
   box-shadow: inset 0 1px 2px 0 #faf384; }
@@ -360,17 +259,11 @@
 .csmb-snapchat.csmb-border::after {
   border-color: #c3b908; }
 
-.csmb-snapchat.csmb-border:hover::after, .csmb-snapchat.csmb-border:focus::after, .csmb-snapchat.csmb-border:active::after {
-  border-color: #9e9606; }
-
 .csmb-soundcloud.csmb {
   box-shadow: inset 0 1px 2px 0 #f3a091; }
 
 .csmb-soundcloud.csmb-border::after {
   border-color: #be2e14; }
-
-.csmb-soundcloud.csmb-border:hover::after, .csmb-soundcloud.csmb-border:focus::after, .csmb-soundcloud.csmb-border:active::after {
-  border-color: #9b2511; }
 
 .csmb-spotify.csmb {
   box-shadow: inset 0 1px 2px 0 #bfe57b; }
@@ -378,17 +271,11 @@
 .csmb-spotify.csmb-border::after {
   border-color: #67911d; }
 
-.csmb-spotify.csmb-border:hover::after, .csmb-spotify.csmb-border:focus::after, .csmb-spotify.csmb-border:active::after {
-  border-color: #507116; }
-
 .csmb-stackoverflow.csmb {
   box-shadow: inset 0 1px 2px 0 #f8c7a0; }
 
 .csmb-stackoverflow.csmb-border::after {
   border-color: #d7660f; }
-
-.csmb-stackoverflow.csmb-border:hover::after, .csmb-stackoverflow.csmb-border:focus::after, .csmb-stackoverflow.csmb-border:active::after {
-  border-color: #b3550d; }
 
 .csmb-steam.csmb {
   box-shadow: inset 0 1px 2px 0 #4b556c; }
@@ -396,17 +283,11 @@
 .csmb-steam.csmb-border::after {
   border-color: #020203; }
 
-.csmb-steam.csmb-border:hover::after, .csmb-steam.csmb-border:focus::after, .csmb-steam.csmb-border:active::after {
-  border-color: black; }
-
 .csmb-stumbleupon.csmb {
   box-shadow: inset 0 1px 2px 0 #f49e87; }
 
 .csmb-stumbleupon.csmb-border::after {
   border-color: #b83411; }
-
-.csmb-stumbleupon.csmb-border:hover::after, .csmb-stumbleupon.csmb-border:focus::after, .csmb-stumbleupon.csmb-border:active::after {
-  border-color: #952a0e; }
 
 .csmb-swarm.csmb {
   box-shadow: inset 0 1px 2px 0 #fcdb9b; }
@@ -414,17 +295,11 @@
 .csmb-swarm.csmb-border::after {
   border-color: #df9406; }
 
-.csmb-swarm.csmb-border:hover::after, .csmb-swarm.csmb-border:focus::after, .csmb-swarm.csmb-border:active::after {
-  border-color: #ba7c05; }
-
 .csmb-tumblr.csmb {
   box-shadow: inset 0 1px 2px 0 #7280a5; }
 
 .csmb-tumblr.csmb-border::after {
   border-color: #272d3d; }
-
-.csmb-tumblr.csmb-border:hover::after, .csmb-tumblr.csmb-border:focus::after, .csmb-tumblr.csmb-border:active::after {
-  border-color: #181c26; }
 
 .csmb-twitter.csmb {
   box-shadow: inset 0 1px 2px 0 #ccedf8; }
@@ -432,17 +307,11 @@
 .csmb-twitter.csmb-border::after {
   border-color: #2fb4e3; }
 
-.csmb-twitter.csmb-border:hover::after, .csmb-twitter.csmb-border:focus::after, .csmb-twitter.csmb-border:active::after {
-  border-color: #1ca1d0; }
-
 .csmb-vimeo.csmb {
   box-shadow: inset 0 1px 2px 0 #8fdcf5; }
 
 .csmb-vimeo.csmb-border::after {
   border-color: #1295bf; }
-
-.csmb-vimeo.csmb-border:hover::after, .csmb-vimeo.csmb-border:focus::after, .csmb-vimeo.csmb-border:active::after {
-  border-color: #0e7a9c; }
 
 .csmb-vine.csmb {
   box-shadow: inset 0 1px 2px 0 #8adcc3; }
@@ -450,17 +319,11 @@
 .csmb-vine.csmb-border::after {
   border-color: #298a6c; }
 
-.csmb-vine.csmb-border:hover::after, .csmb-vine.csmb-border:focus::after, .csmb-vine.csmb-border:active::after {
-  border-color: #206c55; }
-
 .csmb-whatsapp.csmb {
   box-shadow: inset 0 1px 2px 0 #addab3; }
 
 .csmb-whatsapp.csmb-border::after {
   border-color: #42924d; }
-
-.csmb-whatsapp.csmb-border:hover::after, .csmb-whatsapp.csmb-border:focus::after, .csmb-whatsapp.csmb-border:active::after {
-  border-color: #36783f; }
 
 .csmb-wordpress.csmb {
   box-shadow: inset 0 1px 2px 0 #63b6dc; }
@@ -468,26 +331,17 @@
 .csmb-wordpress.csmb-border::after {
   border-color: #1a5672; }
 
-.csmb-wordpress.csmb-border:hover::after, .csmb-wordpress.csmb-border:focus::after, .csmb-wordpress.csmb-border:active::after {
-  border-color: #133f53; }
-
 .csmb-yelp.csmb {
   box-shadow: inset 0 1px 2px 0 #ed8788; }
 
 .csmb-yelp.csmb-border::after {
   border-color: #a9191a; }
 
-.csmb-yelp.csmb-border:hover::after, .csmb-yelp.csmb-border:focus::after, .csmb-yelp.csmb-border:active::after {
-  border-color: #871415; }
-
 .csmb-youtube.csmb {
   box-shadow: inset 0 1px 2px 0 #e58e8a; }
 
 .csmb-youtube.csmb-border::after {
   border-color: #9b2722; }
-
-.csmb-youtube.csmb-border:hover::after, .csmb-youtube.csmb-border:focus::after, .csmb-youtube.csmb-border:active::after {
-  border-color: #7c1f1b; }
 
 .csmb, .csmb-flat {
   background: url("../images/icons.svg") no-repeat; }
