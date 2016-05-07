@@ -30,11 +30,14 @@
     left: 0;
   }
 
+  &::after {
+    transition: background-color 0.25s ease;
+    transition-property: background-color, border-color;
+  }
+
   &:hover,
   &:focus,
   &:active {
-    outline: none;
-
     &::after {
       background: $color-gradient-top;
     }
@@ -50,11 +53,8 @@
     @extend %csmb;
 
     &::before {
-      box-shadow: 0 0 4px 0 $color-box-shadow;
-    }
-
-    &::after {
       background: linear-gradient(to bottom, $color-gradient-top 0%, $color-gradient-bottom 100%);
+      box-shadow: 0 0 4px 0 $color-box-shadow;
     }
   }
 }
