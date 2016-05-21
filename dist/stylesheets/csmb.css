@@ -2,14 +2,14 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-size: auto 28px !important;
+  background-size: auto 32px !important;
   border: 0;
   cursor: pointer;
   text-indent: -9999px;
   display: inline-block;
-  width: 28px;
-  height: 28px;
-  margin: 4.0px;
+  width: 32px;
+  height: 32px;
+  margin: 4px;
   padding: 0;
   position: relative; }
   .csmb::before, .csmb-flat::before, .csmb::after, .csmb-flat::after {
@@ -39,20 +39,15 @@
   border-radius: 25%; }
 
 .csmb-border::before {
-  border: solid 2.0px #fff;
+  border: solid 2px #fff;
   box-shadow: 0 0 4px 0 #aaa;
-  width: 32.0px;
-  height: 32.0px;
-  top: -4.0px;
-  left: -4.0px; }
+  top: -2px;
+  left: -2px; }
 
 .csmb-border::after {
-  border: solid 2.0px #aaa;
-  top: -2.0px;
-  left: -2.0px; }
-
-.csmb-border.csmb-rounded {
-  border-radius: 20%; }
+  border: solid 2px;
+  width: 28px;
+  height: 28px; }
 
 .csmb-bitbucket.csmb-border::after {
   border-color: #163759; }
