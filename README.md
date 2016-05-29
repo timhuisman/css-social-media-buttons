@@ -1,17 +1,15 @@
 CSS Social Media Buttons
 ==========================
 
-A set of 52 social media buttons made with CSS, that can be added with just one HTML element. They're retina proof, 36 pixels (excluding shadow) in diameter, come in two types (normal and flat) and in four styles (square, rounded, round, bordered).
-
-![](https://raw.github.com/timhuisman/round-social-media-buttons/v.2/screenshot-1.png)
+A set of 48 social media buttons that can be added with just one HTML element, and come in two types (normal and flat) and in four styles (square, rounded, round, bordered). The icons are vector images meaning the buttons are scalable and retina proof.
 
 ## Installation ##
 
-Simply put the CSS file in your project CSS folder and link to it in your `<head>` or copy/paste the content of the `csmb.css` into your own CSS file:
+Simply put the CSS file in your project CSS folder and link to it in your `<head>` or copy/paste the content of the `dist/stylesheets/csmb.css` (or the minified file) into your own CSS file:
 
-Not using all the buttons? You can compile your own CSS file that suits your needs with SASS. Open `csmb.scss` and remove/comment out packages (see line 42) or buttons within packages (see the files within the `/scss/packages` folder) that you don't need. Compile the SASS file and add the resulting CSS to your project.
+Not using all the buttons? Simply remove the buttons styling you won't use from the CSS file or compile your own CSS file that suits your needs with Gulp. Open `src/stylesheets/settings/_buttons.scss` and remove/comment out packages. Compile the SASS file with Gulp and add the resulting CSS to your project. 
 
-You can also turn off button styles and/or types that you won't use, to keep the size of the CSS file small. This can be done by changing `true` to `false` for the various options starting at line 23.
+You can also turn off button styles and/or types that you won't use, to keep the size of the CSS file small. This can be done by changing `true` to `false` for the various options in the file `src/stylesheets/csmb.scss`.
 
 
 ## How to use ##
@@ -22,11 +20,11 @@ Add an HTML element (`<a>`, `<span>` or `<button>`) with the class `csmb` or `cs
 	<span class="csmb-flat">CSS Social Media Button</span>
 	<button class="csmb">CSS Social Media Button</button>
 
-Add a class of a (social) network, like for example `github` (see *'List of available buttons'* below for all the possibilities):
+Add a class of a (social) network, like for example `csmb-github` (see *'List of available buttons'* below for all the possibilities):
 
-	<a href="#" class="csmb github">GitHub profile: username</a>
-	<span class="csmb-flat github">GitHub profile: username</span>
-	<button class="csmb github">GitHub profile: username</button>
+	<a href="#" class="csmb csmb-github">GitHub profile: username</a>
+	<span class="csmb-flat csmb-github">GitHub profile: username</span>
+	<button class="csmb csmb-github">GitHub profile: username</button>
 
 However, this will only get you the base square buttons. You can extend the base styling with three styles: `csmb-border`, `csmb-rounded` and `csmb-round`. `csmb-border` can be combined with one of the other two styles.
 
@@ -34,98 +32,27 @@ However, this will only get you the base square buttons. You can extend the base
 	<span class="csmb-flat csmb-rounded github">GitHub profile: username</span>
 	<button class="csmb csmb-round csmb-border github">GitHub profile: username</button>
 
-![](https://raw.github.com/timhuisman/round-social-media-buttons/master/screenshot-2.png)
-
-
-**Alternative buttons**
-
-Some buttons have an alternative version, that use another icon (`github`) and/or different color button (`youtube`).
-
-If the alternative version only has a different icon add `alt` as extra class:
-
-	<a href="#" class="csmb github alt">GitHub profile: username</a>
-	<span class="csmb-flat github alt">GitHub profile: username</span>
-	<button class="csmb github alt">GitHub profile: username</button>
-
-For alternative versions with a different color button (like `youtube`) the old (pre 1.3.1) classes are used:
-
-	<a href="#" class="csmb youtube-alt">YouTube channel: username</a>
-	<span class="csmb-flat youtube-alt">YouTube channel: username</span>
-	<button class="csmb youtube-alt">YouTube channel: username</button>
-
+![](./demo/screenshot-2.png)
 
 ## List of available buttons ##
 
-- `bitbucket`
-- `blogger`
-- `chrome`
-- `delicious`
-- `deviantart`
-- `digg`
-- `dropbox`
-- `drupal`
-- `facebook` [`alt`]
-- `firefox`
-- `flickr`
-- `foursquare` **!new** | `foursquare-alt` [`alt`]
-- `github` [`alt`] | `github-alt`
-- `gplus`
-- `grooveshark`
-- `icheckmovies`
-- `ie`
-- `imdb`
-- `instagram` | `instagram-alt`
-- `issuu`
-- `lastfm`
-- `linkedin`
-- `mail`
-- `myspace`
-- `opera`
-- `path`
-- `paypal`
-- `pinterest`
-- `reddit`
-- `rss`
-- `safari`
-- `skype`
-- `soundcloud`
-- `spotify`
-- `stumbleupon`
-- `swarm` **!new**
-- `tumblr`
-- `twitter` [`alt`]
-- `vimeo`
-- `vine`
-- `wordpress`
-- `yelp`
-- `youtube` [`alt`] | `youtube-alt`
+![](./demo/screenshot-1.png)
 
 
-## Browser compatibility ##
+## Changelog v.3 ##
 
-The buttons have been tested and show as intended in the following browsers:
+**v.3.0.0**
 
-- Opera	12+
-- Chrome 24+
-- Safari 5+
-- Firefox 8+
-- Internet Explorer 8+ **[!]**
-- Chrome for iPhone 23+
-- Safari for iPhone iOS 6+
-
-**[!]** IE9: The `csmb` buttons don't have gradients.
-
-**[!]** IE8: The `csmb` buttons are the same as `csmb-flat` buttons: they don't have gradients, rounded corners and shadows.
-
-
-## To-Do List ##
-
-This list shows some of the features/bugs I'm planning to work on for feature releases. Missing something? Leave a comment in [Issue #7: More buttons?](https://github.com/timhuisman/round-social-media-buttons/issues/7) or fork and add it yourself (please let me know if you do).
-
-- [2.x.x] Fix styling for `<button>` elements.
-- [?.?.?] Make an alternative SVG/icon font version.
-- [?.?.?] Make it possible to add a label next to the icon, containing the link text.
-- [?.?.?] Make a Compass version: to use the automatic sprite generator feature.
+- Added SVG icons (instead of PNG) to make buttons scalable and sharp on higher pixel density screens
+- Added 11 new buttons: `codepen`, `gitlab`, `invision`, `jsfiddle`, `medium`, `share`, `slack`, `snapchat`, `stackoverflow`, `steam` and `whatsapp`. 
+- Added `csmb`-prefix to all classes to avoid issues with other styling.
+- Added Gulp for asset compiling
+- Added SCSS-Lint gem (using the SCSS guidelines as linter rules)
+- Changed colour of buttons to match values from brand guidelines. All buttons are affected by this.
+- Changed icons of buttons to match changes in brand (guidelines). Affected buttons: `deviantart`, `dropbox`, `github`, `google plus`, `instagram`, `issuu`, `myspace`, `paypal`, `reddit`, `tumblr`, `vine`.  
+- Removed alternative buttons that didn't comply with brand guidelines. Affected buttons: `facebook alt`, `foursquare-alt`, `foursquare-alt alt`, `github-alt`, `instagram-alt`, `twitter alt`, `youtube-alt` and `youtube-alt alt`.
+- Removed buttons without a distinct share or link purpose. Affected buttons: `chrome`, `drupal`, `firefox`, `git`, `ie`, `opera`, `safari`.
+- Fixed difference in size of button types: `csmb-round` buttons were almost 8 pixels smaller than `csmb-border` buttons.
 
 ## Changelog v.2 ##
 
@@ -156,7 +83,7 @@ This list shows some of the features/bugs I'm planning to work on for feature re
 - Removed LESS version: LESS can't do everything SASS can, for example lists, which is essential for the *'One file to rule them all'* structure.
 - Changed the way buttons are added: using lists (SASS version of arrays) instead of importing files. You can still remove/comment out the buttons you don't want to compile.
 - Added variables to turn on/off certain button types and styles, making the compiled CSS smaller.
-- Implemented "*rule*" that a button can only have one alternative button and that an alt button must be more than just a different color (this was the case for `bitbucket`, `drupal` and `wordpress` for example). This has resulted in the removal of some alternative buttons: see *Removed buttons* section.
+- Implemented "*rule*" that a button can only have one alternative button and that an alt button must be more than just a different colour (this was the case for `bitbucket`, `drupal` and `wordpress` for example). This has resulted in the removal of some alternative buttons: see *Removed buttons* section.
 - **[Experimental]** Added extra style for `<button>` elements: this is turned off by default because some browsers (IE8 and Opera) seem to have difficulty with `:before` and `:after` on this element.
 
 Button changes:
@@ -211,7 +138,7 @@ Colour changes:
 - Changed colour of `wordpress` button from `#EBEBEB` (white) to `#21759B` (blue)
 - Changed colour of white buttons (for example: `flickr` and `github`) to `#F8F8F8`.
 - Changed colour of black buttons (for example: `github-alt` and `icheckmovies`) to `#383838`.
-- Changed color of `github` and `github alt` icons to `#383838`.
+- Changed colour of `github` and `github alt` icons to `#383838`.
 
 ## Changelog v.1 ##
 
