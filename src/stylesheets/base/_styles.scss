@@ -1,0 +1,40 @@
+// ====================================================================================
+// BASE | Styles
+// ====================================================================================
+
+@if $round == true {
+  .csmb-round {
+    &,
+    &::before,
+    &::after {
+      border-radius: 50%;
+    }
+  }
+}
+
+@if $rounded == true {
+  .csmb-rounded {
+    &,
+    &::before,
+    &::after {
+      border-radius: 25%;
+    }
+  }
+}
+
+@if $border == true {
+  .csmb-border {
+    &::before {
+      border: solid $border-size $color-border;
+      box-shadow: 0 0 4px 0 $color-box-shadow;
+      top: -1 * $border-size;
+      left: -1 * $border-size;
+    }
+
+    &::after {
+      border: solid $border-size;
+      width: ($button-size - $border-size-outer);
+      height: ($button-size - $border-size-outer);
+    }
+  }
+}

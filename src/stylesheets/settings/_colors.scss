@@ -1,0 +1,87 @@
+// ====================================================================================
+// SETTINGS | Colors
+// ====================================================================================
+
+//
+// Base Colors
+// ------------------------------------------------------------------------------------
+
+$color-border          : #fff;
+$color-box-shadow      : #aaa;
+$color-hover           : rgba(255, 255, 255, 0.2);
+$color-gradient-top    : rgba(255, 255, 255, 0.3);
+$color-gradient-bottom : rgba(255, 255, 255, 0);
+
+// Percentages by which the base color of the icon will be made lighter/darker
+$diff-large            : 25%; // Used for: color of the inner shadow
+$diff-medium           : 17.5%; // Used for: border color in hover, focus & active state
+$diff-small            : 10%; // Used for: background color in hover, focus & active state
+
+//
+// Button Colors
+// ------------------------------------------------------------------------------------
+
+// B
+$color-bitbucket       : #205082;
+$color-blogger         : #ef7d0e;
+// C
+$color-codepen         : #1d1d1b;
+// D
+$color-delicious       : #f4f4f4;
+$color-deviantart      : #181a1b;
+$color-digg            : #191919;
+$color-dropbox         : #3175bb;
+// F
+$color-facebook        : #3c5999;
+$color-flickr          : #f4f4f4;
+$color-foursquare      : #ea4c78;
+// G
+$color-github          : #231e1b;
+$color-gitlab          : #30353e;
+$color-gplus           : #c63828;
+$color-grooveshark     : #ea5a24;
+// I
+$color-icheckmovies    : #383838;
+$color-imdb            : #e8ba03;
+$color-instagram       : #e4405f;
+$color-invision        : #e83b68;
+$color-issuu           : #ed6e5f;
+// J
+$color-jsfiddle        : #477aa6;
+// L
+$color-lastfm          : #d51416;
+$color-linkedin        : #0078b6;
+// M
+$color-mail            : #f4f4f4;
+$color-medium          : #0daa6d;
+$color-myspace         : #11110e;
+// P
+$color-path            : #e6311b;
+$color-paypal          : #0d447b;
+$color-pinterest       : #bd181f;
+// R
+$color-reddit          : #cee3f6;
+$color-rss             : #ef802f;
+// S
+$color-share           : #4dae48;
+$color-skype           : #29ace3;
+$color-slack           : #44b48f;
+$color-snapchat        : #f4e70a;
+$color-soundcloud      : #e73c1e;
+$color-spotify         : #85bc25;
+$color-stackoverflow   : #f08029;
+$color-steam           : #171a21;
+$color-stumbleupon     : #e74115;
+$color-swarm           : #f9ae1f;
+// T
+$color-tumblr          : #3b445c;
+$color-twitter         : #5cc4e9;
+// V
+$color-vimeo           : #1ab7ea;
+$color-vine            : #35b18b;
+// W
+$color-whatsapp        : #55b262;
+$color-wordpress       : #23769c;
+// Y
+$color-yelp            : #d52021;
+$color-youtube         : #c5312b;

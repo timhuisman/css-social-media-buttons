@@ -1,0 +1,22 @@
+// ====================================================================================
+// BUTTONS | Base buttons
+// ====================================================================================
+
+@if length($button-list) > 0 {
+  @each $button in $button-list {
+    $color: nth($button, 2);
+
+    .#{nth($button, 1)} {
+      @extend %#{nth($button, 1)};
+
+      // Bordered
+      @if $border == true {
+        &.csmb-border {
+          &::after {
+            border-color: darken($color, $diff-small);
+          }
+        }
+      }
+    }
+  }
+}

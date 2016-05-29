@@ -1,0 +1,82 @@
+// ====================================================================================
+// SETTINGS | Buttons
+// ====================================================================================
+
+$button-size       : 32px;
+$border-size       : $button-size * 0.0625; // Equals to 2px on a 32px button
+$border-size-outer : $button-size * 0.125; // Equals to 4px on a 32px button
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// Remove/Comment out the buttons below that aren't used; to keep the  CSS small.
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+//
+// Base Buttons
+// ------------------------------------------------------------------------------------
+
+$button-list : ();
+
+// B
+$button-list : append($button-list, ('csmb-bitbucket', $color-bitbucket));
+$button-list : append($button-list, ('csmb-blogger', $color-blogger));
+// C
+$button-list : append($button-list, ('csmb-codepen', $color-codepen));
+// D
+$button-list : append($button-list, ('csmb-delicious', $color-delicious));
+$button-list : append($button-list, ('csmb-deviantart', $color-deviantart));
+$button-list : append($button-list, ('csmb-digg', $color-digg));
+$button-list : append($button-list, ('csmb-dropbox', $color-dropbox));
+// F
+$button-list : append($button-list, ('csmb-facebook', $color-facebook));
+$button-list : append($button-list, ('csmb-flickr', $color-flickr));
+$button-list : append($button-list, ('csmb-foursquare', $color-foursquare));
+// G
+$button-list : append($button-list, ('csmb-github', $color-github));
+$button-list : append($button-list, ('csmb-gitlab', $color-gitlab));
+$button-list : append($button-list, ('csmb-googleplus', $color-gplus));
+$button-list : append($button-list, ('csmb-grooveshark', $color-grooveshark));
+// I
+$button-list : append($button-list, ('csmb-icheckmovies', $color-icheckmovies));
+$button-list : append($button-list, ('csmb-imdb', $color-imdb));
+$button-list : append($button-list, ('csmb-instagram', $color-instagram));
+$button-list : append($button-list, ('csmb-invision', $color-invision));
+$button-list : append($button-list, ('csmb-issuu', $color-issuu));
+// J
+$button-list : append($button-list, ('csmb-jsfiddle', $color-jsfiddle));
+// L
+$button-list : append($button-list, ('csmb-lastfm', $color-lastfm));
+$button-list : append($button-list, ('csmb-linkedin', $color-linkedin));
+// M
+$button-list : append($button-list, ('csmb-mail', $color-mail));
+$button-list : append($button-list, ('csmb-medium', $color-medium));
+$button-list : append($button-list, ('csmb-myspace', $color-myspace));
+// P
+$button-list : append($button-list, ('csmb-path', $color-path));
+$button-list : append($button-list, ('csmb-paypal', $color-paypal));
+$button-list : append($button-list, ('csmb-pinterest', $color-pinterest));
+// R
+$button-list : append($button-list, ('csmb-reddit', $color-reddit));
+$button-list : append($button-list, ('csmb-rss', $color-rss));
+// S
+$button-list : append($button-list, ('csmb-share', $color-share));
+$button-list : append($button-list, ('csmb-skype', $color-skype));
+$button-list : append($button-list, ('csmb-slack', $color-slack));
+$button-list : append($button-list, ('csmb-snapchat', $color-snapchat));
+$button-list : append($button-list, ('csmb-soundcloud', $color-soundcloud));
+$button-list : append($button-list, ('csmb-spotify', $color-spotify));
+$button-list : append($button-list, ('csmb-stackoverflow', $color-stackoverflow));
+$button-list : append($button-list, ('csmb-steam', $color-steam));
+$button-list : append($button-list, ('csmb-stumbleupon', $color-stumbleupon));
+$button-list : append($button-list, ('csmb-swarm', $color-swarm));
+// T
+$button-list : append($button-list, ('csmb-tumblr', $color-tumblr));
+$button-list : append($button-list, ('csmb-twitter', $color-twitter));
+// V
+$button-list : append($button-list, ('csmb-vimeo', $color-vimeo));
+$button-list : append($button-list, ('csmb-vine', $color-vine));
+// W
+$button-list : append($button-list, ('csmb-whatsapp', $color-whatsapp));
+$button-list : append($button-list, ('csmb-wordpress', $color-wordpress));
+// Y
+$button-list : append($button-list, ('csmb-yelp', $color-yelp));
+$button-list : append($button-list, ('csmb-youtube', $color-youtube));
